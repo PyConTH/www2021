@@ -32,6 +32,5 @@ Specify `THEME = 'www2020-elegant'` in `pelicanconf.py`
 
 TODO
 
-- Setup deploy to Netlify.
 - Setup content sync from Notion.
 - Setup automatic sync.
