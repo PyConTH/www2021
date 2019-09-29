@@ -1,7 +1,10 @@
-Building the PyCon Thailand 2020 website
+# Building the PyCon Thailand 2020 website
 
 <!-- Markdown snippet -->
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/pyconth/www2020)
+
+Currently deploying to https://lucid-hoover-526812.netlify.com/
+We'll switch when we have something presentable. 
 
 ## Local development
 
