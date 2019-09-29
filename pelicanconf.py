@@ -12,7 +12,7 @@ TIMEZONE = 'Asia/Bangkok'
 
 DEFAULT_LANG = 'en'
 
-THEME = 'elegant'
+THEME = 'www2020-elegant'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
