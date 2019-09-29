@@ -8,4 +8,4 @@
 [build]
   base    = "."
   publish = "./output"
-  command = "make html"
+  command = "git clone https://github.com/PyConTH/www2020-elegant.git ; pelican-themes -i www2020-elegant ; make html"
