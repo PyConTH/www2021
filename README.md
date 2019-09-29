@@ -10,22 +10,22 @@ We'll switch when we have something presentable.
 
 ### Install pelican
 
-```
+```bash
 pip install pelican
 pip install Markdown
 ```
 
 ### Clone the repo and start a site
 
-```
+```bash
 git clone www2020
 cd www2020
-pelican-quickstart
+# pelican-quickstart # Only necessary the first time, already done
 ```
 
 ### Fork the `elegant` theme, clone it, rename the repo, and symlink the fork
 
-```
+```bash
 cd ..
 git clone https://github.com/PyConTH/www2020-elegant.git
 pelican-themes --symlink www2020-elegant
@@ -33,7 +33,29 @@ pelican-themes --symlink www2020-elegant
 
 Specify `THEME = 'www2020-elegant'` in `pelicanconf.py`
 
+## Content editing
+
+Create posts (listed chronologically) in Markdown format in `./content/`.
+Create pages (about, programme, etc.) in `./content/pages/`.
+Translations are specified using the `lang` metadata, see
+[Translations](https://docs.getpelican.com/en/stable/content.html#translations)
+for details.
+
+----
+
+# Syncing content from Notion
+
+This is work in progress, the building blocks are there but I haven't completed
+the config (API token, pages in Notion).
+
+Content that is maintained in Notion doesn't need to be committed to git. 
+In fact, committing it to git would probably just confuse things. 
+So commit special pages, such as e.g. the frontpage if it has special layout,
+as e.g. `./content/pages/frontpage.html` and enlist developer support in
+updating it.
+
+----
+
 TODO
 
-- Setup content sync from Notion.
 - Setup automatic sync.
