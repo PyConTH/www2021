@@ -19,8 +19,8 @@ for post in BLOG_HOME.children:
     # Handle Frontmatter
     text = """---
 title: %s
-date: "%s"
-description: ""
+date: %s
+description: 
 ---
 """ % (post.title, datetime.datetime.now())
     # Handle Title
@@ -37,7 +37,7 @@ description: ""
             text = text + '### ' + content.title + '\n\n'
         # Handles Code Blocks
         elif content.type == 'code':
-            text = text + '```\n' + content.title + '\n```\n'
+            text = text + '```\n' + content.title + '\n```\n\n'
         # Handles Images
         elif content.type == 'image':
             text = text + '![' + content.id + '](' + content.source + ')\n\n'
@@ -46,10 +46,10 @@ description: ""
             text = text + '* ' + content.title + '\n'
         # Handles Dividers
         elif content.type == 'divider':
-            text = text + '---' + '\n'
+            text = text + '---' + '\n\n'
         # Handles Basic Text, Links, Single Line Code
         elif content.type == 'text':
-            text = text + content.title + '\n'
+            text = text + content.title + '\n\n'
         else:
             print("Ignoring unknown block", content)
 
