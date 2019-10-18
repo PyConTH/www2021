@@ -23,15 +23,13 @@ cd www2020
 # pelican-quickstart # Only necessary the first time, already done
 ```
 
-### Fork the `elegant` theme, clone it, rename the repo, and symlink the fork
+### Specify the theme to use
 
 ```bash
-cd ..
-git clone https://github.com/PyConTH/www2020-elegant.git
-pelican-themes --symlink www2020-elegant
+pelican-themes --symlink theme
 ```
 
-Specify `THEME = 'www2020-elegant'` in `pelicanconf.py`
+Specify `THEME = 'theme'` in `pelicanconf.py`
 
 ## Content editing
 
