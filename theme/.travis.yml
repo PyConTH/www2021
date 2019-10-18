@@ -1,0 +1,45 @@
+language: python
+dist: trusty
+
+python:
+- '3.6'
+
+branches:
+  only:
+  - master
+  - next
+
+addons:
+ apt:
+  packages:
+    - openjdk-8-jre  # install Java8 as required by vnu.jar
+
+cache:
+- pip
+- yarn
+- directories:
+  - $HOME/.cache/pre-commit
+
+install:
+- pip install -r documentation/requirements.txt
+- pip install -U html5validator
+- pip install -U pre-commit
+- yarn global add yaspeller
+- yarn install
+
+before_script:
+- cd documentation
+- invoke plugins-sync
+
+script:
+- pre-commit run --all-files
+- yaspeller --only-errors content/ *.md
+- invoke publish
+- html5validator --root output/
+
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: yarn semantic-release
+  on:
+    branch: master
