@@ -1,0 +1,115 @@
+/* xs [phone portrait]: 0-575px */
+.container {
+  padding: 0 2rem;
+}
+.social-section {
+  position: relative;
+  margin-top: 1.5rem;
+}
+.social-icon {
+  max-width: 40px;
+  margin-right: 1.5rem;
+}
+.button-section {
+  margin-top: 1.5rem;
+}
+.btn-base {
+  width: 100%;
+  max-width: 150px;
+  padding: .375rem .75rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  color: #051454;
+}
+.btn-cyan {
+  background-color: #29F0FF;
+}
+.btn-white {
+  background-color: #FFFFFF;
+}
+.social-section > .rocket {
+  display: none;
+  position: absolute;
+  max-width: 100px;
+  right: 0;
+}
+#rocket {
+  display: none;
+  max-height: 65%;
+  position: absolute;
+  top: 200px;
+  right: 25px;
+}
+#header {
+  width: 100%;
+}
+@media (min-width: 325px) and (max-width: 399px) {
+  .social-section > .rocket {
+    display: inline-block;
+  }
+}
+/* sm [phone landscape]: 576-767px */
+@media (min-width: 576px) {
+
+}
+/* md [tablet portrait]: 768-991px */
+@media (min-width: 768px) {
+  .container {
+    max-width: 615px;
+  }
+  .social-section {
+    margin-top: 3rem;
+  }
+  .social-icon {
+    max-width: 50px;
+  }
+  .button-section {
+    margin-top: 3rem;
+  }
+  .btn-base {
+    margin-bottom: 0;
+    max-width: 175px;
+    font-size: 20px;
+  }
+  #header {
+    width: 85%;
+  }
+  #rocket {
+    display: block;
+    max-height: 70%;
+    top: 150px;
+    right: 0px;
+  }
+}
+/* lg [tablet landscape]: 992-1199px */
+@media (min-width: 992px) {
+  .container {
+    max-width: 850px;
+  }
+  .social-icon {
+    max-width: unset;
+  }
+  .btn-base {
+    max-width: 200px;
+    font-size: 24px;
+  }
+  #rocket {
+    max-height: 90%;
+    top: 100px;
+    right: -50px;
+  }
+}
+/* xl [desktop]: 1200px up */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
