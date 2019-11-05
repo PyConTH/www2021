@@ -9,3 +9,8 @@
   base    = "."
   publish = "./output"
   command = "bash build.sh"
+
+[[redirects]]
+  from = "/en"
+  to = "/"
+  status = 307
