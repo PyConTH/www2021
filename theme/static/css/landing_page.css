@@ -15,10 +15,14 @@
 }
 .button-section {
   margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
+
 .btn-base {
-  width: 100%;
-  max-width: 150px;
+  display: block;
+  width: 11rem;
   padding: .375rem .75rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
