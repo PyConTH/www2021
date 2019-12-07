@@ -3,8 +3,7 @@
 <!-- Markdown snippet -->
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/pyconth/www2020)
 
-Currently deploying to https://lucid-hoover-526812.netlify.com/
-We'll switch when we have something presentable. 
+Deploying to https://th.pycon.org/
 
 ## Local development
 
@@ -51,6 +50,18 @@ In fact, committing it to git would probably just confuse things.
 So commit special pages, such as e.g. the frontpage if it has special layout,
 as e.g. `./content/pages/frontpage.html` and enlist developer support in
 updating it.
+
+In order to retrieve pages from Notion on your machine, install the API
+and configure the API key:
+
+```bash
+pip install --user notion
+export NOTION_BLOG_POSTS_PAGE=https://www.notion.so/pyconth/News-08d5aa2f573348e1b96671488947f997
+export NOTION_TOKEN=...
+```
+
+Grab the API key from your browser session (see https://github.com/jamalex/notion-py#quickstart).
+
 
 ----
 
