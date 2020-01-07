@@ -22,7 +22,6 @@
 
 .btn-base {
   display: block;
-  width: 11rem;
   padding: .375rem .75rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
@@ -100,7 +99,6 @@
   }
   .btn-base {
     margin-bottom: 0;
-    max-width: 175px;
     font-size: 20px;
   }
   #header {
@@ -131,7 +129,6 @@
     max-width: unset;
   }
   .btn-base {
-    max-width: 200px;
     font-size: 24px;
   }
   #rocket {
