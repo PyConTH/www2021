@@ -22,7 +22,7 @@
 
 .btn-base {
   display: block;
-  padding: .375rem .75rem;
+  padding: 0.375rem 0.75rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
@@ -36,10 +36,10 @@
   color: #051454;
 }
 .btn-cyan {
-  background-color: #29F0FF;
+  background-color: #29f0ff;
 }
 .btn-white {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .social-section > .rocket {
   display: none;
@@ -81,7 +81,6 @@
 }
 /* sm [phone landscape]: 576-767px */
 @media (min-width: 576px) {
-
 }
 /* md [tablet portrait]: 768-991px */
 @media (min-width: 768px) {
