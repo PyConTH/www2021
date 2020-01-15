@@ -11,9 +11,14 @@ Deploying to https://th.pycon.org/
 ### Install pelican
 
 ```bash
-pip install pelican
-pip install Markdown
+pip install -r requirements.txt
 ```
+
+### Run Pelican local server with automatic rebuild
+
+```bash
+pelican --autoreload --listen
+````
 
 ### Clone the repo and start a site
 
