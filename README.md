@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ```bash
 pelican --autoreload --listen
-````
+```
 
 ### Clone the repo and start a site
 
