@@ -28,6 +28,10 @@
         {%if TWITTER_USERNAME %}
         <meta name="twitter:creator" content="@{{TWITTER_USERNAME}}">
         {% endif %}
+        <!--<meta property="og:url" content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />-->
+        <meta property="og:title" content="{% block title %}{{ SITENAME|striptags|e }}{% endblock title %}" />
+        <meta property="og:description" content="{% block head_description %}{{ SITE_DESCRIPTION|e }}{% endblock head_description %}" />
+        <meta property="og:image" content="https://th.pycon.org/theme/img/header.png" />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
         {% endblock meta_tags_in_head %}
