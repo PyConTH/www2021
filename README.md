@@ -21,6 +21,7 @@ pip install Markdown
 git clone www2020
 cd www2020
 # pelican-quickstart # Only necessary the first time, already done
+pelican --listen # This will start a development server at localhost:8000
 ```
 
 ### Specify the theme to use
