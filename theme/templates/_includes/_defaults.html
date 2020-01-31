@@ -95,7 +95,7 @@
 {# Thumbnail image to show when homepage is shared on social media. It also
 serves as the default image for posts whose featured_image is not set. #}
 {% if not FEATURED_IMAGE %}
-{% set FEATURED_IMAGE = '{{ SITEURL }}/theme/img/featured-image.png' %}
+{% set FEATURED_IMAGE = '/theme/img/featured-image.png' %}
 {% else %}
 {% set FEATURED_IMAGE = FEATURED_IMAGE %}
 {% endif %}

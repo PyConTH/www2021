@@ -32,9 +32,9 @@
         <meta name="twitter:card" content="summary">
         <!-- facebook -->
         {% from '_includes/_defaults.html' import FEATURED_IMAGE with context %}
-        <meta property="og:url" content="{{ SITEURL }}" />
+        <meta property="og:url" content="{{ SITEURL }}/" />
         <meta property="og:title" content="{{ SITENAME|striptags|e }}" />
-        <meta property="og:image" content="{{ FEATURED_IMAGE }}" />
+        <meta property="og:image" content="{{ SITEURL }}{{ FEATURED_IMAGE }}" />
         <meta property="og:type" content="article" />
         {% endblock meta_tags_in_head %}
         <title>{% block title %}{{ SITENAME|striptags|e }}{% endblock title %}</title>
