@@ -35,3 +35,9 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+
+# hide categories in the main menu (little space there)
+DISPLAY_CATEGORIES_ON_MENU = False
+# display categories in a small submenu instead
+DISPLAY_CATEGORIES_ON_SUBMENU = True
