@@ -21,15 +21,21 @@
 
         {% from '_includes/_defaults.html' import SITE_DESCRIPTION with context %}
         {% if SITE_DESCRIPTION %}
-        <meta name="description" content="{% block head_description %}{{ SITE_DESCRIPTION|e }}{% endblock head_description %}" />
+        <meta property="og:description" name="description" content="{% block head_description %}{{ SITE_DESCRIPTION|e }}{% endblock head_description %}" />
         {% endif %}
         {% block meta_tags_in_head %}
         {% from '_includes/_defaults.html' import TWITTER_USERNAME with context %}
-        {%if TWITTER_USERNAME %}
+        {% if TWITTER_USERNAME %}
         <meta name="twitter:creator" content="@{{TWITTER_USERNAME}}">
         {% endif %}
-        <meta property="og:type" content="article" />
+        <!-- twitter -->
         <meta name="twitter:card" content="summary">
+        <!-- facebook -->
+        {% from '_includes/_defaults.html' import FEATURED_IMAGE with context %}
+        <meta property="og:url" content="{{ SITEURL }}" />
+        <meta property="og:title" content="{{ SITENAME|striptags|e }}" />
+        <meta property="og:image" content="{{ FEATURED_IMAGE }}" />
+        <meta property="og:type" content="article" />
         {% endblock meta_tags_in_head %}
         <title>{% block title %}{{ SITENAME|striptags|e }}{% endblock title %}</title>
         {% block head_links %}
@@ -62,14 +68,6 @@
               /*overflow: hidden;*/
             }
         </style>
-	    
-        <!-- Social media meta tag -->
-        <!--<meta property="og:url" content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />-->
-        <meta property="og:title" content="{{ self.title() }}" />
-        <meta property="og:description" content="{{ self.head_description() }}" />
-        <meta property="og:image" content="https://th.pycon.org/theme/img/header.png" />
-        <meta property="og:type" content="article" />
-       </head>
     <body>
         <div class="container">
             <div class="row no-gutters align-items-center" id="content-container">
