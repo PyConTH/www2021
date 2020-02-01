@@ -3,7 +3,11 @@
 }
 
 .container {
-  padding: 0 2rem;
+  padding-top: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  /* 80px is sp-container (fixed footer) height + a little padding */
+  padding-bottom: calc(80px + 1rem);
 }
 
 .social-section {
