@@ -1,3 +1,5 @@
+
+
 /* xs [phone portrait]: 0-575px */
 
 .half-opacity {
@@ -178,4 +180,12 @@ max-width: 4rem;
 
 .dropdown-menu {
   margin-top: 0;
+}
+
+
+body {
+  font-family: 'Chakra Petch';
+  background-image: url("{{ SITEURL }}/theme/img/bg.png");
+  background-position: center;
+  background-size: cover;
 }
