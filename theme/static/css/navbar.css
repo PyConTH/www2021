@@ -1,0 +1,24 @@
+/* navbar */
+.pycon-logo {
+  max-width: 4rem;
+}
+
+.bg-dark {
+  background-color: #09155a !important;
+}
+
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.dropdown-toggle::after {
+  transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.dropdown-menu {
+  margin-top: 0;
+}

@@ -6,8 +6,9 @@
   padding-top: 0;
   padding-left: 2rem;
   padding-right: 2rem;
-  /* 80px is sp-container (fixed footer) height + a little padding */
-  padding-bottom: calc(80px + 1rem);
+
+  /* 100px is sp-container (fixed footer) height + a little padding */
+  padding-bottom: calc(100px + 1rem);
 }
 
 .social-section {
@@ -38,7 +39,6 @@
   font-weight: bold;
   line-height: 1.5;
   text-align: center;
-  vertical-align: middle;
   background-color: transparent;
   color: #051454;
 }
@@ -81,10 +81,6 @@
 
 #sp-container #sp-text {
   font-size: 0.75rem;
-}
-
-.pycon-logo {
-  max-width: 4rem;
 }
 
 #sp-container .sp-logo {
@@ -169,27 +165,6 @@
   #sp-container #sp-content {
     max-width: 1400px;
   }
-}
-
-/* navbar */
-.bg-dark {
-  background-color: #09155a !important;
-}
-
-.navbar .nav-item:not(:last-child) {
-  margin-right: 35px;
-}
-
-.dropdown-toggle::after {
-  transition: transform 0.15s linear;
-}
-
-.show.dropdown .dropdown-toggle::after {
-  transform: translateY(3px);
-}
-
-.dropdown-menu {
-  margin-top: 0;
 }
 
 body {

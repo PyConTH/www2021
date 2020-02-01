@@ -49,11 +49,14 @@
         {% include '_includes/feeds.html' %}
         {% endblock feed_links %}
         {% include '_includes/analytics.html' %}
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/navbar.css" media="screen">
     </head>
     <body>
+
+        {% include 'partials/navbar.html' %}
+
         <div id="content">
             
-
             <div class="container-fluid">
                 <div class="row-fluid">
                     <div class="span1"></div>
