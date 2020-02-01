@@ -1,6 +1,5 @@
 body {
   font-family: "Chakra Petch";
-  background-image: url("{{ SITEURL }}/theme/img/bg.png");
   background-position: center;
   background-size: cover;
 }
