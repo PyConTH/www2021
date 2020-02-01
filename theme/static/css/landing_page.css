@@ -91,7 +91,7 @@
     margin-top: 3rem;
   }
   .social-icon {
-    max-width: 50px;
+    max-width: 45px;
   }
   .button-section {
     margin-top: 3rem;
@@ -125,7 +125,7 @@
     max-width: 850px;
   }
   .social-icon {
-    max-width: unset;
+    max-width: 45px;
   }
   .btn-base {
     font-size: 20px;
@@ -151,3 +151,192 @@
     max-width: 1400px;
   }
 }
+
+/* Font styling for header */
+
+.ticket-button-details {
+  font-family: "Chakra Petch";
+  font-weight: 600;
+  color: white;
+}
+
+.event-title {
+  padding: 20px;
+  font-family: "Chakra Petch";
+  font-weight: 600;
+  color: white;
+}
+
+
+/* keynote speaker namecard */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.keynote {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 380px;
+  max-width: 480px;
+  width: 100%;
+  background: #ffffff;
+  color: #000000;
+}
+figure.keynote * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+figure.keynote .image {
+  width: 50%;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transform: skewX(-15deg);
+  transform: skewX(-15deg);
+}
+figure.keynote .image img {
+  position: relative;
+  display: block;
+  left: -15%;
+  z-index: 1;
+  -webkit-transform: skew(15deg);
+  transform: skew(15deg);
+}
+figure.keynote:before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 45%;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transform: skewX(-17deg);
+  transform: skewX(-17deg);
+  -webkit-box-shadow: 15px 0px 25px rgba(0, 0, 0, 0.7);
+  box-shadow: 15px 0px 25px rgba(0, 0, 0, 0.7);
+}
+figure.keynote figcaption {
+  padding: 20px 30px 20px 20px;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  width: 50%;
+}
+figure.keynote figcaption h2,
+figure.keynote figcaption p {
+  margin: 0;
+  text-align: right;
+  padding: 10px 0;
+  width: 100%;
+}
+figure.keynote figcaption h2 {
+  font-size: 1.3em;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+figure.keynote figcaption h2 span {
+  font-weight: 800;
+}
+figure.keynote figcaption p {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+figure.keynote figcaption .icons {
+  width: 100%;
+  text-align: right;
+}
+figure.keynote figcaption .icons i {
+  font-size: 26px;
+  padding: 5px;
+  top: 50%;
+  color: #000000;
+  opacity: 0;
+}
+figure.keynote figcaption a {
+  opacity: 0.3;
+}
+figure.keynote figcaption a:hover {
+  opacity: 0.8;
+}
+figure.keynote .position {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  padding: 15px 30px;
+  font-size: 0.9em;
+  opacity: 1;
+  font-style: italic;
+  color: #ffffff;
+  background: #000000;
+}
+figure.keynote.blue .position {
+  background: #20638f;
+}
+figure.keynote.red .position {
+  background: #962d22;
+}
+figure.keynote.yellow .position {
+  background: #bf6516;
+}
+figure.keynote:hover figcaption,
+figure.keynote.hover figcaption {
+  bottom: 40px;
+}
+figure.keynote:hover .icons i,
+figure.keynote.hover .icons i {
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.keynote:hover:before,
+figure.keynote.hover:before {
+  -webkit-animation: shadow 0.6s ease-in-out;
+  animation: shadow 0.6s ease-in-out;
+}
+@-webkit-keyframes shadow {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -5px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+@keyframes shadow {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -5px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+
+/* Demo purposes only */
+html {
+  height: 100%;
+}
+body {
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  height: 100%;
+}
+
+.keynote-container {
+  padding: 0 2rem;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+/* 
