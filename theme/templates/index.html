@@ -4,20 +4,6 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        {% if CLAIM_GOOGLE %}
-        {% include '_includes/claim_google.html' with context %}
-        {% endif %}
-        {% if CLAIM_BING %}
-        {% include '_includes/claim_bing.html' with context %}
-
-        {% endif %}
-        {% if article and article.author %}
-        <meta name="author" content="{{ article.author }}" />
-        {% elif page and page.author %}
-        <meta name="author" content="{{ page.author }}" />
-        {% else %}
-        <meta name="author" content="{{ AUTHOR }}" />
-        {% endif %}
 
         {% from '_includes/_defaults.html' import SITE_DESCRIPTION with context %}
         {% if SITE_DESCRIPTION %}
