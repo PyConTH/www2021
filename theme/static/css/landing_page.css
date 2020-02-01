@@ -73,7 +73,7 @@
 #sp-container {
   width: 100%;
   height: 80px;
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
   background-color: #0f2580;
@@ -167,9 +167,9 @@
   }
 }
 
-body {
-  font-family: "Chakra Petch";
-  background-image: url("{{ SITEURL }}/theme/img/bg.png");
-  background-position: center;
+.main-bg {
+  min-height: 100vh;
+  position: relative;
+  background-image: url("/theme/img/bg.png");
   background-size: cover;
 }
