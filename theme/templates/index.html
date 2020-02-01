@@ -1,15 +1,67 @@
 <!DOCTYPE>
 <html>
     <head>
-        {% include '_includes/header_meta' with context %}
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% if CLAIM_GOOGLE %}
+        {% include '_includes/claim_google.html' with context %}
+        {% endif %}
+        {% if CLAIM_BING %}
+        {% include '_includes/claim_bing.html' with context %}
+
+        {% endif %}
+        {% if article and article.author %}
+        <meta name="author" content="{{ article.author }}" />
+        {% elif page and page.author %}
+        <meta name="author" content="{{ page.author }}" />
+        {% else %}
+        <meta name="author" content="{{ AUTHOR }}" />
+        {% endif %}
+
+        {% from '_includes/_defaults.html' import SITE_DESCRIPTION with context %}
+        {% if SITE_DESCRIPTION %}
+        <meta name="description" content="{% block head_description %}{{ SITE_DESCRIPTION|e }}{% endblock head_description %}" />
+        {% endif %}
+        {% block meta_tags_in_head %}
+        {% from '_includes/_defaults.html' import TWITTER_USERNAME with context %}
+        {%if TWITTER_USERNAME %}
+        <meta name="twitter:creator" content="@{{TWITTER_USERNAME}}">
+        {% endif %}
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+        {% endblock meta_tags_in_head %}
+        <title>{% block title %}{{ SITENAME|striptags|e }}{% endblock title %}</title>
+        {% block head_links %}
+
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        {% if 'assets' in PLUGINS %}
+        {% include '_includes/minify_css.html' with context %}
+        {% else %}
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/pygments.css" media="screen">
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/tipuesearch/tipuesearch.css" media="screen">
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/elegant.css" media="screen">
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/admonition.css" media="screen">
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/custom.css" media="screen">
+        {% endif %}
+        {% endblock head_links %}
+        {% include '_includes/favicon_links.html' %}
+        {% block feed_links %}
+        {% include '_includes/feeds.html' %}
+        {% endblock feed_links %}
+        {% include '_includes/analytics.html' %}
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/landing_page.css" media="screen">
+        <style>
+            body {
+              font-family: 'Chakra Petch';
+              background-image: url("{{ SITEURL }}/theme/img/bg.png");
+              background-position: center;
+              background-size: cover;
+              /*overflow: hidden;*/
+            }
+        </style>
        </head>
     <body>
         
