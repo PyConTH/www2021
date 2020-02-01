@@ -1,5 +1,6 @@
 {
   "name": "Pelican-Elegant",
+  "scripts": { "lint:css": "stylelint --fix static/css/**/*" },
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.4",
     "@semantic-release/exec": "^3.3.5",
@@ -9,7 +10,9 @@
     "browser-sync": "^2.26.7",
     "cz-conventional-changelog": "2.1.0",
     "gulp": "^4.0.2",
-    "semantic-release": "^15.13.18"
+    "semantic-release": "^15.13.18",
+    "stylelint": "^13.0.0",
+    "stylelint-config-standard": "^19.0.0"
   },
   "config": {
     "commitizen": {
@@ -17,8 +20,6 @@
     }
   },
   "babel": {
-    "presets": [
-      "es2015"
-    ]
+    "presets": ["es2015"]
   }
 }
