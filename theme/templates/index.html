@@ -9,11 +9,14 @@
         {% if SITE_DESCRIPTION %}
         <meta name="description" content="{% block head_description %}{{ SITE_DESCRIPTION|e }}{% endblock head_description %}" />
         {% endif %}
+
         {% block meta_tags_in_head %}
         {% from '_includes/_defaults.html' import TWITTER_USERNAME with context %}
+
         {%if TWITTER_USERNAME %}
         <meta name="twitter:creator" content="@{{TWITTER_USERNAME}}">
         {% endif %}
+
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
         {% endblock meta_tags_in_head %}
@@ -39,15 +42,6 @@
         {% endblock feed_links %}
         {% include '_includes/analytics.html' %}
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/landing_page.css" media="screen">
-        <style>
-            body {
-              font-family: 'Chakra Petch';
-              background-image: url("{{ SITEURL }}/theme/img/bg.png");
-              background-position: center;
-              background-size: cover;
-              /*overflow: hidden;*/
-            }
-        </style>
        </head>
     <body>
         
