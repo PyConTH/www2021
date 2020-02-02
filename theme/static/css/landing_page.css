@@ -201,6 +201,23 @@
 }
 
 
+/* homepage title */
+.homepage-title{
+  text-align: center;
+  width: 100%;
+  font-size: 4rem;
+  color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.homepage-title > img {
+  width: 180px;
+  margin: 0 20px;
+}
+
+
 
 /* keynote speaker namecard */
 .keynote-speaker-container{
@@ -223,6 +240,8 @@ figure.keynote {
   margin: 10px;
   min-width: 500px;
   max-width: 600px;
+  min-height: 600px;
+  max-height: 800px;
   width: 100%;
   background: #ffffff;
   color: #000000;
@@ -267,7 +286,7 @@ figure.keynote figcaption h2 span {
   font-weight: 800;
 }
 figure.keynote figcaption p {
-  font-size: 0.9em;
+  font-size: 0.8em;
   opacity: 0.8;
 }
 figure.keynote figcaption .icons {
@@ -288,7 +307,7 @@ figure.keynote figcaption a {
 figure.keynote figcaption a:hover {
   opacity: 0.8;
 }
-figure.keynote .position {
+figure.keynote .job-title {
   width: 100%;
   text-align: left;
   padding: 15px 30px;
@@ -299,29 +318,16 @@ figure.keynote .position {
   background: #000000;
   clear: both;
 }
-figure.keynote.blue .position {
-  background: #20638f;
+figure.keynote.blue .job-title{
+  background: #29f0ff;
 }
-figure.keynote.red .position {
-  background: #962d22;
+figure.keynote.red .job-title{
+  background: #fe1a11;
 }
-figure.keynote.yellow .position {
-  background: #bf6516;
-}
+
 figure.keynote:hover > img,
 figure.keynote.hover > img {
   right: -12%;
 }
 
 
-/* Demo purposes only */
-
-/*body {
-  background-color: #212121;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: wrap;
-  margin: 0;
-  height: 100%;
-} */
