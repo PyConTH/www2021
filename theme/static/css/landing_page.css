@@ -240,7 +240,7 @@ figure.keynote {
   margin: 10px;
   min-width: 500px;
   max-width: 600px;
-  min-height: 600px;
+  min-height: 300px;
   max-height: 800px;
   width: 100%;
   background: #ffffff;
@@ -311,7 +311,7 @@ figure.keynote .job-title {
   width: 100%;
   text-align: left;
   padding: 15px 30px;
-  font-size: 0.9em;
+  font-size: 0.8em;
   opacity: 1;
   font-style: italic;
   color: #ffffff;
@@ -330,4 +330,13 @@ figure.keynote.hover > img {
   right: -12%;
 }
 
-
+.sponsor-container{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: #021250;
+  }
