@@ -57,9 +57,7 @@
 #header {
   width: 100%;
 }
-#content-container {
-  height: calc(100vh - 80px);
-}
+
 #sp-container {
   width: 100%;
   height: 80px;
@@ -135,9 +133,7 @@
     top: 100px;
     right: -20px;
   }
-  #content-container {
-    height: calc(100vh - 100px);
-  }
+  
   #sp-container #sp-content {
     max-width: 1000px;
   }
@@ -152,13 +148,169 @@
   }
 }
 
-/* Font styling for header */
+/* Font styling for landing page */
 
-.ticket-button-details {
+.ticket-button-text {
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto;
   font-family: "Chakra Petch";
   font-weight: 600;
   color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-/* keynote speaker namecard */
+.content-container {
+  position: relative;
+    padding: 50px;
+}
 
+
+.homepage-callout {
+  padding: inherit;
+  text-align: center;
+  width: 400px;
+}
+
+.homepage-content-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background-color: #021250;
+}
+.homepage-content-links .dates {
+  font-weight: bold;
+  margin-top: -10px;
+  color: white;
+}
+.homepage-content-links > div {
+  max-width: 300px;
+  width: 30%;
+  margin: 20px;
+  text-align: center;
+  color: #29f0ff;
+}
+.homepage-content-links img {
+  width: 150px;
+  margin: 0 20px;
+}
+
+
+
+/* keynote speaker namecard */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip0056 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 380px;
+  max-width: 480px;
+  width: 100%;
+  background: #ffffff;
+  color: #000000;
+}
+figure.snip0056 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip0056 > img {
+  width: 50%;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  -webkit-transform: scale(1.6);
+  transform: scale(1.6);
+  position: relative;
+  float: right;
+  right: -15%;
+  z-index: 1;
+}
+figure.snip0056 figcaption {
+  padding: 20px 30px 20px 20px;
+  position: absolute;
+  left: 0;
+  width: 50%;
+}
+figure.snip0056 figcaption h2,
+figure.snip0056 figcaption p {
+  margin: 0;
+  text-align: left;
+  padding: 10px 0;
+  width: 100%;
+}
+figure.snip0056 figcaption h2 {
+  font-size: 1.3em;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+figure.snip0056 figcaption h2 span {
+  font-weight: 800;
+}
+figure.snip0056 figcaption p {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+figure.snip0056 figcaption .icons {
+  width: 100%;
+  text-align: left;
+}
+figure.snip0056 figcaption .icons i {
+  font-size: 26px;
+  padding: 5px;
+  top: 50%;
+  color: #000000;
+}
+figure.snip0056 figcaption a {
+  opacity: 0.3;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.snip0056 figcaption a:hover {
+  opacity: 0.8;
+}
+figure.snip0056 .position {
+  width: 100%;
+  text-align: left;
+  padding: 15px 30px;
+  font-size: 0.9em;
+  opacity: 1;
+  font-style: italic;
+  color: #ffffff;
+  background: #000000;
+  clear: both;
+}
+figure.snip0056.blue .position {
+  background: #20638f;
+}
+figure.snip0056.red .position {
+  background: #962d22;
+}
+figure.snip0056.yellow .position {
+  background: #bf6516;
+}
+figure.snip0056:hover > img,
+figure.snip0056.hover > img {
+  right: -12%;
+}
+
+
+/* Demo purposes only */
+
+/*body {
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  height: 100%;
+} */
