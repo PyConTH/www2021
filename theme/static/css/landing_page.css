@@ -203,24 +203,35 @@
 
 
 /* keynote speaker namecard */
+.keynote-speaker-container{
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background-color: #021250;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-figure.snip0056 {
+figure.keynote {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
   overflow: hidden;
   margin: 10px;
-  min-width: 380px;
-  max-width: 480px;
+  min-width: 500px;
+  max-width: 600px;
   width: 100%;
   background: #ffffff;
   color: #000000;
 }
-figure.snip0056 * {
+figure.keynote * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-figure.snip0056 > img {
+figure.keynote > img {
   width: 50%;
   border-radius: 50%;
   border: 4px solid #ffffff;
@@ -233,51 +244,51 @@ figure.snip0056 > img {
   right: -15%;
   z-index: 1;
 }
-figure.snip0056 figcaption {
+figure.keynote figcaption {
   padding: 20px 30px 20px 20px;
   position: absolute;
   left: 0;
   width: 50%;
 }
-figure.snip0056 figcaption h2,
-figure.snip0056 figcaption p {
+figure.keynote figcaption h2,
+figure.keynote figcaption p {
   margin: 0;
   text-align: left;
   padding: 10px 0;
   width: 100%;
 }
-figure.snip0056 figcaption h2 {
+figure.keynote figcaption h2 {
   font-size: 1.3em;
   font-weight: 300;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-figure.snip0056 figcaption h2 span {
+figure.keynote figcaption h2 span {
   font-weight: 800;
 }
-figure.snip0056 figcaption p {
+figure.keynote figcaption p {
   font-size: 0.9em;
   opacity: 0.8;
 }
-figure.snip0056 figcaption .icons {
+figure.keynote figcaption .icons {
   width: 100%;
   text-align: left;
 }
-figure.snip0056 figcaption .icons i {
+figure.keynote figcaption .icons i {
   font-size: 26px;
   padding: 5px;
   top: 50%;
   color: #000000;
 }
-figure.snip0056 figcaption a {
+figure.keynote figcaption a {
   opacity: 0.3;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
 }
-figure.snip0056 figcaption a:hover {
+figure.keynote figcaption a:hover {
   opacity: 0.8;
 }
-figure.snip0056 .position {
+figure.keynote .position {
   width: 100%;
   text-align: left;
   padding: 15px 30px;
@@ -288,17 +299,17 @@ figure.snip0056 .position {
   background: #000000;
   clear: both;
 }
-figure.snip0056.blue .position {
+figure.keynote.blue .position {
   background: #20638f;
 }
-figure.snip0056.red .position {
+figure.keynote.red .position {
   background: #962d22;
 }
-figure.snip0056.yellow .position {
+figure.keynote.yellow .position {
   background: #bf6516;
 }
-figure.snip0056:hover > img,
-figure.snip0056.hover > img {
+figure.keynote:hover > img,
+figure.keynote.hover > img {
   right: -12%;
 }
 
