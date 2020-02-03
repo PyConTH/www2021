@@ -339,4 +339,33 @@ figure.keynote.hover > img {
     padding-top: 80px;
     padding-bottom: 60px;
     background-color: #021250;
+    border-top: 3em solid;
+    border-color:#fe1a11;
+  }
+  .sponsor-list{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .sponsor-card{
+    position: relative;
+    display: flex;
+    min-width: 150px;
+    max-width: 180px;
+    min-height: 150px;
+    max-height: 180px;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 2px dotted #b3d7ff;
+    border-radius: 2rem;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .sponsor-card-title{
+    text-align: center;
+    margin-bottom: .75rem;
+    margin-top: .75rem;
+    color: white;
   }
