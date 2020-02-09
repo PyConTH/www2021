@@ -17,14 +17,14 @@ for post in BLOG_HOME.children:
         continue
 
     # Handle Frontmatter
-    text = f"""---
-title: {post.title}
-date: {post.created}
-summary: {post.summary}
-slug: {post.slug}
-lang: {post.language}
+    text = """---
+title: %s
+date: %s
+summary: %s
+slug: %s
+lang: %s
 ---
-"""
+""" % (post.title, post.created, post.summary, post.slug, post.language)
     # Handle Title
     text = text + '\n\n' + '# ' + post.title + '\n\n'
     for content in post.children:
