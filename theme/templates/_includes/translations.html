@@ -1,9 +1,17 @@
+{% macro entry_hreflang(entry) %}
+{% if entry.translations %}
+  {% for translation in entry.translations %}
+    <link rel="alternate" hreflang="{{ translation.lang }}" href="{{ SITEURL }}/{{ translation.url }}">
+  {% endfor %}
+{% endif %}
+{% endmacro %}
+
 {% macro translations_for(article) %}
 {% if article.translations %}
 <p id="list-of-translations">
-This post is also available in:
+This content is also available in:
     {% for translation in article.translations|sort(attribute = 'lang') %}
-    <a href="{{ SITEURL }}/{{ translation.url }}">{{ translation.lang }}</a>{% if loop.index0 + 2 == loop.length %} and{% elif not loop.last %}, {% endif %}
+    <a href="{{ SITEURL }}/{{ translation.url }}">{{ LANGUAGE_CODES[translation.lang] }}</a>{% if loop.index0 + 2 == loop.length %} and{% elif not loop.last %}, {% endif %}
     {% endfor %}
 </p>
 {% endif %}

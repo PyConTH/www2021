@@ -4,13 +4,18 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Tech WG'
 SITENAME = 'PyCon Thailand 2020'
-SITEURL = ''
+SITEURL = 'https://th.pycon.org'
 
 PATH = 'content'
 
 TIMEZONE = 'Asia/Bangkok'
 
 DEFAULT_LANG = 'en'
+
+LANGUAGE_CODES = {
+        'en': 'English',
+        'th': 'ไทย',
+        }
 
 THEME = 'theme'
 
