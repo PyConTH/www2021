@@ -61,7 +61,6 @@ lang: %s
         with open('./content/%s/%s%s.md' % (outdir, page.slug, '-%s'%page.language if page.language else ''), 'w') as page:
             page.write(text)
             print('Wrote A New Page')
-            print(text)
 
 
 get_pages(NOTION_PAGES, 'pages')
