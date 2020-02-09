@@ -21,13 +21,13 @@ def get_pages(table, outdir):
 
         # Handle Frontmatter
         text = """---
-    title: %s
-    date: %s
-    summary: %s
-    slug: %s
-    lang: %s
-    ---
-    """ % (page.title, page.created, page.summary, page.slug, page.language)
+title: %s
+date: %s
+summary: %s
+slug: %s
+lang: %s
+---
+""" % (page.title, page.created, page.summary, page.slug, page.language)
         # Handle Title
         text = text + '\n\n' + '# ' + page.title + '\n\n'
         for content in page.children:
