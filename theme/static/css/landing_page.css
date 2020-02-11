@@ -259,10 +259,6 @@ figure.keynote {
   position: relative;
   overflow: hidden;
   margin: 10px;
-  min-width: 500px;
-  max-width: 600px;
-  min-height: 300px;
-  max-height: 800px;
   width: 100%;
   background: #ffffff;
   color: #000000;
@@ -271,7 +267,13 @@ figure.keynote {
 figure.keynote * {
   box-sizing: border-box;
 }
-figure.keynote > img {
+
+figure.keynote .keynote-headshot-wrapper {
+  display: inline;
+  overflow: hidden;
+}
+
+figure.keynote img {
   width: 50%;
   border-radius: 50%;
   border: 4px solid #ffffff;
@@ -284,10 +286,12 @@ figure.keynote > img {
 }
 figure.keynote figcaption {
   padding: 20px 30px 20px 20px;
-  position: absolute;
+  position: relative;
   left: 0;
   width: 50%;
+  display: inline-block;
 }
+
 figure.keynote figcaption h2,
 figure.keynote figcaption p {
   margin: 0;
