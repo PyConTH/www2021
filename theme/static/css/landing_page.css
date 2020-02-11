@@ -238,6 +238,10 @@
   margin: 0 20px;
 }
 
+.homepage-title h1 {
+  word-break: break-word;
+}
+
 /* keynote speaker namecard */
 .keynote-speaker-container {
   display: flex;
