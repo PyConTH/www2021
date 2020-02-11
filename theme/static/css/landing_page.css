@@ -200,16 +200,28 @@
 }
 
 .homepage-content-links > div {
-  max-width: 300px;
-  width: 30%;
-  margin: 20px;
+  width: 100%;
   text-align: center;
   color: #29f0ff;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .homepage-content-links > div {
+    width: 25%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.homepage-content-links > div > p {
+  max-width: 35ch;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .homepage-content-links img {
   width: 150px;
-  margin: 0 20px;
 }
 
 .homepage-title {
