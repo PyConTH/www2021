@@ -353,8 +353,8 @@ figure.keynote.red .job-title {
   background: #fe1a11;
 }
 
-figure.keynote:hover > img,
-figure.keynote.hover > img {
+figure.keynote:hover img,
+figure.keynote.hover img {
   right: -12%;
 }
 
