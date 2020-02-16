@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Baskerville, Garamond, Georgia, "DejaVu Serif", "Times New Roman",
+  font-family: "Chakra Petch", Garamond, Georgia, "DejaVu Serif", "Times New Roman",
     Times, Serif;
   font-weight: normal;
 }
@@ -80,7 +80,7 @@ small.subtitle {
 }
 /* site title */
 .site-name {
-  font-family: "Monaco", "Inconsolata", "Andale Mono", "Lucida Console",
+  font-family: "Chakra Petch", "Inconsolata", "Andale Mono", "Lucida Console",
     "Bitstream Vera Sans Mono", "Courier New", Courier, Monospace;
 }
 /* Top navigation menu */

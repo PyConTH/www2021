@@ -4,6 +4,7 @@
 }
 .container {
   padding: 0 2rem;
+  margin-top: 2rem;
 }
 .social-section {
   position: relative;
@@ -57,9 +58,7 @@
 #header {
   width: 100%;
 }
-#content-container {
-  height: calc(100vh - 80px);
-}
+
 #sp-container {
   width: 100%;
   height: 80px;
@@ -91,7 +90,7 @@
     margin-top: 3rem;
   }
   .social-icon {
-    max-width: 50px;
+    max-width: 45px;
   }
   .button-section {
     margin-top: 3rem;
@@ -125,7 +124,7 @@
     max-width: 850px;
   }
   .social-icon {
-    max-width: unset;
+    max-width: 45px;
   }
   .btn-base {
     font-size: 20px;
@@ -135,9 +134,7 @@
     top: 100px;
     right: -20px;
   }
-  #content-container {
-    height: calc(100vh - 100px);
-  }
+
   #sp-container #sp-content {
     max-width: 1000px;
   }
@@ -150,4 +147,253 @@
   #sp-container #sp-content {
     max-width: 1400px;
   }
+}
+
+/* Font styling for landing page */
+
+.ticket-button-text {
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content-container {
+  position: relative;
+  padding: 50px;
+}
+
+.homepage-callout {
+  padding: 2rem 0;
+  text-align: center;
+  max-width: 400px;
+}
+
+.homepage-content-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background-color: #021250;
+}
+
+@media (min-width: 768px) {
+  .homepage-content-links {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.homepage-content-links .dates {
+  font-weight: bold;
+  margin-top: -10px;
+  color: white;
+}
+
+.homepage-content-links > div {
+  width: 100%;
+  text-align: center;
+  color: #29f0ff;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .homepage-content-links > div {
+    width: 25%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.homepage-content-links > div > p {
+  max-width: 35ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homepage-content-links img {
+  width: 150px;
+}
+
+.homepage-title {
+  text-align: center;
+  width: 100%;
+  font-size: 4rem;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.homepage-title > img {
+  width: 180px;
+  margin: 0 20px;
+}
+
+.homepage-title h1 {
+  word-break: break-word;
+}
+
+/* keynote speaker namecard */
+.keynote-speaker-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: #021250;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.keynote {
+  font-family: "Raleway", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  width: 100%;
+  background: #ffffff;
+  color: #000000;
+  max-width: 600px;
+}
+
+figure.keynote * {
+  box-sizing: border-box;
+}
+
+figure.keynote .keynote-headshot-wrapper {
+  display: inline;
+  overflow: hidden;
+}
+
+figure.keynote img {
+  width: 50%;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  transition: all 0.35s ease-in-out;
+  transform: scale(1.6);
+  position: relative;
+  float: right;
+  right: -15%;
+  z-index: 1;
+}
+figure.keynote figcaption {
+  padding: 20px 30px 20px 20px;
+  position: relative;
+  left: 0;
+  width: 50%;
+  display: inline-block;
+}
+
+figure.keynote figcaption h2,
+figure.keynote figcaption p {
+  margin: 0;
+  text-align: left;
+  padding: 10px 0;
+  width: 100%;
+}
+figure.keynote figcaption h2 {
+  font-size: 1.3em;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+figure.keynote figcaption h2 span {
+  font-weight: 800;
+}
+figure.keynote figcaption p {
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+figure.keynote figcaption .icons {
+  width: 100%;
+  text-align: left;
+}
+figure.keynote figcaption .icons i {
+  font-size: 26px;
+  padding: 5px;
+  top: 50%;
+  color: #000000;
+}
+figure.keynote figcaption a {
+  opacity: 0.3;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.keynote figcaption a:hover {
+  opacity: 0.8;
+}
+figure.keynote .job-title {
+  width: 100%;
+  text-align: left;
+  padding: 15px 30px;
+  font-size: 0.8em;
+  opacity: 1;
+  font-style: italic;
+  color: #ffffff;
+  background: #000000;
+  clear: both;
+}
+figure.keynote.blue .job-title {
+  background: #29f0ff;
+}
+figure.keynote.red .job-title {
+  background: #fe1a11;
+}
+
+figure.keynote:hover img,
+figure.keynote.hover img {
+  right: -12%;
+}
+
+.sponsor-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background-color: #021250;
+  border-top: 3em solid;
+  border-color: #fe1a11;
+}
+.sponsor-list {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.sponsor-card {
+  position: relative;
+  display: flex;
+  min-width: 150px;
+  max-width: 180px;
+  min-height: 150px;
+  max-height: 180px;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 2px dotted #b3d7ff;
+  border-radius: 2rem;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.sponsor-card-title {
+  text-align: center;
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+  color: white;
 }

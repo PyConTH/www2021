@@ -61,7 +61,7 @@
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/landing_page.css" media="screen">
         <style>
             body {
-              font-family: 'Chakra Petch';
+              font-family: 'Chakra Petch', sans-serif;
               background-image: url("{{ SITEURL }}/theme/img/bg.png");
               background-position: center;
               background-size: cover;
@@ -91,38 +91,127 @@
                     </div>
                     <img id="rocket" src="{{ SITEURL }}/theme/img/rocket.png">
                 </div>
-                    <div class="col-auto position-relative button-section">
-                            <a class="btn-base btn-cyan" href="https://mailchi.mp/defe55eefada/pyconthnews">Get Updates</a>
-                            <a class="btn-base btn-white" href="https://www.papercall.io/pyconthailand">Call For Papers</a>
-                    </div>
-                    <div class="col-auto position-relative button-section ml-auto">
-                            <div class="dropdown">
-                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Previous years
-                                </a>
-
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                  <a class="dropdown-item" href="https://2019.th.pycon.org/en/">2019</a>
-                                  <a class="dropdown-item" href="https://2019.th.pycon.org/pycon2018/en/">2018</a>
-                                </div>
-                            </div>
-                    </div>
+                    
             </div>
         </div>
-        <div id="sp-container">
-            <div class="row align-items-center mx-auto px-md-3 h-100" id="sp-content">
-                <div class="col-auto">
-                    <span class="font-italic text-white half-opacity" id="sp-text">Sponsors:</span>
+    <div class= "content-container"> 
+        <div class="col-auto position-relative button-section">
+            <h5 class="ticket-button-text">Tickets coming up soon!</h5>
+            <!-- <a class="btn-base btn-cyan" href="">Get Tickets</a> -->
+            <a class="btn-base btn-cyan" href="https://mailchi.mp/defe55eefada/pyconthnews">Get Updates</a>
+            <a class="btn-base btn-white" href="https://www.papercall.io/pyconthailand">Call For Papers</a>
+        </div>
+    </div> 
+
+    <div class="homepage-content-links">
+        <div>
+            <img src="/theme/img/work-as.png" alt="">
+            <h2>Workshops</h2>
+            <p class="dates">June 19</p>
+            <p>1 full day workshops for beginners to experienced developers.</p>
+        </div>
+        <div>
+            <img src="/theme/img/talk-as.png" alt="">
+            <h2>Conference</h2>
+            <p class="dates">June 20 - 21</p>
+            <p>Main conference days with over 40 talks,sponsors booth and job opportunities.</p>
+        </div>
+        <div>
+            <img src="/theme/img/hello-as.png" alt="">
+            <h2>Party</h2>
+            <p class="dates">June 20</p>
+            <p>Interact, discuss and have fun!</p>
+        </div>
+        <div>
+            <img src="/theme/img/sprint-as.png" alt="">
+            <h2>Sprints</h2>
+            <p class="dates">June 22 - 23</p>
+            <p>Gather round to collaborate and contribute with veterans and novices.</p>
+        </div>
+    </div>
+
+
+        <div class="keynote-speaker-container">
+            <div class= "homepage-title">
+                <img src="/theme/img/keynote-as.png" alt="">
+                <h1>Keynote Speakers</h1>   
+            </div>
+                <figure class="keynote blue">
+                    <figcaption>
+                    <h2>Lorena <span>Mesa</span></h2>
+                    <p> Political scientist turned coder, Lorena Mesa is a software engineer on Sprout Social’s data science team, Director at the Python Software Foundation, 
+                        and PyLadies Chicago co-organizer.</p>
+                    </figcaption>
+                    <div class="keynote-headshot-wrapper">
+                        <img src="/theme/img/speakers/lorena.png" alt="lorena-mesa" />
+                    </div>
+                    <div class="job-title">Data Engineer and Scientist, PSF Director</div>
+                </figure>
+                <figure class="keynote red">
+                    <figcaption>
+                    <h2>Nina <span>Zakharenko</span></h2>
+                    <p>Nina Zakharenko is a Cloud Developer Advocate at Microsoft, focusing on Python. She was a software engineer with a decade of experience 
+                        writing code for companies like Reddit, Meetup, and HBO. </p>
+                    </figcaption><img src="/theme/img/speakers/nina1.png" alt="nina-zakharenko" />
+                    <div class="job-title">Cloud Developer Advocate, Software Engineer</div>
+                </figure>
+               <!--- Keynote No.3---
+                   <figure class="keynote blue">
+                    <figcaption>
+                    <h2>Lorena <span>Mesa</span></h2>
+                    <p> Political scientist turned coder, Lorena Mesa is a software engineer on Sprout Social’s data science team, Director on the Python Software Foundation, 
+                        and PyLadies Chicago co-organizer.</p>
+                    <div class="icons"><a href="#"><i class="ion-ios-home"></i></a><a href="#"><i class="ion-ios-email"></i></a><a href="#"><i class="ion-ios-telephone"></i></a></div>
+                    </figcaption><img src="/theme/img/speakers/lorena.png" alt="lorena-mesa" />
+                    <div class="job-title">Data Engineer and Scientist, PSF Director</div>
+                </figure>
+
+                ---Keynote No. 4 ---
+                <figure class="keynote red">
+                    <figcaption>
+                    <h2>Nina <span>Zakharenko</span></h2>
+                    <p>Nina Zakharenko is a Cloud Developer Advocate at Microsoft, focusing on Python. She was a software engineer with a decade of experience 
+                        writing code for companies like Reddit, Meetup, and HBO. </p>
+                    <div class="icons"><a href="#"><i class="ion-ios-home"></i></a><a href="#"><i class="ion-ios-email"></i></a><a href="#"><i class="ion-ios-telephone"></i></a></div>
+                    </figcaption><img src="/theme/img/speakers/nina1.png" alt="nina-zakharenko" />
+                    <div class="job-title">Cloud Developer Advocate, Software Engineer</div>
+                </figure> -->
+        </div>
+   
+        
+        <div class="sponsor-container">
+            <div class= "homepage-title">
+                <img src="/theme/img/sponsor-as.png" alt=""> 
+                <h1>Sponsors / Partners</h1>  
+            </div>
+           
+                <div class="sponsor-list">
+                    <div class="sponsor-card">
+                        <a href="https://www.stickermule.com/supports/opensource/">
+                            <img src="{{ SITEURL }}/theme/img/sponsor_logo/sticker-mule.png" alt="" class="card-img-top">
+                            <h5 class="sponsor-card-title">STICKERMULE</h5> 
+                        </a>
+                    </div>
+                    <div class="sponsor-card">
+                        <a href="https://www.notion.so/">
+                            <img src="{{ SITEURL }}/theme/img/sponsor_logo/notion.png" alt="" class="card-img-top">
+                            <h5 class="sponsor-card-title">NOTION</h5> 
+                        </a>
+                    </div>
+                    
                 </div>
-                <div class="col-auto">
-                    <a href="https://www.stickermule.com/supports/opensource/">
-                        <img class="sp-logo" src="{{ SITEURL }}/theme/img/sponsor_logo/sticker-mule.png">
-                    </a>
-                </div>
-                <div class="col-auto">
-                    <a href="https://www.notion.so/">
-                        <img class="sp-logo" src="{{ SITEURL }}/theme/img/sponsor_logo/notion.png">
-                    </a>
+               
+        </div>
+        
+        <div class="col-auto position-relative button-section ml-auto">
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Previous years
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="https://2019.th.pycon.org/en/">2019</a>
+                  <a class="dropdown-item" href="https://2019.th.pycon.org/pycon2018/en/">2018</a>
                 </div>
             </div>
         </div>
