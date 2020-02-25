@@ -12,6 +12,11 @@ TIMEZONE = 'Asia/Bangkok'
 
 DEFAULT_LANG = 'en'
 
+LANGUAGE_CODES = {
+        'en': 'English',
+        'th': 'ไทย',
+        }
+
 THEME = 'theme'
 
 # Feed generation is usually not desired when developing

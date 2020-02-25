@@ -4,4 +4,4 @@ pelican-themes -i theme
 python get_posts_from_notion.py
 
 # Build the site
-make html
+make publish
