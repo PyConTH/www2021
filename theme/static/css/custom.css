@@ -3,3 +3,10 @@
 body {
   display: block;
 }
+
+.article-content {
+  max-width: 50em;
+  padding: 10px;
+  margin: 20px 10px;
+}
+
