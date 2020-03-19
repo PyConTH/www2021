@@ -206,6 +206,7 @@ div.recent-posts p {
 }
 .article-content {
   max-width: 50em;
+  margin: 30px 10px;
 }
 .article-content p,
 div.recent-posts p {
@@ -215,7 +216,7 @@ div.recent-posts p {
   text-transform: none;
 }
 .article-content p {
-  margin: 20px 0;
+  margin: 30px 0;
 }
 blockquote {
   margin: 2em 0 0 2em;
@@ -245,6 +246,7 @@ blockquote p {
 .article-content ul:not(.related-posts-list):not(.articles-timeline) {
   font-size: inherit;
   list-style-type: disc;
+  margin: 30px 0;
 }
 .article-content ul.related-posts-list {
   list-style-type: square;
