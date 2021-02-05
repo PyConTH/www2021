@@ -5,10 +5,12 @@
 .container {
   padding: 0 2rem;
   margin-top: 2rem;
+  
 }
 .social-section {
   position: relative;
-  margin-top: 1.5rem;
+  margin-top: 4rem;
+  margin-left: 3rem;
 }
 .social-icon {
   max-width: 40px;
@@ -82,7 +84,7 @@
 @media (min-width: 576px) {
 }
 /* md [tablet portrait]: 768-991px */
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .container {
     max-width: 615px;
   }
@@ -100,7 +102,8 @@
     font-size: 20px;
   }
   #header {
-    width: 70%;
+    margin-top: 4rem;
+    width: 80%;
   }
   #rocket {
     display: block;
