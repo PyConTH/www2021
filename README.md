@@ -23,8 +23,8 @@ pelican --autoreload --listen
 ### Clone the repo and start a site
 
 ```bash
-git clone www2020
-cd www2020
+git clone www2021
+cd www2021
 # pelican-quickstart # Only necessary the first time, already done
 ```
 

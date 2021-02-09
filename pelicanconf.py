@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Tech WG'
-SITENAME = 'PyCon Thailand 2020'
+SITENAME = 'PyCon APAC 2021'
 SITEURL = ''
 
 PATH = 'content'
