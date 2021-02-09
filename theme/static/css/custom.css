@@ -5,8 +5,9 @@ body {
 }
 
 .article-content {
-  max-width: 50em;
+  max-width: 60em;
   padding: 10px;
+  font-size: 14px;
   margin: 20px 10px;
 }
 
