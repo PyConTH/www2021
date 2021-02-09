@@ -10,3 +10,18 @@ body {
   margin: 20px 10px;
 }
 
+/* Page header for pages*/
+.page-header-pages {
+  border-bottom: 1px solid #8f8686;
+  color: #021250;
+  margin: 1em 1em 3em;
+  padding: 8px;
+}
+.page-header-pages h1 {
+  font-size: 3em;
+  font-weight: normal;
+}
+
+.container-fluid {
+padding: 3em;  
+}
