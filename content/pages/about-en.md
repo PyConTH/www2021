@@ -1,8 +1,8 @@
 ---
-title: About 
+title: About (English version)
 date: 2020-02-09 02:45:07.082000
-summary: 
-slug: about-en
+summary: About PyCon TH
+slug: about
 lang: en
 ---
 
