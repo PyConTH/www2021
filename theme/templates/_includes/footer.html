@@ -9,32 +9,23 @@
     {% from '_includes/_defaults.html' import SITESUBTITLE with context %}
     {% if SITESUBTITLE %}
     <div>
-        <span class="site-name">{{ SITENAME }}</span> - {{ SITESUBTITLE }}
+        <span class="pyconth">PyCon Thailand</span> - {{ SITESUBTITLE }}
     </div>
     {% endif %}
 
-
-    {% if AMAZON_ONELINK or AMAZON_BESTAZON %}
-    <span class="site-name">{{ SITENAME }}</span>  is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
-    {% endif %}
-    {% if AMAZON_ONELINK %}
-    <div id="amzn-assoc-ad-{{ AMAZON_ONELINK }}">
-    </div>
-    <script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId={{ AMAZON_ONELINK }}">
-    </script>
-    {% endif %}
 
     <img class="pycon-logo" src="/theme/img/pyconTH20-logo-sm.png" alt="PyConTH">
     <a>PyCon Thailand is a production of Python Thailand Society</a>
     <div id="fpowered">
+        Theme assets: <a href="http://mad-arai-d.com/" title="Mad Arai-D Studio" target="_blank" rel="nofollow">Mad Arai-D</a>
         Powered by: <a href="http://getpelican.com/" title="Pelican Home Page" target="_blank" rel="nofollow">Pelican</a>
         Theme: <a href="https://elegant.oncrashreboot.com/" title="Theme Elegant Home Page" target="_blank" rel="nofollow">Elegant</a>
         {% if HOSTED_ON and HOSTED_ON.name %}
-        Hosted on:
+        Hosted on: Netlify
         {% if HOSTED_ON.url %}
         <a href={{HOSTED_ON.url}} target="_blank" rel="nofollow">
             {{HOSTED_ON.name}}
-        </a>
+        </a>        
         {% else %}
         {{HOSTED_ON.name}}
         {% endif %}
