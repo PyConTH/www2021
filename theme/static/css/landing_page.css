@@ -77,6 +77,7 @@
 }
 @media (min-width: 325px) and (max-width: 399px) {
   .social-section > .rocket {
+  max-width: 399px;
     /*display: inline-block;*/
   }
 }
@@ -265,15 +266,16 @@ figure.keynote {
   font-family: "Raleway", Arial, sans-serif;
   position: relative;
   overflow: hidden;
-  margin: 10px;
+  margin: 40px;
   width: 100%;
   background: #ffffff;
   color: #000000;
-  max-width: 600px;
+  max-width: 700px;
 }
 
 figure.keynote * {
   box-sizing: border-box;
+
 }
 
 figure.keynote .keynote-headshot-wrapper {
@@ -321,11 +323,18 @@ figure.keynote figcaption p {
   opacity: 0.8;
 }
 figure.keynote figcaption .icons {
-  width: 100%;
+  background: '/theme/img/facebook-icon.png';
   text-align: left;
+  height: 20px;
+  width: 20px;
+  display: flex;
 }
 figure.keynote figcaption .icons i {
   font-size: 26px;
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  display: flex;;
   padding: 5px;
   top: 50%;
   color: #000000;
