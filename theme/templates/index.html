@@ -42,22 +42,22 @@
         />
 
         {% if 'assets' in PLUGINS %} {% include '_includes/minify_css.html' with context %} {% else %}
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/pygments.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/tipuesearch/tipuesearch.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/elegant.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/admonition.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/custom.css?v=1.1.1" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/theme/css/pygments.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/theme/tipuesearch/tipuesearch.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/theme/css/elegant.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/theme/css/admonition.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/theme/css/custom.css?v=1.1.1" media="screen" />
         <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
        
 
         {% endif %} {% endblock head_links %} {% include '_includes/favicon_links.html' %} {% block feed_links %} {% include
         '_includes/feeds.html' %} {% endblock feed_links %} {% include '_includes/analytics.html' %}
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/landing_page.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/theme/css/landing_page.css" media="screen" />
         <style>
             body {
                 font-family: "Chakra Petch", sans-serif;
-                background-image: url("{{ SITEURL }}/theme/img/bg.png");
+                background-image: url("/theme/img/bg.png");
                 background-position: center;
                 background-size: cover;
                 /*overflow: hidden;*/
@@ -70,20 +70,20 @@
         <div class="container">
             <div class="row no-gutters align-items-center" id="content-container">
                 <div class="col-auto position-relative">
-                    <img class="img-fluid" id="header" src="{{ SITEURL }}/theme/img/pyconapachead.png" />
+                    <img class="img-fluid" id="header" src="/theme/img/pyconapachead.png" />
                     <div class="social-section">
                         <a href="https://www.facebook.com/Pyconthailand">
-                            <img class="social-icon" src="{{ SITEURL }}/theme/img/facebook-icon.png" />
+                            <img class="social-icon" src="/theme/img/facebook-icon.png" />
                         </a>
                         <a href="https://www.instagram.com/pyconthailand">
-                            <img class="social-icon" src="{{ SITEURL }}/theme/img/instagram-icon.png" />
+                            <img class="social-icon" src="/theme/img/instagram-icon.png" />
                         </a>
                         <a href="https://twitter.com/pyconthailand">
-                            <img class="social-icon" src="{{ SITEURL }}/theme/img/twitter-icon.png" />
+                            <img class="social-icon" src="/theme/img/twitter-icon.png" />
                         </a>
-                        <img class="rocket" src="{{ SITEURL }}/theme/img/rocket.png" />
+                        <img class="rocket" src="/theme/img/rocket.png" />
                     </div>
-                    <img id="rocket" src="{{ SITEURL }}/theme/img/rocket.png" />
+                    <img id="rocket" src="/theme/img/rocket.png" />
                 </div>
             </div>
         </div>
@@ -639,13 +639,13 @@
                     <div class="sponsor-list">
                         <div class="sponsor-card">
                             <a href="https://www.stickermule.com/supports/opensource/">
-                                <img src="{{ SITEURL }}/theme/img/sponsor_logo/sticker-mule.png" alt="" class="card-img-top" />
+                                <img src="/theme/img/sponsor_logo/sticker-mule.png" alt="" class="card-img-top" />
                                 <h5 class="sponsor-card-title">STICKERMULE</h5>
                             </a>
                         </div>
                         <div class="sponsor-card">
                             <a href="https://www.notion.so/">
-                                <img src="{{ SITEURL }}/theme/img/sponsor_logo/notion.png" alt="" class="card-img-top" />
+                                <img src="/theme/img/sponsor_logo/notion.png" alt="" class="card-img-top" />
                                 <h5 class="sponsor-card-title">NOTION</h5>
                             </a>
                         </div>
