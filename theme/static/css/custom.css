@@ -153,7 +153,7 @@ color:#021250;
 }
 
 .speakers .card {
-  width: 24rem;
+  width: auto;
   display: block;
   margin-left: 2rem;
   margin-bottom: 2rem;
@@ -236,7 +236,7 @@ color:#021250;
 }
 
 .blog .single-blog .card {
-  width: 30rem;
+  width: auto;
   position: relative;
   margin-left: 4rem;
   margin-bottom: 2rem;
