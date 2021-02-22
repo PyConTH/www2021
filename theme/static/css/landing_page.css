@@ -4,8 +4,14 @@
 }
 .container {
   padding: 0 2rem;
-  margin-top: 2rem;
   
+}
+
+.main-header-bg{
+      font-family: "Chakra Petch", sans-serif;
+      background-image: url("/theme/img/bg.png");
+      background-position: center;
+      background-size: cover;
 }
 .social-section {
   position: relative;
@@ -168,8 +174,9 @@
 .top-content-text {
   width: auto;
   max-width: 100%;
-  text-align: center;
-  margin: 0 auto;
+  text-align: right;
+  margin-right: 4rem;
+  margin-bottom: 0;
   font-family: "Chakra Petch", sans-serif;
   font-weight: 200;
   color: white;

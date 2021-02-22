@@ -54,49 +54,40 @@
         {% endif %} {% endblock head_links %} {% include '_includes/favicon_links.html' %} {% block feed_links %} {% include
         '_includes/feeds.html' %} {% endblock feed_links %} {% include '_includes/analytics.html' %}
         <link rel="stylesheet" type="text/css" href="/theme/css/landing_page.css" media="screen" />
-        <style>
-            body {
-                font-family: "Chakra Petch", sans-serif;
-                background-image: url("/theme/img/bg.png");
-                background-position: center;
-                background-size: cover;
-                /*overflow: hidden;*/
-            }
-        </style>
     </head>
     <body>
         {% include 'partials/navbar.html' %}
-
-        <div class="container">
-            <div class="row no-gutters align-items-center" id="content-container">
-                <div class="col-auto position-relative">
-                    <img class="img-fluid" id="header" src="/theme/img/pyconapachead.png" />
-                    <div class="social-section">
-                        <a href="https://www.facebook.com/Pyconthailand">
-                            <img class="social-icon" src="/theme/img/facebook-icon.png" />
-                        </a>
-                        <a href="https://www.instagram.com/pyconthailand">
-                            <img class="social-icon" src="/theme/img/instagram-icon.png" />
-                        </a>
-                        <a href="https://twitter.com/pyconthailand">
-                            <img class="social-icon" src="/theme/img/twitter-icon.png" />
-                        </a>
-                        <img class="rocket" src="/theme/img/rocket.png" />
+        <div class="main-header-bg">
+                <div class="container">
+                    <div class="row no-gutters align-items-center" id="content-container">
+                        <div class="col-auto position-relative">
+                            <img class="img-fluid" id="header" src="/theme/img/pyconapachead.png" />
+                            <div class="social-section">
+                                <a href="https://www.facebook.com/Pyconthailand">
+                                    <img class="social-icon" src="/theme/img/facebook-icon.png" />
+                                </a>
+                                <a href="https://www.instagram.com/pyconthailand">
+                                    <img class="social-icon" src="/theme/img/instagram-icon.png" />
+                                </a>
+                                <a href="https://twitter.com/pyconthailand">
+                                    <img class="social-icon" src="/theme/img/twitter-icon.png" />
+                                </a>
+                                <img class="rocket" src="/theme/img/rocket.png" />
+                            </div>
+                            <img id="rocket" src="/theme/img/rocket.png" />
+                        </div>
                     </div>
-                    <img id="rocket" src="/theme/img/rocket.png" />
                 </div>
-            </div>
+                <div class="content-container">
+                    <div class="col-auto position-relative button-section">
+                        <h4 class="ticket-button-text">We're excited to be hosting PyCon APAC 2021!</h4><br>
+                        <!-- <a class="btn-base btn-cyan" href="">Get Tickets</a> -->
+                        <a class="btn-base btn-cyan" href="https://mailchi.mp/defe55eefada/pyconthnews">Get Updates</a>
+                        <a class="btn-base btn-white" href="https://www.papercall.io/pyconapac">Call For Papers</a>
+                    </div>
+                </div>
+                <h6 class="top-content-text">A hybrid PyCon APAC making it accessible to all experience.</h6>
         </div>
-        <div class="content-container">
-            <div class="col-auto position-relative button-section">
-                <h4 class="ticket-button-text">We're excited to be hosting PyCon APAC 2021!</h4><br>
-                <!-- <a class="btn-base btn-cyan" href="">Get Tickets</a> -->
-                <a class="btn-base btn-cyan" href="https://mailchi.mp/defe55eefada/pyconthnews">Get Updates</a>
-                <a class="btn-base btn-white" href="https://www.papercall.io/pyconapac">Call For Papers</a>
-            </div>
-        </div>
-        <h5 class="top-content-text">A hybrid PyCon APAC making it accessible to all experience.</h5>
-
         <div class="homepage-content-links">
             <div>
                 <img src="/theme/img/work-as.png" alt="" />
@@ -187,7 +178,7 @@
             </figure>
 
             <!-- ---Keynote No. 4 --- -->
-            <!-- <figure class="keynote red">
+           <!-- <figure class="keynote red">
                 <figcaption>
                     <h2>Nina <span>Zakharenko</span></h2>
                     <p>
@@ -201,21 +192,21 @@
                 </figcaption>
                 <img src="/theme/img/speakers/nina1.png" alt="nina-zakharenko" />
                 <div class="job-title">Cloud Developer Advocate, Software Engineer</div>
-            </figure>
-        </div> -->
+            </figure> -->
+        </div>
 
-        <!-- Other Speakers  -->
-        <!-- <div class="speakers">
+        <!-- Other Speakers 
+        <div class="speakers">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12"> 
                     <div class="homepage-title">
                         <img src="/theme/img/keynote-as.png" alt="" />
                         <h1>Speakers</h1>
                     </div>
                 </div>
-            </div> -->
+            </div> 
 
-            <!-- <div class="container-xxl">
+            <div class="container-xxl">
                 <div class="row">
                     <div class="col">
                         <div class="card">
@@ -251,6 +242,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col">
                         <div class="card">
                             <img class="card-img-top" src="https://i.imgur.com/hCppjSL.jpg" alt="Card image cap" />
@@ -284,9 +276,10 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
-        </div> -->
+        </div>  -->
 
         <!-- ---Information about Conference--- -->
         <div class="portfolio">
@@ -380,7 +373,7 @@
             </div>
         </div>
 
-        <div class="blog">
+        <!-- <div class="blog">
                 <div class="row">
                     <div class="homepage-title">
                         <img src="/theme/img/keynote-as.png" alt="" />
@@ -430,7 +423,7 @@
                     </div>
                 </div>
             
-        </div>
+        </div> -->
 
         <div class="about-contact">
             <div class="container">
@@ -468,7 +461,6 @@
                     <section id="marketing">
                         <h1 class="section-title">Admin</h1>
                         <div class="item">
-
                             <!-- Georgi's card -->
                             <figure>
                                 <div class="team-card">
