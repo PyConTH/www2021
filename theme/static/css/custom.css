@@ -29,6 +29,19 @@ padding: 3em;
 
 /* team-container */
 
+.main-team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: #021250;
+}
+
 .section-title {
   width:100%;
   font-size: 30px;
@@ -64,6 +77,7 @@ padding: 3em;
   position:relative;
   width:25%;
   height:auto;
+  margin-bottom: 2rem;
   overflow:hidden;
 }
 .team-container figure{
