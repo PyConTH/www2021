@@ -77,7 +77,10 @@ padding: 3em;
   position:relative;
   width:25%;
   height:auto;
-  margin-bottom: 2rem;
+  min-width: 300px;
+  margin:inherit;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   overflow:hidden;
 }
 .team-container figure{
@@ -100,6 +103,7 @@ padding: 3em;
   left:0;
   right:0;
   top:0;
+  min-width: 300px;
   position:absolute;
   display:block;
 }
