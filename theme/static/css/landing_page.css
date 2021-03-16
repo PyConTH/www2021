@@ -4,8 +4,14 @@
 }
 .container {
   padding: 0 2rem;
-  margin-top: 2rem;
   
+}
+
+.main-header-bg{
+      font-family: "Chakra Petch", sans-serif;
+      background-image: url("/theme/img/bg.png");
+      background-position: center;
+      background-size: cover;
 }
 .social-section {
   position: relative;
@@ -77,6 +83,7 @@
 }
 @media (min-width: 325px) and (max-width: 399px) {
   .social-section > .rocket {
+  max-width: 399px;
     /*display: inline-block;*/
   }
 }
@@ -160,6 +167,18 @@
   margin: 0 auto;
   font-family: "Chakra Petch", sans-serif;
   font-weight: 600;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.top-content-text {
+  width: auto;
+  max-width: 100%;
+  text-align: right;
+  margin-right: 4rem;
+  margin-bottom: 0;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 200;
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -265,7 +284,7 @@ figure.keynote {
   font-family: "Raleway", Arial, sans-serif;
   position: relative;
   overflow: hidden;
-  margin: 10px;
+  margin: 40px;
   width: 100%;
   background: #ffffff;
   color: #000000;
@@ -274,6 +293,7 @@ figure.keynote {
 
 figure.keynote * {
   box-sizing: border-box;
+
 }
 
 figure.keynote .keynote-headshot-wrapper {
@@ -321,11 +341,18 @@ figure.keynote figcaption p {
   opacity: 0.8;
 }
 figure.keynote figcaption .icons {
-  width: 100%;
+  background: '/theme/img/facebook-icon.png';
   text-align: left;
+  height: 20px;
+  width: 20px;
+  display: flex;
 }
 figure.keynote figcaption .icons i {
   font-size: 26px;
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  display: flex;;
   padding: 5px;
   top: 50%;
   color: #000000;

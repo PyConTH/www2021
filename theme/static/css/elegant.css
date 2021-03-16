@@ -70,7 +70,7 @@ h6 a:hover {
     Helvetica, Arial, sans-serif;
 }
 a {
-  color: #3875d7;
+  color: #021250;
 }
 hr {
   border-width: 3px;
@@ -526,7 +526,7 @@ div.recent-posts-time {
   white-space: nowrap;
   width: auto;
 }
-#mc-embed-signup.button: hover {
+#mc-embed-signup.button:hover {
   background-color: #dfdfdf;
 }
 #mc-embed-signup .clear {
