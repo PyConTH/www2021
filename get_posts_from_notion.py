@@ -43,10 +43,13 @@ lang: %s
             # Handles Code Blocks
             elif content.type == 'code':
                 text = text + '```\n' + content.title + '\n```\n\n'
+            # Handles callouts
+            elif content.type == 'callout':
+                text = text + '> ' + content.title + '\n\n'
             # Handles Images
             elif content.type == 'image':
                 text = text + '![' + content.id + '](' + content.source + ')\n\n'
-            # Handles Bullets
+            # Handles lists
             elif content.type == 'bulleted_list':
                 text = text + '* ' + content.title + '\n'
             elif content.type == 'numbered_list':
