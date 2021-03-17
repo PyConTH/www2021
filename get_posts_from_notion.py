@@ -56,7 +56,7 @@ lang: %s
             elif content.type == 'text':
                 text = text + content.title + '\n\n'
             else:
-                print("Ignoring unknown block", content)
+                print("Ignoring unknown block type", content.type, content)
 
         with open('./content/%s/%s%s.md' % (outdir, page.slug, '-%s'%page.language if page.language else ''), 'w') as page:
             page.write(text)
