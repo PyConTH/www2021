@@ -49,6 +49,8 @@ lang: %s
             # Handles Bullets
             elif content.type == 'bulleted_list':
                 text = text + '* ' + content.title + '\n'
+            elif content.type == 'numbered_list':
+                text = text + '1. ' + content.title + '\n'
             # Handles Dividers
             elif content.type == 'divider':
                 text = text + '---' + '\n\n'
