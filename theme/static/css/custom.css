@@ -58,19 +58,17 @@ padding: 3em;
   display:flex;
   flex-wrap:wrap;
   flex-direction: row;
-  height:100%;
   align-items:flex-start;
 }
 
 
-.team-container section{
+.team-container section#team {
   max-width:1280px;
   margin:0 auto;
   width:100%;
   display:flex;
   flex-wrap:wrap;
   flex-direction: row;
-  height:100%;
   align-items:flex-start;
 }
 .team-container .item{
@@ -108,6 +106,7 @@ padding: 3em;
   display:block;
 }
 .card-front, .card-back, .card-front-v2, .card-back-v2{
+  -webkit-backface-visibility:hidden;
   backface-visibility:hidden;
   transition:.3s;
 }
