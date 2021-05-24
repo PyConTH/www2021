@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Tech WG'
+AUTHORS = 'Tech WG'
 SITENAME = 'PyCon APAC 2021'
 SITEURL = ''
 
