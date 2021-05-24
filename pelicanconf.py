@@ -3,7 +3,11 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Tech WG'
-AUTHORS = 'Tech WG'
+AUTHORS = {"Tech WG": {
+        "url": "https://th.pycon.org/",
+        "blurb": "Website author.",
+        "avatar": "",
+    },}
 SITENAME = 'PyCon APAC 2021'
 SITEURL = ''
 
