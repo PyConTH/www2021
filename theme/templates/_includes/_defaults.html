@@ -87,7 +87,7 @@
 
 {# Author's twitter handle. Used in Twitter card meta data #}
 {% if not TWITTER_USERNAME %}
-{% set TWITTER_USERNAME = '' %}
+{% set TWITTER_USERNAME = '@pyconthailand' %}
 {% else %}
 {% set TWITTER_USERNAME = TWITTER_USERNAME %}
 {% endif %}
@@ -110,7 +110,7 @@ serves as the default image for posts whose featured_image is not set. #}
 {# Description of your site. It is used in meta tags so it will appear in
 search results and social media #}
 {% if not SITE_DESCRIPTION %}
-{% set SITE_DESCRIPTION = '' %}
+{% set SITE_DESCRIPTION = 'PyCon Thailand is proud to be hosting PyCon APAC 2021. The hybrid event will be held on 20 & 21 Nov 2021.' %}
 {% else %}
 {% set SITE_DESCRIPTION = SITE_DESCRIPTION %}
 {% endif %}
@@ -158,7 +158,7 @@ accordingly #}
 {# It is a string
 #}
 {% if not LANDING_PAGE_TITLE %}
-{% set LANDING_PAGE_TITLE = '' %}
+{% set LANDING_PAGE_TITLE = 'PyCon APAC 2021' %}
 {% else %}
 {% set LANDING_PAGE_TITLE = LANDING_PAGE_TITLE %}
 {% endif %}

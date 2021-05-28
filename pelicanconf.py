@@ -33,8 +33,12 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('email', 'contact@pyconthailand.org'),
+          ('facebook', 'https://www.facebook.com/Pyconthailand'), 
+          ('twitter', 'https://twitter.com/pyconthailand'),
+          ('instagram','https://www.instagram.com/pyconthailand/')
+          ('youtube','https://www.youtube.com/pyconthailand')
+          ,)
 
 DEFAULT_PAGINATION = False
 
