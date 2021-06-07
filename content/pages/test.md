@@ -6,7 +6,7 @@ slug: test
 lang: en
 ---
 
-![Homepage](/images/rocket.png "")<br>
+![keynote](/theme/img/keynote-as.png)<br>
 
 # About (Thai version)
 

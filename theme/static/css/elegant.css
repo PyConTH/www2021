@@ -205,7 +205,7 @@ div.recent-posts p {
   text-align: justify;
 }
 .article-content {
-  max-width: 50em;
+  
   margin: 30px 10px;
 }
 .article-content p,
@@ -570,8 +570,13 @@ div.line-block div.line-block {
   font-style: italic;
 }
 /* Use following classes to add floating images to your post */
+.img {
+  max-width: 100%;
+  display: block;
+}
 div.figure,
 .article-content img {
+  max-width: 100%;
   text-align: center;
 }
 div.figure img {
