@@ -30,14 +30,16 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('You can modify those links in your config file', '#'),
+        )
 
 # Social widget
 SOCIAL = (('email', 'contact@pyconthailand.org'),
           ('facebook', 'https://www.facebook.com/Pyconthailand'),
           ('twitter', 'https://twitter.com/pyconthailand'),
-          ('instagram', 'https://www.instagram.com/pyconthailand/')
-          ('youtube', ''))
+          ('instagram','https://www.instagram.com/pyconthailand/'),
+          ('youtube','https://www.youtube.com/pyconthailand'),
+         )
 
 DEFAULT_PAGINATION = False
 
