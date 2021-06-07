@@ -34,11 +34,10 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('email', 'contact@pyconthailand.org'),
-          ('facebook', 'https://www.facebook.com/Pyconthailand'), 
+          ('facebook', 'https://www.facebook.com/Pyconthailand'),
           ('twitter', 'https://twitter.com/pyconthailand'),
-          ('instagram','https://www.instagram.com/pyconthailand/')
-          ('youtube','https://www.youtube.com/pyconthailand')
-          ,)
+          ('instagram', 'https://www.instagram.com/pyconthailand/')
+          ('youtube', ''))
 
 DEFAULT_PAGINATION = False
 
