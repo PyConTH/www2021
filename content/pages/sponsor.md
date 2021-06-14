@@ -308,4 +308,4 @@ talk to us!**
 
 [SPONSORSHIP@PYCONTHAILAND.ORG](mailto:SPONSORSHIP@PYCONTHAILAND.ORG)
 
-## [DOWNLOAD PROSPECTUS](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c656a3a5-7fa4-4dd8-a2f2-353809348178/Pycon_sponsor_prospectus2020v.3-compr.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210607%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210607T094959Z&X-Amz-Expires=86400&X-Amz-Signature=951c3ca78443b99e8c3b8c1f53f816a57ac2c6386a34fced55307ac0fe6a213d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Pycon%2520sponsor%2520prospectus2020v.3-compr.pdf%22)
+## [DOWNLOAD PROSPECTUS](content/pages/Pycon sponsor prospectus2020v.3-com.pdf)
