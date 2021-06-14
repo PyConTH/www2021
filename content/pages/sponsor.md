@@ -308,4 +308,4 @@ talk to us!**
 
 [SPONSORSHIP@PYCONTHAILAND.ORG](mailto:SPONSORSHIP@PYCONTHAILAND.ORG)
 
-## [DOWNLOAD PROSPECTUS](/pages/Pycon sponsor prospectus2020v.3-com.pdf)
+## [DOWNLOAD PROSPECTUS](https://github.com/PyConTH/www2021/raw/master/content/pages/Pycon%20sponsor%20prospectus2020v.3-com.pdf)
