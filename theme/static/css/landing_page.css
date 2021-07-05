@@ -403,8 +403,7 @@ figure.keynote.hover img {
   padding-top: 80px;
   padding-bottom: 60px;
   background-color: #021250;
-  border-top: 3em solid;
-  border-color: #fe1a11;
+  
 }
 .sponsor-list {
   flex-wrap: wrap;
