@@ -17,8 +17,8 @@ Participants will be able to choose to participate either in person or virtually
 ## __*In-person Participation*__
 Participants attending the event in-person will benefit mostly from the high level of interaction, numerous networking opportunities and social programme. You get the chance to chat in person to the speakers, chairpersons and other attendees that have an expertise and interest in the same areas as you. Meet them in the discussion rooms, during coffee or lunch breaks, or simply by chance the hallways.
 
-You can also take a break in our retreat room if the talks are weighing too much. 
-<!-- The event is held in True Digital Park where there is plenty of space, convenient restaurants and shops not forgetting plenty cafes around the vicinity. Outside of conference hours, you can also explore the beautiful city of Bangkok. Read more about it here. -->
+You can also take a break in our retreat room if the talks are weighing too much. Outside of conference hours, you can also explore the beautiful city of Bangkok. Read more about it here.
+<!-- The event is held in True Digital Park where there is plenty of space, convenient restaurants and shops not forgetting plenty cafes around the vicinity.  -->
 
 We will take additional measures for hygiene and social distancing to ensure a safe and comfortable experience.
 
