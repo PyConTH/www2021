@@ -1,8 +1,8 @@
 ---
 title: About the Conference
-date: 2020-02-09 02:45:07.082000
-summary: How will the conference run?
-slug: the-conference
+date: 2020-06-09 02:45:07.082000
+summary: 
+slug: conference
 lang: en
 ---
 
