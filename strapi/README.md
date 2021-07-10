@@ -14,3 +14,12 @@ npm i -g yarn
 # macOS
 brew tap heroku/brew && brew install heroku
 ```
+
+## Manual Deployment
+At the root dir of the project
+
+```
+make deploy-strapi
+```
+
+For more detail please see: [strapi heroku deployment](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/deployment/hosting-guides/heroku.html)
