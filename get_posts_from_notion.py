@@ -43,12 +43,17 @@ lang: %s
             # Handles Code Blocks
             elif content.type == 'code':
                 text = text + '```\n' + content.title + '\n```\n\n'
+            # Handles callouts
+            elif content.type == 'callout':
+                text = text + '> ' + content.title + '\n\n'
             # Handles Images
             elif content.type == 'image':
                 text = text + '![' + content.id + '](' + content.source + ')\n\n'
-            # Handles Bullets
+            # Handles lists
             elif content.type == 'bulleted_list':
                 text = text + '* ' + content.title + '\n'
+            elif content.type == 'numbered_list':
+                text = text + '1. ' + content.title + '\n'
             # Handles Dividers
             elif content.type == 'divider':
                 text = text + '---' + '\n\n'
@@ -56,7 +61,7 @@ lang: %s
             elif content.type == 'text':
                 text = text + content.title + '\n\n'
             else:
-                print("Ignoring unknown block", content)
+                print("Ignoring unknown block type", content.type, content)
 
         with open('./content/%s/%s%s.md' % (outdir, page.slug, '-%s'%page.language if page.language else ''), 'w') as page:
             page.write(text)

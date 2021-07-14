@@ -1,3 +1,4 @@
-notion
+# notion
+git+https://github.com/jean/notion-py#egg=notion
 Markdown
 pelican
