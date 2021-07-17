@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "sponsors",
+  "collectionName": "code_of_conducts",
   "info": {
-    "name": "sponsor",
-    "description": ""
+    "name": "code_of_conduct"
   },
   "options": {
     "increments": true,
@@ -15,10 +14,7 @@
     "markdown_content": {
       "type": "richtext"
     },
-    "markdown_content_th": {
-      "type": "richtext"
-    },
-    "markdown_content_id": {
+    "mark_content_th": {
       "type": "richtext"
     }
   }
