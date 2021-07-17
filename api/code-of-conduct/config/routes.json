@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/code-of-conducts",
+      "handler": "code-of-conduct.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/code-of-conducts/count",
+      "handler": "code-of-conduct.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/code-of-conducts/:id",
+      "handler": "code-of-conduct.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/code-of-conducts",
+      "handler": "code-of-conduct.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/code-of-conducts/:id",
+      "handler": "code-of-conduct.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/code-of-conducts/:id",
+      "handler": "code-of-conduct.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
