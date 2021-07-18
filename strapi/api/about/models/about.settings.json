@@ -1,5 +1,5 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "abouts",
   "info": {
     "name": "about",
@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "markdown_content": {
+    "markdown_content_en": {
       "type": "richtext"
     },
     "markdown_content_th": {

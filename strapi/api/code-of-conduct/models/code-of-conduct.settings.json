@@ -1,8 +1,9 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "code_of_conducts",
   "info": {
-    "name": "code_of_conduct"
+    "name": "code_of_conduct",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "markdown_content": {
+    "markdown_content_en": {
       "type": "richtext"
     },
-    "mark_content_th": {
+    "markdown_content_th": {
       "type": "richtext"
     }
   }

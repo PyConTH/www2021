@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "sponsors",
+  "collectionName": "covid_19s",
   "info": {
-    "name": "sponsor",
+    "name": "covid_19",
     "description": ""
   },
   "options": {

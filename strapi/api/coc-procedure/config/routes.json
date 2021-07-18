@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/sponsor",
-      "handler": "sponsor.find",
+      "path": "/coc-procedure",
+      "handler": "coc-procedure.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/sponsor",
-      "handler": "sponsor.update",
+      "path": "/coc-procedure",
+      "handler": "coc-procedure.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/sponsor",
-      "handler": "sponsor.delete",
+      "path": "/coc-procedure",
+      "handler": "coc-procedure.delete",
       "config": {
         "policies": []
       }

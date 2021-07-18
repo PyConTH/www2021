@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "sponsors",
+  "collectionName": "speaker_advises",
   "info": {
-    "name": "sponsor",
+    "name": "speaker_advice",
     "description": ""
   },
   "options": {

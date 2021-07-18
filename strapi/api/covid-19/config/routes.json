@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/sponsor",
-      "handler": "sponsor.find",
+      "path": "/covid-19",
+      "handler": "covid-19.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/sponsor",
-      "handler": "sponsor.update",
+      "path": "/covid-19",
+      "handler": "covid-19.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/sponsor",
-      "handler": "sponsor.delete",
+      "path": "/covid-19",
+      "handler": "covid-19.delete",
       "config": {
         "policies": []
       }
