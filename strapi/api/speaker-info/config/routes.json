@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/spreaker-info",
+      "path": "/speaker-info",
       "handler": "spreaker-info.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "PUT",
-      "path": "/spreaker-info",
+      "path": "/speaker-info",
       "handler": "spreaker-info.update",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/spreaker-info",
+      "path": "/speaker-info",
       "handler": "spreaker-info.delete",
       "config": {
         "policies": []
