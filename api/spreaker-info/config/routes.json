@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/spreaker-info",
+      "handler": "spreaker-info.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/spreaker-info",
+      "handler": "spreaker-info.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/spreaker-info",
+      "handler": "spreaker-info.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

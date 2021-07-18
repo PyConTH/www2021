@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/speaker-advice",
+      "handler": "speaker-advice.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/speaker-advice",
+      "handler": "speaker-advice.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/speaker-advice",
+      "handler": "speaker-advice.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
