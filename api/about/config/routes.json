@@ -2,39 +2,15 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/abouts",
+      "path": "/about",
       "handler": "about.find",
       "config": {
         "policies": []
       }
     },
     {
-      "method": "GET",
-      "path": "/abouts/count",
-      "handler": "about.count",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
-      "path": "/abouts/:id",
-      "handler": "about.findOne",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/abouts",
-      "handler": "about.create",
-      "config": {
-        "policies": []
-      }
-    },
-    {
       "method": "PUT",
-      "path": "/abouts/:id",
+      "path": "/about",
       "handler": "about.update",
       "config": {
         "policies": []
@@ -42,7 +18,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/abouts/:id",
+      "path": "/about",
       "handler": "about.delete",
       "config": {
         "policies": []

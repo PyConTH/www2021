@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/sponsor",
-      "handler": "sponsor.find",
+      "path": "/the-conference",
+      "handler": "the-conference.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/sponsor",
-      "handler": "sponsor.update",
+      "path": "/the-conference",
+      "handler": "the-conference.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/sponsor",
-      "handler": "sponsor.delete",
+      "path": "/the-conference",
+      "handler": "the-conference.delete",
       "config": {
         "policies": []
       }

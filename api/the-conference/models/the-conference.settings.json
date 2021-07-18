@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "sponsors",
+  "collectionName": "the_conferences",
   "info": {
-    "name": "sponsor",
-    "description": ""
+    "name": "the_conference"
   },
   "options": {
     "increments": true,

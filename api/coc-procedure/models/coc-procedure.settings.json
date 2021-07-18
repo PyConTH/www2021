@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "sponsors",
+  "collectionName": "coc_procedures",
   "info": {
-    "name": "sponsor",
+    "name": "coc_procedure",
     "description": ""
   },
   "options": {
