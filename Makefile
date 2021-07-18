@@ -89,11 +89,11 @@ strapi/download-code-of-conduct:
 strapi/download-covid-19:
 	python3 get_content_from_strapi.py covid-19 https://fathomless-spire-00212.herokuapp.com/covid-19
 
-strapi/download-speaker-advice:
-	python3 get_content_from_strapi.py speaker-advice https://fathomless-spire-00212.herokuapp.com/speaker-advice
+strapi/download-speakers-advice:
+	python3 get_content_from_strapi.py speakers-advice https://fathomless-spire-00212.herokuapp.com/speakers-advice
 
-strapi/download-speaker-info:
-	python3 get_content_from_strapi.py speaker-info https://fathomless-spire-00212.herokuapp.com/speaker-info
+strapi/download-speakers-info:
+	python3 get_content_from_strapi.py speakers-info https://fathomless-spire-00212.herokuapp.com/speakers-info
 
 strapi/download-sponsor:
 	python3 get_content_from_strapi.py sponsor https://fathomless-spire-00212.herokuapp.com/sponsor
@@ -103,7 +103,7 @@ strapi/download-the-conference:
 
 # Download all content from Strapi
 strapi/download: strapi/download-sponsor strapi/download-about strapi/download-coc-procedure
-strapi/download: strapi/download-code-of-conduct strapi/download-covid-19 strapi/download-speaker-advice
-strapi/download: strapi/download-speaker-info strapi/download-sponsor strapi/download-the-conference
+strapi/download: strapi/download-code-of-conduct strapi/download-covid-19 strapi/download-speakers-advice
+strapi/download: strapi/download-speakers-info strapi/download-sponsor strapi/download-the-conference
 
 .PHONY: html help clean regenerate serve serve-global devserver publish

@@ -1,23 +1,27 @@
 import requests
+from requests.exceptions import HTTPError
 import sys
 
-def download_content(api_url, filename, resource_name):
-  print(f'downloading {resource_name} page...')
-  page = requests.get(api_url).json()
-  file = open(f'./content/pages/{filename}.md', 'w')
-  file.write(page['markdown_content'])
-  file.close()
-  print('done')
+def download_content(resource_name, api_url):
+  try:
+    print(f'downloading {resource_name} page...')
+    resp = requests.get(api_url)
+    resp.raise_for_status()
 
-# DEV mode does not need to provide args
-URL="http://localhost:1337"
-if (len(str(sys.argv)) == 1):
-  URL=str(sys.argv[0])
+    page = resp.json()
+    file_en = open(f'./content/pages/{resource_name}-en.md', 'w')
+    file_en.write(page['markdown_content_en'])
+    file_en.close()
+    if page['markdown_content_th']:
+      file_th = open(f'./content/pages/{resource_name}-th.md', 'w')
+      file_th.write(page['markdown_content_th'])
+      file_th.close()
+  except HTTPError as http_err: 
+    print(f'HTTP error: {http_err}')
 
-page_metas = [
-  {"url": f'{URL}/sponsors/1', "filename": "sponsor", "resource_name": "sponsor"},
-  {"url": f'{URL}/abouts/1', "filename": "about-th", "resource_name": "about"}
-]
-
-for meta in page_metas:
-  download_content(meta["url"], meta["filename"], meta["resource_name"])
+if (len(sys.argv) == 3):
+  resource_name=str(sys.argv[1])
+  api_url=str(sys.argv[2])
+  download_content(resource_name, api_url)
+else:
+  print('invalid args try: python3 get_content_from_strapy.py <page-name> <strapi-api-endpoint-url>')
