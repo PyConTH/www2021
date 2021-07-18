@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/spreaker-info",
-      "handler": "spreaker-info.find",
+      "path": "/speaker-info",
+      "handler": "speaker-info.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/spreaker-info",
-      "handler": "spreaker-info.update",
+      "path": "/speaker-info",
+      "handler": "speaker-info.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/spreaker-info",
-      "handler": "spreaker-info.delete",
+      "path": "/speaker-info",
+      "handler": "speaker-info.delete",
       "config": {
         "policies": []
       }
