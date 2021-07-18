@@ -102,7 +102,7 @@ strapi/download-the-conference:
 	python3 get_content_from_strapi.py the-conference https://fathomless-spire-00212.herokuapp.com/the-conference
 
 # Download all content from Strapi
-strapi/download: strapi/sponsor-download strapi/download-about strapi/download-coc-procedure
+strapi/download: strapi/download-sponsor strapi/download-about strapi/download-coc-procedure
 strapi/download: strapi/download-code-of-conduct strapi/download-covid-19 strapi/download-speaker-advice
 strapi/download: strapi/download-speaker-info strapi/download-sponsor strapi/download-the-conference
 
