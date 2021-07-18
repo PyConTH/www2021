@@ -77,4 +77,10 @@ TODO
 
 # Strapi
 
+Download content from strapi:
+
+```
+make strapi/download
+```
+
 See [README.md](strapi/README.md)
