@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/speaker-advice",
-      "handler": "speaker-advice.find",
+      "path": "/speakers-advice",
+      "handler": "speakers-advice.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/speaker-advice",
-      "handler": "speaker-advice.update",
+      "path": "/speakers-advice",
+      "handler": "speakers-advice.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/speaker-advice",
-      "handler": "speaker-advice.delete",
+      "path": "/speakers-advice",
+      "handler": "speakers-advice.delete",
       "config": {
         "policies": []
       }

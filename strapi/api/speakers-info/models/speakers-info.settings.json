@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "speaker_infos",
+  "collectionName": "speakers_infos",
   "info": {
-    "name": "speaker_info"
+    "name": "speakers_info"
   },
   "options": {
     "increments": true,

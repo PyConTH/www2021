@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "speaker_advices",
+  "collectionName": "speakers_advices",
   "info": {
-    "name": "speaker_advice"
+    "name": "speakers_advice"
   },
   "options": {
     "increments": true,
