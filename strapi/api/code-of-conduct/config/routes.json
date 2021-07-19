@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/code-of-conduct",
+      "handler": "code-of-conduct.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/code-of-conduct",
+      "handler": "code-of-conduct.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/code-of-conduct",
+      "handler": "code-of-conduct.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

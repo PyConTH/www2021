@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "coc_procedures",
+  "info": {
+    "name": "coc_procedure",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "markdown_content_en": {
+      "type": "richtext"
+    },
+    "markdown_content_th": {
+      "type": "richtext"
+    }
+  }
+}

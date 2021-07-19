@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "code_of_conducts",
+  "info": {
+    "name": "code_of_conduct",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "markdown_content_en": {
+      "type": "richtext"
+    },
+    "markdown_content_th": {
+      "type": "richtext"
+    }
+  }
+}

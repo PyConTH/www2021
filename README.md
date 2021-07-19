@@ -74,3 +74,13 @@ Grab the API key from your browser session (see https://github.com/jamalex/notio
 TODO
 
 - Setup automatic sync.
+
+# Strapi
+
+Download content from strapi:
+
+```
+make strapi/download
+```
+
+See [README.md](strapi/README.md)

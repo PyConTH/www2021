@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/coc-procedure",
+      "handler": "coc-procedure.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/coc-procedure",
+      "handler": "coc-procedure.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/coc-procedure",
+      "handler": "coc-procedure.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

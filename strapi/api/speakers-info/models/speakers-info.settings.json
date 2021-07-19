@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "speakers_infos",
+  "info": {
+    "name": "speakers_info"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "markdown_content_en": {
+      "type": "richtext"
+    },
+    "markdown_content_th": {
+      "type": "richtext"
+    }
+  }
+}

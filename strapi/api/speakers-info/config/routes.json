@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/speakers-info",
+      "handler": "speakers-info.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/speakers-info",
+      "handler": "speakers-info.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/speakers-info",
+      "handler": "speakers-info.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

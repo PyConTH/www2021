@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/the-conference",
+      "handler": "the-conference.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/the-conference",
+      "handler": "the-conference.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/the-conference",
+      "handler": "the-conference.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

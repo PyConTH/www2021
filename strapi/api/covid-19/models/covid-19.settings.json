@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "covid_19s",
+  "info": {
+    "name": "covid_19",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "markdown_content_en": {
+      "type": "richtext"
+    },
+    "markdown_content_th": {
+      "type": "richtext"
+    }
+  }
+}

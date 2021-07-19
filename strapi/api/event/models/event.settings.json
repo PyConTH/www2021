@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "events",
+  "info": {
+    "name": "event"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "markdown_content_en": {
+      "type": "richtext"
+    },
+    "markdown_content_th": {
+      "type": "richtext"
+    }
+  }
+}
