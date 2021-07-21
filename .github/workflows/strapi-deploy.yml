@@ -1,0 +1,19 @@
+name: Deploy Strapi to Heroku
+
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: CDNievas/heroku-action@v1.0
+        with:
+          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+          heroku_email: ${{ secrets.HEROKU_EMAIL }} 
+          heroku_app_name: pyconth-strapi
+          appdir: strapi
