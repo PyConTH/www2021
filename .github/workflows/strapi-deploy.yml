@@ -4,13 +4,17 @@ on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: [ master ]
+    paths:
+    - "strapi/*"
   pull_request:
     branches: [ master ]
+    paths:
+    - "strapi/*"
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
+      - uses: actions/checkout@v2
       - uses: CDNievas/heroku-action@v1.0
         with:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
