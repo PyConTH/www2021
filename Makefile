@@ -78,28 +78,28 @@ strapi/deploy:
 	git subtree push --prefix strapi heroku main
 
 strapi/download-about:
-	python3 get_content_from_strapi.py about https://fathomless-spire-00212.herokuapp.com/about
+	python3 get_content_from_strapi.py about https://pyconth-strapi.herokuapp.com/about
 
 strapi/download-coc-procedure:
-	python3 get_content_from_strapi.py coc-procedure https://fathomless-spire-00212.herokuapp.com/coc-procedure
+	python3 get_content_from_strapi.py coc-procedure https://pyconth-strapi.herokuapp.com/coc-procedure
 
 strapi/download-code-of-conduct:
-	python3 get_content_from_strapi.py code-of-conduct https://fathomless-spire-00212.herokuapp.com/code-of-conduct
+	python3 get_content_from_strapi.py code-of-conduct https://pyconth-strapi.herokuapp.com/code-of-conduct
 
 strapi/download-covid-19:
-	python3 get_content_from_strapi.py covid-19 https://fathomless-spire-00212.herokuapp.com/covid-19
+	python3 get_content_from_strapi.py covid-19 https://pyconth-strapi.herokuapp.com/covid-19
 
 strapi/download-speakers-advice:
-	python3 get_content_from_strapi.py speakers-advice https://fathomless-spire-00212.herokuapp.com/speakers-advice
+	python3 get_content_from_strapi.py speakers-advice https://pyconth-strapi.herokuapp.com/speakers-advice
 
 strapi/download-speakers-info:
-	python3 get_content_from_strapi.py speakers-info https://fathomless-spire-00212.herokuapp.com/speakers-info
+	python3 get_content_from_strapi.py speakers-info https://pyconth-strapi.herokuapp.com/speakers-info
 
 strapi/download-sponsor:
-	python3 get_content_from_strapi.py sponsor https://fathomless-spire-00212.herokuapp.com/sponsor
+	python3 get_content_from_strapi.py sponsor https://pyconth-strapi.herokuapp.com/sponsor
 
 strapi/download-the-conference:
-	python3 get_content_from_strapi.py the-conference https://fathomless-spire-00212.herokuapp.com/the-conference
+	python3 get_content_from_strapi.py the-conference https://pyconth-strapi.herokuapp.com/the-conference
 
 # Download all content from Strapi
 strapi/download: strapi/download-sponsor strapi/download-about strapi/download-coc-procedure
