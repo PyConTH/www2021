@@ -9,7 +9,7 @@
     "browser-sync": "^2.26.7",
     "cz-conventional-changelog": "2.1.0",
     "gulp": "^4.0.2",
-    "semantic-release": "^15.13.18"
+    "semantic-release": "^17.2.3"
   },
   "config": {
     "commitizen": {
