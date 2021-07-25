@@ -23,6 +23,7 @@ brew tap heroku/brew && brew install heroku
 
 - [Strapi Docs](https://strapi.io/documentation/user-docs/latest/getting-started/introduction.html)
 
+Please contact [@vtno](https://github.com/vtno), [@georgically](https://github.com/georgically) or [@jean](https://github.com/jean)  to get access to the Strapi admin panel.
 
 ## Manual Deployment
 At the root dir of the project
@@ -33,4 +34,4 @@ make deploy-strapi
 
 For more detail please see: [strapi heroku deployment](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/deployment/hosting-guides/heroku.html)
 
-Please contact tino@vtno.me to get access to the Heroku app.
+Please contact [@vtno](https://github.com/vtno) to get access to the Heroku app.
