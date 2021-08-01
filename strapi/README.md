@@ -29,7 +29,7 @@ Please contact [@vtno](https://github.com/vtno), [@georgically](https://github.c
 At the root dir of the project
 
 ```
-make deploy-strapi
+make strapi/deploy
 ```
 
 For more detail please see: [strapi heroku deployment](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/deployment/hosting-guides/heroku.html)
