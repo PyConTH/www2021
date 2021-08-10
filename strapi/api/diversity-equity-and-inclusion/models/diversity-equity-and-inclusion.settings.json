@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "diversity_equity_and_inclusions",
+  "info": {
+    "name": "Diversity_equity_and_inclusion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "markdown_content_en": {
+      "type": "richtext"
+    },
+    "markdown_content_th": {
+      "type": "richtext"
+    }
+  }
+}
