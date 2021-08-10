@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/volunteer",
+      "handler": "volunteer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/volunteer",
+      "handler": "volunteer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/volunteer",
+      "handler": "volunteer.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
