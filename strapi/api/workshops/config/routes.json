@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/workshops",
+      "handler": "workshops.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/workshops",
+      "handler": "workshops.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/workshops",
+      "handler": "workshops.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
