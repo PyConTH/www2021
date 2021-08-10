@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sprints",
+      "handler": "sprints.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sprints",
+      "handler": "sprints.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sprints",
+      "handler": "sprints.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
