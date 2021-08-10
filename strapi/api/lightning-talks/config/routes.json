@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/lightning-talks",
+      "handler": "lightning-talks.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/lightning-talks",
+      "handler": "lightning-talks.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/lightning-talks",
+      "handler": "lightning-talks.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
