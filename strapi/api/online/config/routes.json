@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/online",
+      "handler": "online.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/online",
+      "handler": "online.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/online",
+      "handler": "online.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

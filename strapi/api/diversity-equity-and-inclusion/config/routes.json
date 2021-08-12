@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/diversity-equity-and-inclusion",
+      "handler": "diversity-equity-and-inclusion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/diversity-equity-and-inclusion",
+      "handler": "diversity-equity-and-inclusion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/diversity-equity-and-inclusion",
+      "handler": "diversity-equity-and-inclusion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

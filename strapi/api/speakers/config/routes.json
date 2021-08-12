@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/speakers",
+      "handler": "speakers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/speakers",
+      "handler": "speakers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/speakers",
+      "handler": "speakers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
