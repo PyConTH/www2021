@@ -75,7 +75,7 @@ publish:
 # Strapi #
 
 strapi/deploy:
-	git subtree push --prefix strapi heroku main
+	git subtree push --prefix strapi origin main
 
 strapi/download-about:
 	python3 get_content_from_strapi.py about https://pyconth-strapi.herokuapp.com/about
