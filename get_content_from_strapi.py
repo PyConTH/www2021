@@ -19,7 +19,7 @@ def download_content(resource_name, api_url):
   except HTTPError as http_err: 
     print(f'HTTP error: {http_err}')
 
-# add new page name here after you add a new content type on Strapi
+# Add new page name here after you add a new content type on Strapi
 page_names = [
   'about',
   'coc-procedure',
