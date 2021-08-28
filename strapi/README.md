@@ -63,6 +63,8 @@ curl https://pyconth-strapi.herokuapp.com/faq
 curl https://pyconth-strapi.herokuapp.com/about
 ```
 
+To make the website aware of the change, add your page name in: https://github.com/PyConTH/www2021/blob/master/get_content_from_strapi.py then trigger the deployment to Netlify.
+
 ## Manual Deployment
 At the root dir of the project
 
