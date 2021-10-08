@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title>Schedule</title>
+
+    <meta name="slug" content="team" />
+  </head>
+  <body>
+    <div class="schedule-grid">
+      <div class="schedule-grid-header">Time</div>
+      <div class="schedule-grid-header">Track 1</div>
+      <div class="schedule-grid-header">Track 2</div>
+      <div class="schedule-grid-header">Track 3</div>
+
+      <div class="schedule-seperator"></div>
+
+      <div>09:00</div>
+
+      <div class="schedule-card-wrapper">
+        <div class="schedule-card">
+          <div><b>Chomtana Chanjaraswichai</b></div>
+          <div>Hack the web with python</div>
+
+          
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .schedule-grid {
+        display: grid;
+        grid-template-columns: 70px 1fr 1fr 1fr;
+
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      }
+
+      .schedule-grid-header {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.1rem;
+      }
+
+      .schedule-seperator {
+        grid-column: 1 / span 4;
+        border-bottom: 1px solid grey;
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+
+      .schedule-card-wrapper {
+        width: 100%;
+        height: 100%;
+
+        padding: 8px;
+      }
+
+      .schedule-card {
+        background-color: deeppink;
+        width: 100%;
+        height: 100%;
+
+        -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4); 
+        box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+
+        padding: 16px;
+
+        color: white;
+      }
+    </style>
+  </body>
+</html>
