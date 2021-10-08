@@ -174,7 +174,7 @@ padding: 3em;
 .speakers {
   flex-wrap: wrap;
   display: flex;
-  width:100%
+  width:100%;
   flex-direction: row;
   min-width: 200px;
   justify-content: center;
@@ -185,7 +185,6 @@ padding: 3em;
   background-color: #021250;
 
 
-  
 }
 
 .card-text {
