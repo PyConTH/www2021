@@ -5,32 +5,62 @@
     <meta name="slug" content="team" />
   </head>
   <body>
-    <div class="schedule-grid">
-      <div class="schedule-grid-header">Time</div>
-      <div class="schedule-grid-header">Track 1</div>
-      <div class="schedule-grid-header">Track 2</div>
-      <div class="schedule-grid-header">Track 3</div>
+    <div class="schedule-table">
+      <div class="schedule-table-time">
+        <div>09:00</div>
+        <div>09:30</div>
+      </div>
 
-      <div class="schedule-seperator"></div>
-
-      <div>09:00</div>
-
-      <div class="schedule-card-wrapper">
+      <div class="schedule-grid">
         <div class="schedule-card">
-          <div><b>Chomtana Chanjaraswichai</b></div>
-          <div>Hack the web with python</div>
+          <div class="v-sign">v</div>
 
+          <div><b>Chomtana Chanjaraswichai</b></div>
+          <div style="margin-bottom: 2px;">Chulalongkorn University</div>
+          <div>Hack the web with python</div>
           
+          <div class="schedule-join">
+            <a href="https://zoom.us" target="blank">Join now</a>
+          </div>
+
+          <div class="schedule-card-hidden">
+            <div class="schedule-card-hidden-engine">
+              <div>Saturday 15th June</div>
+  
+              <div style="margin-top: 12px;">
+                <div><b>Description:</b></div>
+                <div>Hello world</div>
+              </div>
+  
+              <div style="margin-top: 12px;">
+                <div><b>Bio:</b></div>
+                <div>Hello world</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <style>
+      .schedule-table {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        display: flex;
+      }
+
+      .schedule-table-time {
+        flex-basis: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 16px;
+      }
+
       .schedule-grid {
         display: grid;
-        grid-template-columns: 70px 1fr 1fr 1fr;
-
-        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        grid-template-columns: 1fr 1fr;
+        column-gap: 12px;
+        width: 100%;
       }
 
       .schedule-grid-header {
@@ -46,13 +76,6 @@
         margin-bottom: 8px;
       }
 
-      .schedule-card-wrapper {
-        width: 100%;
-        height: 100%;
-
-        padding: 8px;
-      }
-
       .schedule-card {
         background-color: deeppink;
         width: 100%;
@@ -61,10 +84,73 @@
         -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4); 
         box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
 
-        padding: 16px;
+        padding: 12px;
 
         color: white;
+
+        transition: opacity 0.2s;
+      }
+
+      .schedule-card:hover {
+        opacity: 0.85;
+        cursor: pointer;
+      }
+
+      .schedule-card-hidden {
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+
+      .schedule-card-hidden.active {
+        opacity: 1;
+      }
+
+      .schedule-card-hidden-engine {
+        display: none;
+        padding-top: 16px;
+      }
+
+      .schedule-card-hidden.active .schedule-card-hidden-engine {
+        display: block;
+      }
+
+      .v-sign {
+        float: right;
+        transform: scaleX(2);
+        margin-top: -3px;
+        margin-right: 5px;
+      }
+
+      .schedule-join {
+        margin-top: 4px;
+      }
+
+      a {
+        color: white;
+        text-decoration: underline;
+      }
+
+      a:hover {
+        color: rgba(255,255,255,0.8);
       }
     </style>
+
+    <script>
+      function initCardHidden() {
+        document.querySelectorAll('.schedule-card').forEach(element => {
+          element.addEventListener('click', () => {
+            let hidden = element.querySelector('.schedule-card-hidden');
+            console.log('CLICK')
+            if (hidden.classList.contains('active')) {
+              hidden.classList.remove('active');
+            } else {
+              hidden.classList.add('active');
+            }
+          })
+        })
+      }
+
+      initCardHidden();
+    </script>
   </body>
 </html>
