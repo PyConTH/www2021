@@ -156,14 +156,14 @@ padding: 3em;
 
   .team-card-title {
     display:inline-block;
-    font-size: 18px; 
+    font-size: 16px; 
     margin: 5px 0px;
     color:#29f0ff; 
     }
 
     .team-card-text{
     display:block;
-    font-size: 16px; 
+    font-size: 12px; 
     margin: 5px 0px;
     color:white; 
     }
@@ -172,11 +172,23 @@ padding: 3em;
 /* Other Speakers*/
 
 .speakers {
-  padding-left: 15px;
-  padding-right: 15px;
+  flex-wrap: wrap;
+  display: flex;
+  width:100%;
+  flex-direction: row;
+  min-width: 200px;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #021250;
+
+
+}
+
+.card-text {
+  font-size: 0.8rem;
 }
 
 .speakers-sm {
@@ -187,8 +199,11 @@ color:#29f0ff;
 
 .speakers .card {
   width: auto;
+  min-width: 200px;
+  max-width: 250px;
   display: block;
-  margin-left: 2rem;
+  margin:0 auto;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
   transition: .4s;
@@ -279,5 +294,5 @@ color:#29f0ff;
 .about-contact {
   padding: 80px 0;
   background-color: #021250;
-  color:white
+  color:#9d9292
 }
