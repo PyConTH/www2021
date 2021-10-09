@@ -86,7 +86,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/susanshuchang.jpg",
+            "img": "/theme/img/speakers/susanshuchang.jpg",
             "name": "Susan Shu Chang",
             "pronoun": "She/Her",
             "country": "Canada",
@@ -95,7 +95,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/TonyaSims.jpg",
+            "img": "/theme/img/speakers/TonyaSims.jpg",
             "name": "Tonya Sims",
             "pronoun": "She/Her",
             "country": "USA",
@@ -105,7 +105,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/AnthonyShaw.jpg",
+            "img": "/theme/img/speakers/AnthonyShaw.jpg",
             "name": "Anthony Shaw",
             "pronoun": "He/Him",
             "country": "Australia",
@@ -115,7 +115,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/pratibhajagnere.jpg",
+            "img": "/theme/img/speakers/pratibhajagnere.jpg",
             "name": "Pratibha",
             "pronoun": "She/Her",
             "country": "India",
@@ -124,7 +124,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/MattLebrun.jpg",
+            "img": "/theme/img/speakers/MattLebrun.jpg",
             "name": "Matt Lebrun",
             "pronoun": "He/Him",
             "country": "Philippines",
@@ -135,7 +135,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/TusharBansal.jpg",
+            "img": "/theme/img/speakers/TusharBansal.jpg",
             "name": "Tushar Bansal",
             "pronoun": "He/Him",
             "country": "India",
@@ -144,7 +144,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/novialistiyani.jpg",
+            "img": "/theme/img/speakers/novialistiyani.jpg",
             "name": "Novia L Wirhaspati",
             "pronoun": "She/Her",
             "country": "Indonesia",
@@ -153,7 +153,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/NaomiCeder.jpg",
+            "img": "/theme/img/speakers/NaomiCeder.jpg",
             "name": "Naomi Ceder",
             "pronoun": "She/Her",
             "country": "USA",
@@ -163,7 +163,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/YothinMuangsommuk.jpg",
+            "img": "/theme/img/speakers/YothinMuangsommuk.jpg",
             "name": "Yothin Muangsommuk ",
             "pronoun": "He/Him",
             "country": "Thailand",
@@ -174,7 +174,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/kirchou.jpg",
+            "img": "/theme/img/speakers/kirchou.jpg",
             "name": "Kir Chou ",
             "pronoun": "-",
             "country": "Taiwan",
@@ -183,7 +183,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/IsabelaMoreira.JPG",
+            "img": "/theme/img/speakers/IsabelaMoreira.JPG",
             "name": "Isabela Moreira",
             "pronoun": "She/Her",
             "country": "USA",
@@ -193,7 +193,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/ScottyKwok.jpg",
+            "img": "/theme/img/speakers/ScottyKwok.jpg",
             "name": "Scotty Kwok",
             "pronoun": "He/Him",
             "country": "Hong Kong",
@@ -203,7 +203,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/DrCherHanLau.jpg",
+            "img": "/theme/img/speakers/DrCherHanLau.jpg",
             "name": "Dr. Lau Cher Han",
             "pronoun": "He/Him",
             "country": "Malaysia",
@@ -214,7 +214,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/NeerajPandey.jpg",
+            "img": "/theme/img/speakers/NeerajPandey.jpg",
             "name": "Neeraj Pandey",
             "pronoun": "He/Him",
             "country": "India",
@@ -224,7 +224,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/GrimmerKang.jpg",
+            "img": "/theme/img/speakers/GrimmerKang.jpg",
             "name": "Grimmer Kang",
             "name2": "康登傑",
             "pronoun": "He/Him",
@@ -234,7 +234,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/DimaDinama.JPG",
+            "img": "/theme/img/speakers/DimaDinama.JPG",
             "name": "Dima Maharika Dinama",
             "pronoun": "He/Him",
             "country": "Indonesia",
@@ -245,7 +245,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/KatieMcLaughlin.jpg",
+            "img": "/theme/img/speakers/KatieMcLaughlin.jpg",
             "name": "Katie McLaughlin",
             "pronoun": "She/Her",
             "country": "Australia",
@@ -256,7 +256,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/DiogPascua.jpg",
+            "img": "/theme/img/speakers/DiogPascua.jpg",
             "name": "Diogenes Armando Pascua",
             "pronoun": "He/Him",
             "country": "Philippines",
@@ -264,7 +264,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/IvyFung.jpg",
+            "img": "/theme/img/speakers/IvyFung.jpg",
             "name": "Ivy Fung",
             "pronoun": "She/Her",
             "country": "Malaysia",
@@ -275,7 +275,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/gajendra.jpg",
+            "img": "/theme/img/speakers/gajendra.jpg",
             "name": "Gajendra Deshpande",
             "pronoun": "He/Him",
             "country": "India",
@@ -285,7 +285,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/wujingjing.jpg",
+            "img": "/theme/img/speakers/wujingjing.jpg",
             "name": "Wu Jing Jing",
             "name2": "吴京京",
             "pronoun": "He/Him",
@@ -294,7 +294,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/KanisornSutham.jpg",
+            "img": "/theme/img/speakers/KanisornSutham.jpg",
             "name": "Kanisorn Sutham",
             "pronoun": "He/Him",
             "country": "Thailand",
@@ -304,7 +304,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/ArvsLat.jpg",
+            "img": "/theme/img/speakers/ArvsLat.jpg",
             "name": "Joshua Arvin Lat",
             "pronoun": "He/Him",
             "country": "Philippines",
@@ -314,7 +314,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/JiwonKim.jpg",
+            "img": "/theme/img/speakers/JiwonKim.jpg",
             "name": "Jiwon Kim",
             "pronoun": "She/Her",
             "country": "Korea",
@@ -323,7 +323,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/peacock.jpg",
+            "img": "/theme/img/speakers/peacock.jpg",
             "name": "Peacock",
             "pronoun": "He/Him",
             "country": "Japan",
@@ -334,7 +334,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/Anthony-Khong.jpg",
+            "img": "/theme/img/speakers/Anthony-Khong.jpg",
             "name": "Anthony Khong",
             "pronoun": "-",
             "country": "Indonesia",
@@ -343,7 +343,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/Ming-YangHo.jpg",
+            "img": "/theme/img/speakers/Ming-YangHo.jpg",
             "name": "Ming-Yang Ho",
             "pronoun": "He/Him",
             "country": "Taiwan",
@@ -352,7 +352,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/HARSH.jpg",
+            "img": "/theme/img/speakers/HARSH.jpg",
             "name": "Harsh",
             "pronoun": "He/Him",
             "country": "India",
@@ -363,7 +363,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/Albert-Yumol.jpg",
+            "img": "/theme/img/speakers/Albert-Yumol.jpg",
             "name": "Albert Yumol",
             "pronoun": "-",
             "country": "Philippines",
@@ -373,7 +373,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/ZorexSalvo.JPG",
+            "img": "/theme/img/speakers/ZorexSalvo.JPG",
             "name": "Zorex",
             "pronoun": "He/Him",
             "country": "Philippines",
@@ -384,7 +384,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/JaeyoonKim.jpg",
+            "img": "/theme/img/speakers/JaeyoonKim.jpg",
             "name": "Jaeyoon Kim",
             "pronoun": "He/Him",
             "country": "South Korea",
@@ -392,7 +392,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/AnjLapastora.jpg",
+            "img": "/theme/img/speakers/AnjLapastora.jpg",
             "name": "Anj Lapastora",
             "pronoun": "She/Her",
             "country": "Philippines",
@@ -401,7 +401,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/OngChinHwee.jpg",
+            "img": "/theme/img/speakers/OngChinHwee.jpg",
             "name": "Chin Hwee Ong",
             "pronoun": "She/Her",
             "country": "Singapore",
@@ -411,7 +411,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/YevonnaelAndrew.jpg",
+            "img": "/theme/img/speakers/YevonnaelAndrew.jpg",
             "name": "Yevonnael Andrew",
             "pronoun": "He/Him",
             "country": "Indonesia",
@@ -422,7 +422,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/AravindPutrevu.jpg",
+            "img": "/theme/img/speakers/AravindPutrevu.jpg",
             "name": "Aravind Putrevu",
             "pronoun": "He/Him",
             "country": "India",
@@ -432,7 +432,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/MasashiShibata.jpg",
+            "img": "/theme/img/speakers/MasashiShibata.jpg",
             "name": "Masashi Shibata",
             "pronoun": "He/Him",
             "country": "Japan",
@@ -442,7 +442,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/KalyanPrasad.jpg",
+            "img": "/theme/img/speakers/KalyanPrasad.jpg",
             "name": "Kalyan Prasad",
             "pronoun": "He/Him",
             "country": "India",
@@ -451,7 +451,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/IvanTorroledo.jpg",
+            "img": "/theme/img/speakers/IvanTorroledo.jpg",
             "name": "Iván Torroledo",
             "pronoun": "He/Him",
             "country": "Columbia",
@@ -462,14 +462,14 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/RamonPerez.JPG",
+            "img": "/theme/img/speakers/RamonPerez.JPG",
             "name": "Ramon Perez",
             "pronoun": "He/Him",
             "country": "Dominica",
             "link": "",
         },
         {
-            "img": "theme/img/speakers/KarishmaBabbar.jpg",
+            "img": "/theme/img/speakers/KarishmaBabbar.jpg",
             "name": "Karishma Babbar",
             "pronoun": "She/Her",
             "country": "India",
@@ -478,7 +478,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/BenThompson.jpg",
+            "img": "/theme/img/speakers/BenThompson.jpg",
             "name": "Ben Thompson",
             "pronoun": "He/Him",
             "country": "Thailand",
@@ -486,7 +486,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/DrewMallory.jpg",
+            "img": "/theme/img/speakers/DrewMallory.jpg",
             "name": "Dr. Drew B. Mallory",
             "pronoun": "He/Him",
             "country": "USA",
@@ -494,7 +494,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/TakanoriSuzuki.jpg",
+            "img": "/theme/img/speakers/TakanoriSuzuki.jpg",
             "name": "Takanori Suzuki",
             "pronoun": "He/Him",
             "country": "Japan",
@@ -504,7 +504,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/JesseHirata.jpg",
+            "img": "/theme/img/speakers/JesseHirata.jpg",
             "name": "Tetsuya Jesse Hirata",
             "pronoun": "He/Him",
             "country": "Columbia",
@@ -513,7 +513,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/CheukTingHo.JPG",
+            "img": "/theme/img/speakers/CheukTingHo.JPG",
             "name": "Cheuk Ting Ho",
             "pronoun": "She/Her",
             "country": "United Kingdom",
@@ -523,7 +523,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/RosalindandSteve.jpg",
+            "img": "/theme/img/speakers/RosalindandSteve.jpg",
             "name": "Rosalind Yunibandhu & Steve Doucakis",
             "pronoun": "-",
             "country": "Thailand & USA",
@@ -533,7 +533,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/StevenKolawole.jpg",
+            "img": "/theme/img/speakers/StevenKolawole.jpg",
             "name": "Steven Kolawole",
             "pronoun": "He/Him",
             "country": "Nigeria",
@@ -543,7 +543,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/lokinfey.jpg",
+            "img": "/theme/img/speakers/lokinfey.jpg",
             "name": "Kinfey Lo",
             "pronoun": "He/Him",
             "country": "China",
@@ -551,7 +551,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/JintaoZhang.jpg",
+            "img": "/theme/img/speakers/JintaoZhang.jpg",
             "name": "Jintao Zhang",
             "pronoun": "He/Him",
             "country": "China",
@@ -560,7 +560,7 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "theme/img/speakers/bookee.jpg",
+            "img": "/theme/img/speakers/bookee.jpg",
             "name": "Bookee Suksa",
             "pronoun": "She/Her",
             "country": "Thailand",
