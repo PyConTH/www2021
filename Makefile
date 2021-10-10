@@ -77,36 +77,7 @@ publish:
 strapi/deploy:
 	git subtree push --prefix strapi origin main
 
-strapi/download-about:
-	python3 get_content_from_strapi.py about https://pyconth-strapi.herokuapp.com/about
-
-strapi/download-coc-procedure:
-	python3 get_content_from_strapi.py coc-procedure https://pyconth-strapi.herokuapp.com/coc-procedure
-
-strapi/download-code-of-conduct:
-	python3 get_content_from_strapi.py code-of-conduct https://pyconth-strapi.herokuapp.com/code-of-conduct
-
-strapi/download-covid-19:
-	python3 get_content_from_strapi.py covid-19 https://pyconth-strapi.herokuapp.com/covid-19
-
-strapi/download-event:
-	python3 get_content_from_strapi.py event https://pyconth-strapi.herokuapp.com/event
-
-strapi/download-speakers-advice:
-	python3 get_content_from_strapi.py speakers-advice https://pyconth-strapi.herokuapp.com/speakers-advice
-
-strapi/download-speakers-info:
-	python3 get_content_from_strapi.py speakers-info https://pyconth-strapi.herokuapp.com/speakers-info
-
-strapi/download-sponsor:
-	python3 get_content_from_strapi.py sponsor https://pyconth-strapi.herokuapp.com/sponsor
-
-strapi/download-the-conference:
-	python3 get_content_from_strapi.py the-conference https://pyconth-strapi.herokuapp.com/the-conference
-
-# Download all content from Strapi
-strapi/download: strapi/download-sponsor strapi/download-about strapi/download-coc-procedure
-strapi/download: strapi/download-code-of-conduct strapi/download-covid-19 strapi/download-speakers-advice strapi/download-event
-strapi/download: strapi/download-speakers-info strapi/download-sponsor strapi/download-the-conference
+strapi/download:
+	python3 get_content_from_strapi.py
 
 .PHONY: html help clean regenerate serve serve-global devserver publish

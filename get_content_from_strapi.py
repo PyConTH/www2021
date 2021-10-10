@@ -4,7 +4,7 @@ import sys
 
 def download_content(resource_name, api_url):
   try:
-    print(f'downloading {resource_name} page...')
+    print(f'downloading {resource_name} page at {api_url}...')
     resp = requests.get(api_url)
     resp.raise_for_status()
 
@@ -19,9 +19,27 @@ def download_content(resource_name, api_url):
   except HTTPError as http_err: 
     print(f'HTTP error: {http_err}')
 
-if (len(sys.argv) == 3):
-  resource_name=str(sys.argv[1])
-  api_url=str(sys.argv[2])
-  download_content(resource_name, api_url)
-else:
-  print('invalid args try: python3 get_content_from_strapy.py <page-name> <strapi-api-endpoint-url>')
+# Add new page name here after you add a new content type on Strapi
+page_names = [
+  'about',
+  'coc-procedure',
+  'code-of-conduct',
+  'covid-19',
+  'diversity-equity-and-inclusion',
+  'event',
+  'faq',
+  'lightning-talks',
+  'online',
+  'our-sponsors',
+  'party',
+  'speakers',
+  'speakers-advice',
+  'speakers-info',
+  'sponsor',
+  'the-conference',
+  'volunteer',
+  'workshops'
+]
+
+for p in page_names:
+  download_content(p, f'https://pyconth-strapi.herokuapp.com/{p}')
