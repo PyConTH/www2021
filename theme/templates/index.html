@@ -374,91 +374,48 @@
         <div class="job-title">Taiwan Digital Minister</div>
       </figure>
 
-      <!-- Other Speakers 
+      <!-- Other Speakers -->
         <div class="speakers">
-            <div class="row">
-                <div class="col-md-12"> 
-                    <div class="homepage-title">
-                        <img src="/theme/img/keynote-as.png" alt="" />
-                        <h1>Speakers</h1>
-                    </div>
+          <div class="row">
+            <div class="col-md-12"> 
+                <div class="homepage-title">
+                    <img src="/theme/img/keynote-as.png" alt="" />
+                    <h1>Speakers / Workshop Moderators</h1>
                 </div>
-            </div> 
+            </div>
+          </div>  
+      
 
             <div class="container-xxl">
                 <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <img class="card-img-top" src="https://i.imgur.com/Zsm494R.jpg" alt="Card image cap" />
-                            <div class="card-body">
-                                <h5 class="card-title">MD.Moin</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                                </p>
-                                <div class="speakers-sm">
-                                    <a href="#"><i class="fa fa-github"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>      
-                                </div>
-                                <a href="#" class="btn btn-outline-info btn-sm">View Profile</a>
-                               
+                  {% for s in speakers %}
+            
+                  <div class="col">
+                    <div class="card">
+                        <img class="card-img-top" src="{{ s.img }}"" alt="Profile photo of {{ s.name }}" />
+                        <div class="card-body">
+                            <h5 class="card-title">{{ s.name }}</h5>
+                            <h5 class="card-title">{{ s.name2 }}</h5>
+                            <h6 class="card-title">{{ s.pronoun }}</h6>
+                            <h6 class="card-title">{{ s.country }}</h6>
+                            <!-- <p class="card-text">
+                              USA-based casino data analytics consultant, game inventor, software developer and database marketing efficiency expert.
+                            </p></b> -->
+                            <div class="speakers-sm">
+                                <a href="{{ s.github }}"><i class="fa fa-github"></i></a>
+                                <a href="{{ s.twitter }}"><i class="fa fa-twitter"></i></a>
+                                <a href="{{ s.linkedin }}"><i class="fa fa-linkedin"></i></a>
+                                <a href="{{ s.instagram }}"><i class="fa fa-instagram"></i></a>      
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col">
-                        <div class="card">
-                            <img class="card-img-top" src="https://i.imgur.com/fgQ6BlE.jpg" alt="Card image cap" />
-                            <div class="card-body">
-                                <h5 class="card-title">MD.Rahid</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                                </p>
-                                <div class="speakers-sm">
-                                    <a href="#"><i class="fa fa-github"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>      
-                                </div>
-                                  <a href="#" class="btn btn-outline-info btn-sm">View Profile</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card">
-                            <img class="card-img-top" src="https://i.imgur.com/hCppjSL.jpg" alt="Card image cap" />
-                            <div class="card-body">
-                                <h5 class="card-title">MD.Arafat</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                                </p>
-                                <span class="speakers-sm">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-github"></i></a>
-                                </span>
-                                <a href="#" class="btn btn-outline-info">View Profile</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card">
-                            <img class="card-img-top" src="https://i.imgur.com/hCppjSL.jpg" alt="Card image cap" />
-                            <div class="card-body">
-                                <h5 class="card-title">MD.Arafat</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                                </p>
-                                <span class="speakers-sm">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-github"></i></a>
-                                </span>
-                                <a href="#" class="btn btn-outline-info">View Profile</a>
-                            </div>
-                        </div>
-                    </div>
-
+                  {% endfor %}  
+              
                 </div>
             </div>
-        </div>  -->
+        </div>
 
       <!-- <div class="blog">
                 <div class="row">
