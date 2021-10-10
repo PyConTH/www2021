@@ -329,15 +329,7 @@ JINJA_GLOBALS = {
             "instagram": "https://instagram.com/peacock0803sz",
             "link": "",
         },
-        {
-            "img": "/theme/img/speakers/Anthony-Khong.jpg",
-            "name": "Anthony Khong",
-            "pronoun": "-",
-            "country": "Indonesia",
-            "github": "https://github.com/anthony-khong",
-            "linkedin": "https://www.linkedin.com/in/anthony-khong",
-            "link": "",
-        },
+        
         {
             "img": "/theme/img/speakers/Ming-YangHo.jpg",
             "name": "Ming-Yang Ho",
