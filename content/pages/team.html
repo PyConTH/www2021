@@ -5,41 +5,55 @@
     <meta name="slug" content="team" />
   </head>
   <body>
-    <div class="schedule-table">
-      <div class="schedule-table-time">
-        <div>09:00</div>
-        <div>09:30</div>
-      </div>
+    <div id="schedule-root">
+      {{#each this}}
+      <div class="schedule-date">{{this.date}}</div>
 
-      <div class="schedule-grid">
-        <div class="schedule-card">
-          <div class="v-sign">v</div>
-
-          <div><b>Chomtana Chanjaraswichai</b></div>
-          <div style="margin-bottom: 2px;">Chulalongkorn University</div>
-          <div>Hack the web with python</div>
-          
-          <div class="schedule-join">
-            <a href="https://zoom.us" target="blank">Join now</a>
-          </div>
-
-          <div class="schedule-card-hidden">
-            <div class="schedule-card-hidden-engine">
-              <div>Saturday 15th June</div>
+      <div class="schedule-table">
+        {{#each schedules}}
+        <div class="schedule-table-time">
+          <div>{{this.start_time}}</div>
+          <div>{{this.end_time}}</div>
+        </div>
   
-              <div style="margin-top: 12px;">
-                <div><b>Description:</b></div>
-                <div>Hello world</div>
-              </div>
+        <div class="schedule-grid">
+          {{#each talks}}
+          <div class="schedule-card">
+            <div class="v-sign">v</div>
   
-              <div style="margin-top: 12px;">
-                <div><b>Bio:</b></div>
-                <div>Hello world</div>
+            <div><b>{{this.name}}</b></div>
+
+            {{#if this.organization}}
+            <div style="margin-bottom: 2px;">{{this.organization}}</div>
+            {{/if}}
+
+            <div>Hack the web with python</div>
+            
+            <div class="schedule-join">
+              <a href="https://zoom.us" target="blank">Join now</a>
+            </div>
+  
+            <div class="schedule-card-hidden">
+              <div class="schedule-card-hidden-engine">
+                <div>Saturday 15th June</div>
+    
+                <div style="margin-top: 12px;">
+                  <div><b>Description:</b></div>
+                  <div>Hello world</div>
+                </div>
+    
+                <div style="margin-top: 12px;">
+                  <div><b>Bio:</b></div>
+                  <div>Hello world</div>
+                </div>
               </div>
             </div>
           </div>
+          {{/each}}
         </div>
+        {{/each}}
       </div>
+      {{/each}}
     </div>
 
     <style>
@@ -136,6 +150,9 @@
     </style>
 
     <script>
+      let schedules = [];
+      let schedulesFormatted = [];
+
       function initCardHidden() {
         document.querySelectorAll('.schedule-card').forEach(element => {
           element.addEventListener('click', () => {
@@ -151,6 +168,50 @@
       }
 
       initCardHidden();
+
+      function formatDate(date) {
+        return new Date(date).toLocaleDateString()
+      }
+
+      async function fetchSchedules() {
+        let response = await fetch('/theme/schedule.json');
+        schedules = await response.json();
+
+        let dateGroups = {};
+
+        for (let schedule of schedules) {
+          if (!dateGroups[schedule.date]) dateGroups[schedule.date] = [];
+
+          dateGroups[schedule.date] = true;
+        }
+
+        for (let date in dateGroups) {
+          let timeGroup = {}
+
+          for (let schedule of schedules.filter(c => c.date == date)) {
+            let key = schedule.start_time + "-" + schedule.end_time;
+            if (!timeGroup[key]) timeGroup[key] = [];
+            timeGroup[key].push(schedule);
+          }
+
+          let schedulesSub = [];
+
+          for (let key in timeGroup) {
+            schedulesSub.push({
+              start_time: timeGroup[key][0].start_time,
+              end_time: timeGroup[key][0].end_time,
+              talks: timeGroup[key],
+            })
+          }
+
+          schedulesFormatted.push({
+            date: formatDate(date),
+            schedules: schedulesSub
+          })
+        }
+      }
+
+      fetchSchedules();
     </script>
   </body>
 </html>
