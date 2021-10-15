@@ -68,7 +68,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/Abdur-RahmaanJ",
             "twitter": "https://twitter.com/osdotsystem",
             "linkedin": "https://www.linkedin.com/in/appinv/",
-            "link": "",
+            "link": "/pages/speakers#abudur-rahmaan",
         },
         {
             "img": "/theme/img/speakers/kanouivirach.jpg",
@@ -358,7 +358,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/albertyumol",
             "twitter": "https://twitter.com/albert1177",
             "linkedin": "https://www.linkedin.com/in/albertyumol/",
-            "link": "",
+            "link": "/pages/speakers#Albert-Yumol",
         },
         {
             "img": "/theme/img/speakers/ZorexSalvo.JPG",
@@ -545,6 +545,14 @@ JINJA_GLOBALS = {
             "country": "China",
             "github": "https://github.com/tao12345666333",
             "twitter": "https://twitter.com/zhangjintao9020",
+            "link": "",
+        },
+        {
+            "img": "/theme/img/speakers/bookee.jpg",
+            "name": "Bookee Suksa",
+            "pronoun": "She/Her",
+            "country": "Thailand",
+            "instagram": "https://instagram.com/Book_books",
             "link": "",
         },
         {
