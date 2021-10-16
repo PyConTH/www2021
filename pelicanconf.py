@@ -268,7 +268,7 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/ivyfung81",
             "linkedin": "https://www.linkedin.com/in/ivyfung/",
             "instagram": "https://instagram.com/ivyfung1",
-            "link": "",
+            "link": "/pages/speakers#Ivy-Fung",
         },
         {
             "img": "/theme/img/speakers/gajendra.jpg",
@@ -377,7 +377,7 @@ JINJA_GLOBALS = {
             "pronoun": "He/Him",
             "country": "South Korea",
             "linkedin": "https://www.linkedin.com/in/jaeyoon-kim-99533113a/",
-            "link": "",
+            "link": "/pages/speakers#Kim-Jaeyoon",
         },
         {
             "img": "/theme/img/speakers/AnjLapastora.jpg",
