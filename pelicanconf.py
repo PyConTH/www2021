@@ -79,7 +79,7 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/zkancs",
             "linkedin": "https://www.linkedin.com/in/kanouivirach/",
             "instagram": "https://instagram.com/zkancs",
-            "link": "",
+            "link": "/pages/speakers#Kan-Ouivirach",
         },
         {
             "img": "/theme/img/speakers/susanshuchang.jpg",
@@ -297,7 +297,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/heyfirst",
             "twitter": "https://twitter.com/heyfirst",
             "linkedin": "https://www.linkedin.com/in/kanisorn-sutham/",
-            "link": "",
+            "link": "/pages/speakers#Kanisorn-Sutham",
         },
         {
             "img": "/theme/img/speakers/ArvsLat.jpg",
@@ -307,7 +307,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/joshualat",
             "twitter": "https://twitter.com/mrjoshualat",
             "linkedin": "https://www.linkedin.com/in/joshualat/",
-            "link": "",
+            "link": "/pages/speakers#Joshua-Arvin-Lat",
         },
         {
             "img": "/theme/img/speakers/JiwonKim.jpg",
@@ -316,7 +316,7 @@ JINJA_GLOBALS = {
             "country": "Korea",
             "github": "https://github.com/jiwon5315",
             "instagram": "https://instagram.com/jiwon5315",
-            "link": "",
+            "link": "/pages/speakers#Kim-JiWon",
         },
         {
             "img": "/theme/img/speakers/peacock.jpg",
@@ -463,7 +463,7 @@ JINJA_GLOBALS = {
             "country": "India",
             "linkedin": "https://linkedin.com/in/karishma-babbar",
             "instagram": "https://instagram.com/karishma.babbar",
-            "link": "",
+            "link": "/pages/speakers#Karishma-Babbar",
         },
         {
             "img": "/theme/img/speakers/BenThompson.jpg",
@@ -556,12 +556,14 @@ JINJA_GLOBALS = {
             "link": "",
         },
         {
-            "img": "/theme/img/speakers/bookee.jpg",
-            "name": "Bookee Suksa",
-            "pronoun": "She/Her",
-            "country": "Thailand",
-            "instagram": "https://instagram.com/Book_books",
-            "link": "/pages/speakers#Bookee-Suksa",
+            "img": "theme/img/speakers/JoongiKim.jpg",
+            "name": "Kim Joonki",
+            "pronoun": "He/Him",
+            "country": "South Korea",
+            "github": "https://github.com/achimnol",
+            "twitter": "https://twitter.com/achimnol",
+            "linkedin": "https://www.linkedin.com/in/joongikim",
+            "link": "/pages/speakers#Kim-Joonki",
         },
     ]
 }
