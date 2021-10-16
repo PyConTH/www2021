@@ -249,7 +249,7 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/glasnt",
             "linkedin": "https://www.linkedin.com/in/glasnt/",
             "instagram": "https://instagram.com/glasnt",
-            "link": "",
+            "link": "/pages/speakers#Katie-McLaughlin",
         },
         {
             "img": "/theme/img/speakers/DiogPascua.jpg",
@@ -536,7 +536,7 @@ JINJA_GLOBALS = {
             "pronoun": "He/Him",
             "country": "China",
             "github": "https://github.com/kinfey",
-            "link": "",
+            "link": "/pages/speakers#Kinfey-Lo",
         },
         {
             "img": "/theme/img/speakers/JintaoZhang.jpg",
