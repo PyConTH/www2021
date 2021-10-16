@@ -186,7 +186,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/isabelacmor",
             "twitter": "https://twitter.com/isabelacmor",
             "linkedin": "https://www.linkedin.com/in/isabela-moreira/",
-            "link": "",
+            "link": "/pages/speakers#Isabela-Moreira",
         },
         {
             "img": "/theme/img/speakers/ScottyKwok.jpg",
@@ -447,7 +447,7 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/IvanTorroledo",
             "linkedin": "https://www.linkedin.com/in/Ivantorroledopena/",
             "instagram": "https://instagram.com/ivantorroledo",
-            "link": "",
+            "link": "/pages/speakers#Ivan-Torroledos",
         },
         {
             "img": "/theme/img/speakers/RamonPerez.JPG",
