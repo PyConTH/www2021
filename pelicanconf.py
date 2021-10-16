@@ -207,7 +207,7 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/cherhan",
             "linkedin": "https://www.linkedin.com/in/drhanlau/",
             "instagram": "https://instagram.com/drhanlau",
-            "link": "",
+            "link": "/pages/speakers#Dr-Lau-Cher-Han",
         },
         {
             "img": "/theme/img/speakers/NeerajPandey.jpg",
@@ -278,7 +278,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/gcdeshpande",
             "twitter": "https://twitter.com/gcdeshpande",
             "linkedin": "https://www.linkedin.com/in/gajendradeshpande/",
-            "link": "",
+            "link": "/pages/speakers#Gajendra-Deshpande",
         },
         {
             "img": "/theme/img/speakers/wujingjing.jpg",
@@ -348,7 +348,7 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/harsh_casper",
             "linkedin": "https://www.linkedin.com/in/harshcasper/",
             "instagram": "https://instagram.com/harshcasper",
-            "link": "",
+            "link": "/pages/speakers#Harsh",
         },
         {
             "img": "/theme/img/speakers/Albert-Yumol.jpg",
@@ -479,7 +479,7 @@ JINJA_GLOBALS = {
             "pronoun": "He/Him",
             "country": "USA",
             "linkedin": "https://www.linkedin.com/in/drewbmallory/",
-            "link": "",
+            "link": "/pages/speakers#Dr-Drew-Mallory",
         },
         {
             "img": "/theme/img/speakers/TakanoriSuzuki.jpg",
