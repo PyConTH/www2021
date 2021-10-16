@@ -545,7 +545,7 @@ JINJA_GLOBALS = {
             "country": "China",
             "github": "https://github.com/tao12345666333",
             "twitter": "https://twitter.com/zhangjintao9020",
-            "link": "",
+            "link": "/pages/speakers#Jintao-Zhang",
         },
         {
             "img": "/theme/img/speakers/bookee.jpg",
