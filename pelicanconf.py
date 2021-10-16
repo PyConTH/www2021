@@ -176,7 +176,7 @@ JINJA_GLOBALS = {
             "country": "Taiwan",
             "github": "https://github.com/note35",
             "twitter": "https://twitter.com/k1rch0u",
-            "link": "",
+            "link": "/pages/speakers#Kir-Chou",
         },
         {
             "img": "/theme/img/speakers/IsabelaMoreira.JPG",
@@ -553,7 +553,7 @@ JINJA_GLOBALS = {
             "pronoun": "She/Her",
             "country": "Thailand",
             "instagram": "https://instagram.com/Book_books",
-            "link": "",
+            "link": "/pages/speakers#",
         },
         {
             "img": "theme/img/speakers/JoongiKim.jpg",
