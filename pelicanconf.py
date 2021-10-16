@@ -447,7 +447,7 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/IvanTorroledo",
             "linkedin": "https://www.linkedin.com/in/Ivantorroledopena/",
             "instagram": "https://instagram.com/ivantorroledo",
-            "link": "/pages/speakers#Ivan-Torroledos ",
+            "link": "/pages/speakers#Ivan-Torroledos",
         },
         {
             "img": "/theme/img/speakers/RamonPerez.JPG",
