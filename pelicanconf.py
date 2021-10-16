@@ -58,7 +58,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/2x2xplz",
             "twitter": "https://twitter.com/cfnine",
             "linkedin": "https://www.linkedin.com/in/andygoldberg/",
-            "link": "",
+            "link": "/pages/speakers#Andy-Goldberg",
         },
         {
             "img": "/theme/img/speakers/abdurrahmaanjanhangeer.jpg",
@@ -108,7 +108,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/tonybaloney",
             "twitter": "https://twitter.com/anthonypjshaw",
             "linkedin": "https://www.linkedin.com/in/anthonypshaw/",
-            "link": "",
+            "link": "/pages/speakers#Anthony-Shaw",
         },
         {
             "img": "/theme/img/speakers/pratibhajagnere.jpg",
@@ -238,7 +238,7 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/dmaharika",
             "linkedin": "https://www.linkedin.com/in/dmaharika/",
             "instagram": "https://instagram.com/dmaharika",
-            "link": "",
+            "link": "/pages/speakers#Dima-M-Dinama",
         },
         {
             "img": "/theme/img/speakers/KatieMcLaughlin.jpg",
@@ -257,7 +257,7 @@ JINJA_GLOBALS = {
             "pronoun": "He/Him",
             "country": "Philippines",
             "linkedin": "https://www.linkedin.com/in/diogenes-pascua-132185118?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BOL597v%2FCQqa57v9Ecte4AA%3D%3D/",
-            "link": "",
+            "link": "/pages/speakers#Diogenes-Armando-Pascua",
         },
         {
             "img": "/theme/img/speakers/IvyFung.jpg",
@@ -386,7 +386,7 @@ JINJA_GLOBALS = {
             "country": "Philippines",
             "github": "https://github.com/anjlapastora",
             "linkedin": "https://www.linkedin.com/in/angelica-lapastora-6585b2139/",
-            "link": "",
+            "link": "/pages/speakers#Anj-Lapastora",
         },
         {
             "img": "/theme/img/speakers/OngChinHwee.jpg",
@@ -417,7 +417,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/aravindputrevu",
             "twitter": "https://twitter.com/aravindputrevu",
             "linkedin": "https://www.linkedin.com/in/aravindputrevu",
-            "link": "",
+            "link": "/pages/speakers#Aravind-Putrevu",
         },
         {
             "img": "/theme/img/speakers/MasashiShibata.jpg",
@@ -471,7 +471,7 @@ JINJA_GLOBALS = {
             "pronoun": "He/Him",
             "country": "Thailand",
             "instagram": "https://instagram.com/chiangmaiosteopathy",
-            "link": "",
+            "link": "/pages/speakers#Ben-Thompson",
         },
         {
             "img": "/theme/img/speakers/DrewMallory.jpg",
@@ -508,7 +508,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/Cheukting",
             "twitter": "https://twitter.com/cheukting_ho",
             "linkedin": "https://www.linkedin.com/in/cheukting-ho/",
-            "link": "",
+            "link": "/pages/speakers#Cheuk-Ting-Ho",
         },
         {
             "img": "/theme/img/speakers/RosalindandSteve.jpg",
@@ -561,7 +561,7 @@ JINJA_GLOBALS = {
             "pronoun": "She/Her",
             "country": "Thailand",
             "instagram": "https://instagram.com/Book_books",
-            "link": "",
+            "link": "/pages/speakers#Bookee-Suksa",
         },
     ]
 }
