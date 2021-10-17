@@ -117,7 +117,7 @@ JINJA_GLOBALS = {
             "country": "India",
             "github": "https://github.com/pratibhajagnere",
             "twitter": "https://twitter.com/Pratibhajagnere",
-            "link": "",
+            "link": "/pages/speakers#Pratibha-Jagnere",
         },
         {
             "img": "/theme/img/speakers/MattLebrun.jpg",
