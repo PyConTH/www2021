@@ -146,7 +146,7 @@ JINJA_GLOBALS = {
             "country": "Indonesia",
             "github": "https://github.com/novialistiyani",
             "linkedin": "https://www.linkedin.com/in/novia-listiyani-wirhaspati",
-            "link": "",
+            "link": "/pages/speakers#Novia-Wirhaspati",
         },
         {
             "img": "/theme/img/speakers/NaomiCeder.jpg",
@@ -573,6 +573,14 @@ JINJA_GLOBALS = {
             "github": "https://github.com/nazt",
             "linkedin": "https://www.linkedin.com/in/natweerawan/",
             "link": "/pages/speakers#Nat-Weerawan",
+        },
+
+            "img": "theme/img/speakers/NunoMuralha.jpg",
+            "name": "Nuno Muralha",
+            "pronoun": "He/Him",
+            "country": "Portugal",
+            "linkedin": "https://www.linkedin.com/in/nuno-muralha/",
+            "link": "/pages/speakers#Nuno-Muralha",
         },
     ]
 }
