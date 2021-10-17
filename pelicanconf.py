@@ -128,7 +128,7 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/cr8ivecodesmith",
             "linkedin": "https://www.linkedin.com/in/cr8ivecodesmith/",
             "instagram": "https://instagram.com/cr8ivecodesmith",
-            "link": "/pages/speakers#Matt Lebrun",
+            "link": "/pages/speakers#Matt-Lebrun",
         },
         {
             "img": "/theme/img/speakers/TusharBansal.jpg",
@@ -553,10 +553,10 @@ JINJA_GLOBALS = {
             "pronoun": "She/Her",
             "country": "Thailand",
             "instagram": "https://instagram.com/Book_books",
-            "link": "/pages/speakers#",
+            "link": "/pages/speakers#Bookee-Suksa",
         },
         {
-            "img": "theme/img/speakers/JoongiKim.jpg",
+            "img": "/theme/img/speakers/JoongiKim.jpg",
             "name": "Kim Joonki",
             "pronoun": "He/Him",
             "country": "South Korea",
@@ -566,7 +566,7 @@ JINJA_GLOBALS = {
             "link": "/pages/speakers#Kim-Joonki",
         },
         {
-            "img": "theme/img/speakers/NatWeerawan.jpg",
+            "img": "/theme/img/speakers/NatWeerawan.jpg",
             "name": "Nat Weerawan",
             "pronoun": "He/Him",
             "country": "Thailand",
@@ -576,7 +576,7 @@ JINJA_GLOBALS = {
         },
 
          {
-            "img": "theme/img/speakers/NunoMuralha.jpg",
+            "img": "/theme/img/speakers/NunoMuralha.jpg",
             "name": "Nuno Muralha",
             "pronoun": "He/Him",
             "country": "Portugal",
@@ -584,7 +584,7 @@ JINJA_GLOBALS = {
             "link": "/pages/speakers#Nuno-Muralha",
         },
         {
-            "img": "theme/img/speakers/PraewpanPoriswanish.jpg",
+            "img": "/theme/img/speakers/PraewpanPoriswanish.jpg",
             "name": "Dr. Praewpan Poriswanish",
             "pronoun": "She/Her",
             "country": "Thailand",
