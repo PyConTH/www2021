@@ -156,7 +156,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/nceder",
             "twitter": "https://twitter.com/NaomiCeder",
             "linkedin": "https://www.linkedin.com/in/naomiceder",
-            "link": "",
+            "link": "/pages/speakers#Naomi-Ceder",
         },
         {
             "img": "/theme/img/speakers/YothinMuangsommuk.jpg",
@@ -217,7 +217,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/neerajp99",
             "twitter": "https://twitter.com/neerajp99",
             "instagram": "https://instagram.com/gen0art",
-            "link": "",
+            "link": "/pages/speakers#Neeraj-Pandey",
         },
         {
             "img": "/theme/img/speakers/GrimmerKang.jpg",
@@ -564,6 +564,15 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/achimnol",
             "linkedin": "https://www.linkedin.com/in/joongikim",
             "link": "/pages/speakers#Kim-Joonki",
+        },
+        {
+            "img": "theme/img/speakers/NatWeerawan.jpg",
+            "name": "Nat Weerawan",
+            "pronoun": "He/Him",
+            "country": "Thailand",
+            "github": "https://github.com/nazt",
+            "linkedin": "https://www.linkedin.com/in/natweerawan/",
+            "link": "/pages/speakers#Nat-Weerawan",
         },
     ]
 }
