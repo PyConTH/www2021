@@ -9,8 +9,8 @@
       {{#each this}}
       <div class="schedule-date">{{this.date}}</div>
 
+      {{#each schedules}}
       <div class="schedule-table">
-        {{#each schedules}}
         <div class="schedule-table-time">
           <div>{{this.start_time}}</div>
           <div>{{this.end_time}}</div>
@@ -27,7 +27,7 @@
             <div style="margin-bottom: 2px;">{{this.organization}}</div>
             {{/if}}
 
-            <div>Hack the web with python</div>
+            <div>{{this.title}}</div>
             
             <div class="schedule-join">
               <a href="https://zoom.us" target="blank">Join now</a>
@@ -39,27 +39,36 @@
     
                 <div style="margin-top: 12px;">
                   <div><b>Description:</b></div>
-                  <div>Hello world</div>
+                  <div>{{this.abstract}}</div>
+                  <div style="margin-top: 8px;">{{{this.description}}}</div>
                 </div>
     
                 <div style="margin-top: 12px;">
                   <div><b>Bio:</b></div>
-                  <div>Hello world</div>
+                  <div>{{{this.bio}}}</div>
                 </div>
               </div>
             </div>
           </div>
           {{/each}}
         </div>
-        {{/each}}
       </div>
+
+      <hr />
+      {{/each}}
       {{/each}}
     </div>
 
     <style>
+      hr {
+        border-width: 2px;
+      }
+
       .schedule-table {
         font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
         display: flex;
+        margin-top: 8px;
+        margin-bottom: 8px;
       }
 
       .schedule-table-time {
@@ -149,6 +158,8 @@
       }
     </style>
 
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+
     <script>
       let schedules = [];
       let schedulesFormatted = [];
@@ -166,8 +177,6 @@
           })
         })
       }
-
-      initCardHidden();
 
       function formatDate(date) {
         return new Date(date).toLocaleDateString()
@@ -209,6 +218,18 @@
             schedules: schedulesSub
           })
         }
+
+        // Render HTML
+        // compile the template
+        var template = Handlebars.compile(document.getElementById('schedule-root').innerHTML);
+        // execute the compiled template and print the output to the console
+        let html = template(schedulesFormatted);
+
+        console.log(html)
+
+        document.getElementById('schedule-root').innerHTML = html;
+
+        initCardHidden();
       }
 
       fetchSchedules();
