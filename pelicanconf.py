@@ -128,7 +128,7 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/cr8ivecodesmith",
             "linkedin": "https://www.linkedin.com/in/cr8ivecodesmith/",
             "instagram": "https://instagram.com/cr8ivecodesmith",
-            "link": "",
+            "link": "/pages/speakers#Matt Lebrun",
         },
         {
             "img": "/theme/img/speakers/TusharBansal.jpg",
@@ -337,7 +337,7 @@ JINJA_GLOBALS = {
             "country": "Taiwan",
             "github": "https://github.com/Kaminyou",
             "linkedin": "https://www.linkedin.com/in/kaminyou/",
-            "link": "",
+            "link": "/pages/speakers#Ming-Yang-Ho",
         },
         {
             "img": "/theme/img/speakers/HARSH.jpg",
