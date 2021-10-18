@@ -98,7 +98,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/geekchick",
             "twitter": "https://twitter.com/tonyasims",
             "linkedin": "https://www.linkedin.com/in/tonyasims/",
-            "link": "",
+            "link": "/pages/speakers#Tonya-Sims",
         },
         {
             "img": "/theme/img/speakers/AnthonyShaw.jpg",
@@ -137,7 +137,7 @@ JINJA_GLOBALS = {
             "country": "India",
             "twitter": "https://twitter.com/tusharb104?s=09",
             "instagram": "https://instagram.com/bansal__tushar",
-            "link": "",
+            "link": "/pages/speakers#Tushar-Bansa",
         },
         {
             "img": "/theme/img/speakers/novialistiyani.jpg",
@@ -167,7 +167,7 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/yothinix",
             "linkedin": "https://www.linkedin.com/in/yothinx",
             "instagram": "https://instagram.com/yothinix",
-            "link": "",
+            "link": "/pages/speakers#Yothin-Muangsommuk",
         },
         {
             "img": "/theme/img/speakers/kirchou.jpg",
@@ -227,7 +227,7 @@ JINJA_GLOBALS = {
             "country": "Taiwan",
             "github": "https://github.com/grimmer0125",
             "linkedin": "https://www.linkedin.com/in/tckang/",
-            "link": "",
+            "link": "/pages/speakers#Grimmer-Kang",
         },
         {
             "img": "/theme/img/speakers/DimaDinama.JPG",
@@ -287,7 +287,7 @@ JINJA_GLOBALS = {
             "pronoun": "He/Him",
             "country": "China",
             "github": "https://github.com/wj-Mcat",
-            "link": "",
+            "link": "/pages/speakers#Wu-Jing-Jing",
         },
         {
             "img": "/theme/img/speakers/KanisornSutham.jpg",
@@ -327,7 +327,7 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/peacock0803sz",
             "linkedin": "https://www.linkedin.com/in/peacock0803sz/",
             "instagram": "https://instagram.com/peacock0803sz",
-            "link": "",
+            "link": "/pages/speakers#Peacock",
         },
         
         {
@@ -369,7 +369,7 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/zorexsalvo",
             "linkedin": "https://www.linkedin.com/in/zorexsalvo/",
             "instagram": "https://instagram.com/zorexsalvo",
-            "link": "",
+            "link": "/pages/speakers#Zorex-Salvo-and-Ryan-Ermita",
         },
         {
             "img": "/theme/img/speakers/JaeyoonKim.jpg",
@@ -407,7 +407,7 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/glasnt",
             "linkedin": "https://www.linkedin.com/in/yevonnael-andrew-3351b9a7/",
             "instagram": "https://instagram.com/yevonnael_aw",
-            "link": "",
+            "link": "/pages/speakers#Yevonnael-Andrew",
         },
         {
             "img": "/theme/img/speakers/AravindPutrevu.jpg",
@@ -498,7 +498,7 @@ JINJA_GLOBALS = {
             "country": "Columbia",
             "twitter": "https://twitter.com/JesseTetsuya",
             "linkedin": "https://www.linkedin.com/in/tetsuya-hirata/",
-            "link": "/pages/speakers#Jesse-Hirata",
+            "link": "/pages/speakers#Tetsuya-Jesse-Hirata",
         },
         {
             "img": "/theme/img/speakers/CheukTingHo.JPG",
