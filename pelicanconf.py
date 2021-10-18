@@ -88,7 +88,7 @@ JINJA_GLOBALS = {
             "country": "Canada",
             "twitter": "https://twitter.com/susan_shuc",
             "linkedin": "https://www.linkedin.com/in/susan-shu-chang/",
-            "link": "",
+            "link": "/pages/speakers#Susan-Shu-Chang",
         },
         {
             "img": "/theme/img/speakers/TonyaSims.jpg",
@@ -196,7 +196,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/scottykwok",
             "twitter": "https://twitter.com/scottykwok",
             "linkedin": "https://www.linkedin.com/in/scottykwok/",
-            "link": "",
+            "link": "/pages/speakers#Scotty-Kwok",
         },
         {
             "img": "/theme/img/speakers/DrCherHanLau.jpg",
@@ -489,7 +489,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/takanory",
             "twitter": "https://twitter.com/takanory",
             "linkedin": "https://www.linkedin.com/in/takanory/",
-            "link": "",
+            "link": "/pages/speakers#Takanori-Suzuki",
         },
         {
             "img": "/theme/img/speakers/JesseHirata.jpg",
@@ -528,7 +528,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/stevekola",
             "twitter": "https://twitter.com/steveddev",
             "linkedin": "https://www.linkedin.com/in/steven-kolawole-80/",
-            "link": "",
+            "link": "/pages/speakers#Steven-Kolawole",
         },
         {
             "img": "/theme/img/speakers/lokinfey.jpg",
