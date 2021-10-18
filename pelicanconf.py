@@ -453,8 +453,8 @@ JINJA_GLOBALS = {
             "img": "/theme/img/speakers/RamonPerez.JPG",
             "name": "Ramon Perez",
             "pronoun": "He/Him",
-            "country": "Dominica",
-            "link": "",
+            "country": "Dominican Republic",
+            "link": "/pages/speakers#Ramon-Perez",
         },
         {
             "img": "/theme/img/speakers/KarishmaBabbar.jpg",
@@ -518,7 +518,7 @@ JINJA_GLOBALS = {
             "twitter": "https://twitter.com/ryunibandhu",
             "linkedin": "https://www.linkedin.com/in/ryunibandhu/",
             "instagram": "https://instagram.com/arcadiafinefoods",
-            "link": "",
+            "link": "/pages/speakers#Rosalind-Yunibandhu-and-Steve-Doucakis",
         },
         {
             "img": "/theme/img/speakers/StevenKolawole.jpg",
