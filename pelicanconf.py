@@ -498,7 +498,7 @@ JINJA_GLOBALS = {
             "country": "Columbia",
             "twitter": "https://twitter.com/JesseTetsuya",
             "linkedin": "https://www.linkedin.com/in/tetsuya-hirata/",
-            "link": "",
+            "link": "/pages/speakers#Jesse-Hirata",
         },
         {
             "img": "/theme/img/speakers/CheukTingHo.JPG",
