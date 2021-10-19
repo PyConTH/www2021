@@ -328,9 +328,9 @@ ul.multi-parts-list li.active-part {
   text-decoration: none;
 }
 .article-content img {
-  border: 2px solid #eee;
   padding: 5px;
 }
+
 p#post-share-links {
   text-align: right;
 }
