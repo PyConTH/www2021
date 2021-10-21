@@ -577,7 +577,7 @@ JINJA_GLOBALS = {
 
          {
             "img": "/theme/img/speakers/NunoMuralha.jpg",
-            "name": "Nuno Muralha",
+            "name": "Dr. Nuno Muralha",
             "pronoun": "He/Him",
             "country": "Portugal",
             "linkedin": "https://www.linkedin.com/in/nuno-muralha/",
@@ -588,7 +588,14 @@ JINJA_GLOBALS = {
             "name": "Dr. Praewpan Poriswanish",
             "pronoun": "She/Her",
             "country": "Thailand",
-            "link": "/pages/speakers#Nuno-Muralha",
+            "link": "/pages/speakers#Dr-Praewpan-Poriswanish",
+        },
+        {
+            "img": "/theme/img/speakers/WorajedtSitthidumrong.jpg",
+            "name": "Worajedt Sitthidumrong",
+            "pronoun": "He/Him",
+            "country": "Thailand",
+            "link": "/pages/speakers#Worajedt-Sitthidumrong.jpg",
         },
     ]
 }
