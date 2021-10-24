@@ -222,7 +222,6 @@ JINJA_GLOBALS = {
         {
             "img": "/theme/img/speakers/GrimmerKang.jpg",
             "name": "Grimmer Kang",
-            "name2": "康登傑",
             "pronoun": "He/Him",
             "country": "Taiwan",
             "github": "https://github.com/grimmer0125",
@@ -495,7 +494,7 @@ JINJA_GLOBALS = {
             "img": "/theme/img/speakers/JesseHirata.jpg",
             "name": "Tetsuya Jesse Hirata",
             "pronoun": "He/Him",
-            "country": "Columbia",
+            "country": "Japan",
             "twitter": "https://twitter.com/JesseTetsuya",
             "linkedin": "https://www.linkedin.com/in/tetsuya-hirata/",
             "link": "/pages/speakers#Tetsuya-Jesse-Hirata",
@@ -589,6 +588,13 @@ JINJA_GLOBALS = {
             "pronoun": "She/Her",
             "country": "Thailand",
             "link": "/pages/speakers#Dr-Praewpan-Poriswanish",
+        },
+        {
+            "img": "/theme/img/speakers/WorajedtSitthidumrong.jpg",
+            "name": "Worajedt Sitthidumrong",
+            "pronoun": "He/Him",
+            "country": "Thailand",
+            "link": "/pages/speakers#Worajedt-Sitthidumrong.jpg",
         },
         {
             "img": "/theme/img/speakers/WorajedtSitthidumrong.jpg",
