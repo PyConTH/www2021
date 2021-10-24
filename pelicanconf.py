@@ -590,18 +590,21 @@ JINJA_GLOBALS = {
             "link": "/pages/speakers#Dr-Praewpan-Poriswanish",
         },
         {
-            "img": "/theme/img/speakers/WorajedtSitthidumrong.jpg",
-            "name": "Worajedt Sitthidumrong",
+            "img": "/theme/img/speakers/FlorianHoenicke.jpg",
+            "name": "Florian Hoenicke",
             "pronoun": "He/Him",
-            "country": "Thailand",
-            "link": "/pages/speakers#Worajedt-Sitthidumrong.jpg",
+            "country": "Germany",
+             "github": "https://github.com/florian-hoenicke",
+            "linkedin": "https://www.linkedin.com/in/florian-hönicke-b902b6aa/",
+            "link": "/pages/speakers#Florian-Hoenicke",
         },
         {
             "img": "/theme/img/speakers/WorajedtSitthidumrong.jpg",
             "name": "Worajedt Sitthidumrong",
             "pronoun": "He/Him",
             "country": "Thailand",
-            "link": "/pages/speakers#Worajedt-Sitthidumrong.jpg",
+            "linkedin": "https://www.linkedin.com/in/worajedt/",
+            "link": "/pages/speakers#Worajedt-Sitthidumrong",
         },
     ]
 }
