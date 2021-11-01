@@ -426,7 +426,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/c-bata",
             "twitter": "https://twitter.com/c-bata",
             "linkedin": "https://www.linkedin.com/in/c-bata/",
-            "link": "",
+            "link": "/pages/speakers#Masashi-Shibata",
         },
         {
             "img": "/theme/img/speakers/KalyanPrasad.jpg",
