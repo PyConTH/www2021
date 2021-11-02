@@ -435,7 +435,7 @@ JINJA_GLOBALS = {
             "country": "India",
             "twitter": "https://twitter.com/itskpflow",
             "linkedin": "https://www.linkedin.com/in/kalyan-prasad-3a647b22/",
-            "link": "",
+            "link": "/pages/speakers#Kalyan-Prasad",
         },
         {
             "img": "/theme/img/speakers/IvanTorroledo.jpg",
