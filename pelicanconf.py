@@ -222,7 +222,6 @@ JINJA_GLOBALS = {
         {
             "img": "/theme/img/speakers/GrimmerKang.jpg",
             "name": "Grimmer Kang",
-            "name2": "康登傑",
             "pronoun": "He/Him",
             "country": "Taiwan",
             "github": "https://github.com/grimmer0125",
@@ -427,7 +426,7 @@ JINJA_GLOBALS = {
             "github": "https://github.com/c-bata",
             "twitter": "https://twitter.com/c-bata",
             "linkedin": "https://www.linkedin.com/in/c-bata/",
-            "link": "",
+            "link": "/pages/speakers#Masashi-Shibata",
         },
         {
             "img": "/theme/img/speakers/KalyanPrasad.jpg",
@@ -436,7 +435,7 @@ JINJA_GLOBALS = {
             "country": "India",
             "twitter": "https://twitter.com/itskpflow",
             "linkedin": "https://www.linkedin.com/in/kalyan-prasad-3a647b22/",
-            "link": "",
+            "link": "/pages/speakers#Kalyan-Prasad",
         },
         {
             "img": "/theme/img/speakers/IvanTorroledo.jpg",
@@ -495,7 +494,7 @@ JINJA_GLOBALS = {
             "img": "/theme/img/speakers/JesseHirata.jpg",
             "name": "Tetsuya Jesse Hirata",
             "pronoun": "He/Him",
-            "country": "Columbia",
+            "country": "Japan",
             "twitter": "https://twitter.com/JesseTetsuya",
             "linkedin": "https://www.linkedin.com/in/tetsuya-hirata/",
             "link": "/pages/speakers#Tetsuya-Jesse-Hirata",
@@ -577,7 +576,7 @@ JINJA_GLOBALS = {
 
          {
             "img": "/theme/img/speakers/NunoMuralha.jpg",
-            "name": "Nuno Muralha",
+            "name": "Dr. Nuno Muralha",
             "pronoun": "He/Him",
             "country": "Portugal",
             "linkedin": "https://www.linkedin.com/in/nuno-muralha/",
@@ -588,7 +587,24 @@ JINJA_GLOBALS = {
             "name": "Dr. Praewpan Poriswanish",
             "pronoun": "She/Her",
             "country": "Thailand",
-            "link": "/pages/speakers#Nuno-Muralha",
+            "link": "/pages/speakers#Dr-Praewpan-Poriswanish",
+        },
+        {
+            "img": "/theme/img/speakers/FlorianHoenicke.jpg",
+            "name": "Florian Hoenicke",
+            "pronoun": "He/Him",
+            "country": "Germany",
+             "github": "https://github.com/florian-hoenicke",
+            "linkedin": "https://www.linkedin.com/in/florian-hönicke-b902b6aa/",
+            "link": "/pages/speakers#Florian-Hoenicke",
+        },
+        {
+            "img": "/theme/img/speakers/WorajedtSitthidumrong.jpg",
+            "name": "Worajedt Sitthidumrong",
+            "pronoun": "He/Him",
+            "country": "Thailand",
+            "linkedin": "https://www.linkedin.com/in/worajedt/",
+            "link": "/pages/speakers#Worajedt-Sitthidumrong",
         },
     ]
 }
