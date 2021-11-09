@@ -38,7 +38,8 @@ page_names = [
   'sponsor',
   'the-conference',
   'volunteer',
-  'workshops'
+  'workshops',
+  'sprints'
 ]
 
 for p in page_names:
