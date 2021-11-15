@@ -49,4 +49,6 @@ talks = talks.rename(columns={'Title (Req.)': "title",
                               'Speaker Name': 'name', 
                               'Track Name': 'location'})
 talks = talks.drop(columns=["Speakers", "Track", 'Session ID (Read only)'])
+
+talks = talks.sort(["date", "start_time"])
 talks.to_json("theme/static/schedule.json", orient='records', indent=4)
