@@ -1,238 +1,499 @@
 [
-  {
-    "name": "Tonya Sims",
-    "email": "tonya.sims@vonage.com",
-    "avatar": "https://secure.gravatar.com/avatar/41964a843cb0bf4c947eff8120523a80?s=500",
-    "location": "Unknown",
-    "bio": "Voted into the Wisconsin Basketball Hall of Fame, former professional and collegiate basketball player turned Pythonista Tonya Sims is currently a Python Developer Advocate at Vonage. \n\nShe considers herself to be humble and down to earth as well as having a great deal of empathy. With an eclectic background in business, pharmaceutical sales and as a self taught developer it has allowed her to see the world from many different perspectives. \n\nTonya started her technology career working as an executive assistant for a leading financial investments company in their IT department. She transitioned into a computer operator role and started learning how to code. Eventually she worked her way up from an entry-level position to earn roles as a software engineer in test and software developer contracting with some of the top financial services companies in Chicago. \n\nShe is passionate about helping other budding engineers and loves to see people succeed. When she's not working she enjoys playing the piano, watching documentaries and listening to music.",
-    "twitter": "tonyasims",
-    "url": "",
-    "organization": "Vonage",
-    "shirt_size": "Women's L",
-    "talk_format": "Talk (~30-45 minutes)",
-    "title": "Faceoff Fun with Python Frameworks: FastAPI vs Flask",
-    "abstract": "When you need to choose between web frameworks, our faceoff between FastAPI and Flask helps lead you to victory. To avoid wasting time, we help you discover the pros and cons of each. You'll see a side by side comparison of features that will empower you to feel productive in your development quest.",
-    "description": "'All the cool kids are using FastAPI for API development.' Imagine hearing this just as you start getting more comfortable using other frameworks, like Python's Django or Flask, to build out your APIs. Folks, there's a new kid on the block! In this talk, there's going to be an epic face-off between FastAPI and Flask. \n\nWhat is Flask?\n\nFlask is a micro web framework built for Python designed to get your application up and running quickly. It's lightweight and used by many different well-known projects.\n\nWhat is FastAPI?\n\nFastAPI (aka the new kid) is a modern Python web framework that takes all your favorite features from other tools and combines them into one. It was built for speed, rapid development, and enhanced developer experience.\n\nWe'll do a side-by-side comparison of the two frameworks, including features and code structure, using a REST API. By the end of the face-off, you'll have a much better understanding of which one you'll use in your next project. \n\nLet's analyze the pros and cons of each and why you'd use one over the other. You may even find a lot of similarities between the two and some contrast as well. You'll see different categories of features for the frameworks, and a winner will be chosen for each. \n\nFinally, no matter which you prefer, FastAPI and Flask are both great choices for API development, so let's have fun and let the face-off begin.",
-    "notes": "Hi! I'm a former professional athlete turned software developer and feel I'm the right person for this talk because of my experience. \n\nBeing a self-taught developer, I understand how to learn and most importantly how to teach others to learn quickly. \n\nHaving a career in sports has taught me how to be a team player and love including others in the game plan. \n\nMy teaching experience with Python has helped build a budding community of coders in my community and has also enabled me to learn Python more deeply.\n\nI love this field because it allows me to learn new things everyday and teach them to others so they can excel in their job or personal projects.  \n\nI have a great deal of empathy for others and love to see people succeed. \n\nThe only technical requirement for this talk is to have a working computer as I will share the code snippets in the presentation slides. The Github repos with my code will be available as well.",
-    "audience_level": "Intermediate",
-    "tags": [
-      "python",
-      "FastAPI",
-      "Flask"
-    ],
-    "rating": 56,
-    "state": "accepted",
-    "confirmed": "TRUE",
-    "created_at": "June 23, 2021 19:35 UTC",
-    "date": "2021-11-01",
-    "start_time": "9:00",
-    "end_time": "9:30"
-  },
-  {
-    "name": "TUSHAR BANSAL",
-    "email": "16ucs200@lnmiit.ac.in",
-    "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/47951/ezgif.com-gif-maker.jpg",
-    "location": "India",
-    "bio": "Tushar is passionate about computer vision, text analysis technology, meeting developers, and helping in solving their problems. Currently, he is working as a software engineer at Samsung Research and Development working on artificial intelligence technologies. Recently, he has also worked as an open leader with Mozilla with a vision to empower developers with open practices and data science. In addition to this, he has also served as a subject matter expert (SML) in computer programming and machine learning at Chegg. \n\nHis other interest includes cooking, taking long leisurely walks in the woods.in the woods.",
-    "twitter": "",
-    "url": "https://www.linkedin.com/in/tushar-bansal-54b713152/",
-    "organization": "Samsung Research and Development",
-    "shirt_size": "Men's L",
-    "talk_format": "Talk (~30-45 minutes)",
-    "title": "Bring your Gym Trainer at home with Artificial Intelligence.",
-    "abstract": "Working from home has never felt as good as before. But it also adds on Kilos. With AI, we can now have effective workout sessions in our homes. You'll learn to build a Virtual Trainer app that detects your exercise pose and provides personalized recommendations, meanwhile tracking your reps count.",
-    "description": "In this session, we will see what exactly Pose Estimation is, and its application in various fields like Gait Analysis, Fitness Training, Gesture Recognition, etc. We will learn how we can develop an end-to-end AI-based Virtual Pose Trainer mobile application using MLKit and TensorFlow API that can detect our exercise pose and analyze it to provide detailed recommendations in real-time to improve exercise form as incorrect exercise posture can be ineffective and potentially dangerous. Further, we will see how we can make the mobile application count reps automatically. I'll discuss the challenges we faced and how to overcome them. \n\nExpect materials on CNN (Convolution Neural Networks), pose estimation model MLKit, and OpenPose to localize human body key points using confidence maps, Part Affinity Fields, and Bipartite matching, techniques like simple exponential, moving average, random walk to smooth the detected key points. And don't worry if that last statement didn't make sense. It will. \n\nIn the end, I will provide a demo on the Artificial Intelligence-based Virtual Personal Trainer App.",
-    "notes": "The attendees will get the most out of this session if they have basic programming skills in python and a basic understanding of Machine Learning. The attendees will get all the fancy concepts they need.\n\nI believe I'm the best person to speak on this subject as I've been working in the field of Machine Learning specifically computer vision and natural language processing for the last 4 years. Also, I'm a part of the Artificial Intelligence Research Team at Samsung R&D. As a part of my academic curriculum, I have got a Certification in Deep Learning as well.\n\nEarlier in 2019, I've been a part of PyCon Thailand 2019 as a speaker. I had a wonderful experience there, meeting people from different parts of the world, and different work backgrounds. It was a great opportunity for me to share what I've learned during my professional journey.\n\nAnd I'm happy to see that there will be another PyCon APAC 2021.",
-    "audience_level": "All",
-    "tags": [
-      "Python",
-      "Machine Learing",
-      "Artificial Intelligence",
-      "Fitness"
-    ],
-    "rating": 76,
-    "state": "accepted",
-    "confirmed": "TRUE",
-    "created_at": "July 21, 2021 12:16 UTC",
-    "date": "2021-11-01",
-    "start_time": "9:30",
-    "end_time": "10:30"
-  },
-  {
-    "name": "Katie McLaughlin",
-    "email": "katie@glasnt.com",
-    "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/1513/tsaXh9sH_400x400.jpg",
-    "location": "Unknown",
-    "bio": "Katie has worn many different hats over the years. She has been a software developer for many languages, systems administrator for multiple operating systems, and speaker on many different topics.\n\nWhen she's not changing the world, she enjoys making tapestries, cooking, and seeing just how well various application stacks handle emoji.",
-    "twitter": "glasnt",
-    "url": "https://glasnt.com",
-    "organization": "",
-    "shirt_size": "Women's XL",
-    "talk_format": "Talk (~30-45 minutes)",
-    "title": "Turning 'wat' into 'why'",
-    "abstract": "When using a programming language for the first time, a new developer coming across a bugbear may state: \"Oh, this language is TERRIBLE. I HATE IT\"\n \nOr: \"Huh.. I wonder why that is...\"\n\nTake a trip along the latter path through a dozen different languages and understand why things the way they are.",
-    "description": "Programming languages are repeatedly touted to have strange edge cases. Bugbears. Footguns. Wats. The canonical 'wat' talk (https://www.destroyallsoftware.com/talks/wat) shows some of these for Ruby and JavaScript, but doesn't go into any detail into the 'why'\n\nIn this talk, take a tour of a dozen different programming languages, from JavaScript to Haskell, Python to Perl, Elixir and more; and see not only the 'wat', but the 'why': is it a misunderstanding based on assumption from another programming language? A compiler optimisation? A design consideration? A known bug that can't be fixed due to backwards compatibility concerns?\n\nAttendees will come away from this talk with a greater understanding about how to turn a 'wat' into a 'why'.",
-    "notes": "Languages discussed (subject to change): Python, JavaScript, Perl, Haskell, Ruby, Haskell, Pascal, Bash, PowerShell, PHP, Elixir, Swift. \n\nThis talk is very language agnostic, but when presented to a Python crowd I ensure I weight towards Python, while still giving thorough time to other languages. \n\nThis talk has previously been presented at various regional PyCons around the world, and previously as a JavaScript-heavy talk at PHP, Ruby, and open source conferences internationally.",
-    "audience_level": "Intermediate",
-    "tags": [
-      "python",
-      "ruby",
-      "programming languages"
-    ],
-    "rating": 50,
-    "state": "accepted",
-    "confirmed": "TRUE",
-    "created_at": "April 11, 2021 10:16 UTC",
-    "date": "2021-11-01",
-    "start_time": "9:30",
-    "end_time": "10:30"
-  },
-  {
-    "name": "Pratibha Jagnere",
-    "email": "pratibhasharmadba@gmail.com",
-    "avatar": "https://secure.gravatar.com/avatar/a728bdb000135b786d133f8be9b74945?s=500",
-    "location": "Unknown",
-    "bio": "<p>Pratibha is an enthusiast Pythoniasta, passionate for coding and books. Through her PyCon talks, she love to explore and share new things she learn in Python.</p>",
-    "twitter": "pratibhajagnere",
-    "url": "",
-    "organization": "",
-    "shirt_size": "Women's 3XL",
-    "talk_format": "Talk (~30-45 minutes)",
-    "title": "Metaclasses : The Realm of Metaprogramming",
-    "abstract": "In this talk, we will explore the concepts of Metaprogramming using Metaclasses in Python. It is one of the most complex yet interesting topics in Python that makes Python an extremely powerful programming language. We are going to discuss why and when we should use Metaclasses and the alternatives.",
-    "description": "<p>As Tim Peters well said, Metaclasses are deeper magic that 99% of users should never worry about. If you wonder whether you need them, you don't (the people who actually need them know with certainty that they need them, and don't need an explanation about why).</p>\n\n<p>This talk will provide an overview of the following topics:</p>\n\n<ol>\n<li>What is Metaprogramming In Python?</li>\n<li>How Does Metaprogramming work?</li>\n<li>Where can we use Metaprogramming?</li>\n<li>What are Metaclasses?</li>\n<li>When should we use Metaclasses?</li>\n<li>Examples</li>\n</ol>\n\n<p>Metaprogramming is a complicated programming topic and unless the requirement can only be solved via Metaprogramming, we would recommend the developers choose a different programming approach than Metaprogramming.</p>\n\n<h2>OUTLINE</h2>\n\n<ol>\n<li>Introduction</li>\n<li>What is Metaprogramming?</li>\n<li>What are Metaclasses?</li>\n<li>Why Metaclassses are best?</li>\n<li>Why NOT Metaclasses?</li>\n<li>Conclusion</li>\n</ol>",
-    "notes": "",
-    "audience_level": "Advanced",
-    "tags": [
-      "python",
-      "metaclasses",
-      "metaprogramming"
-    ],
-    "rating": 78,
-    "state": "accepted",
-    "confirmed": "TRUE",
-    "created_at": "July 31, 2021 12:56 UTC",
-    "date": "2021-11-01",
-    "start_time": "11:00",
-    "end_time": "11:30"
-  },
-  {
-    "name": "Karishma Babbar",
-    "email": "mailstokarishma@gmail.com",
-    "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/76645/Photo_-_Headshot.jpg",
-    "location": "India",
-    "bio": "Karishma is currently working as a Machine Learning Specialist at S&P Global Market Intelligence, India. Her work is focused on developing data extraction solutions using machine learning and natural language processing generating significant client revenue. She comes from an engineering background with around ~4 years of experience in the data science domain. When she is not in front of a screen, she enjoys volunteering for women empowerment and diversity causes.",
-    "twitter": "",
-    "url": "",
-    "organization": "S&P Global Market Intelligence",
-    "shirt_size": "Women's M",
-    "talk_format": "Workshop (> 60 minutes)",
-    "title": "Machine Learning Lifecycle Made Easy with MLflow",
-    "abstract": "Machine learning development poses various challenges - trying multiple algorithms and parameters to get the best results, tracking these runs, and deploying the model on diverse tools. This workshop provides a hands-on experience of managing the complete machine learning lifecycle using MLflow.",
-    "description": "<p>In theory, the crux of machine learning (ML) development lies with data collection, model creation, model training, and deployment. In reality, machine learning projects are not so straightforward. They are a cycle iterating between improving the data, model, and evaluation that is never really finished. Unlike in traditional software development, ML developers experiment with multiple algorithms, tools, and parameters to optimize performance, and they need to track these experiments to reproduce work. Furthermore, developers need to use many distinct systems to productionize models.</p>\n\n<p>In this workshop, we introduce MLflow, an open-source platform that aims at simplifying the entire ML lifecycle where we can use any ML library and development tool of our choice to reliably build and share ML applications. MLflow offers simple abstractions through lightweight APIs to package reproducible projects, track results, and encapsulate models that are compatible with existing tools, thereby, accelerating ML lifecycle of any size.</p>\n\n<p>With the help of an example, we will show how using MLflow can ease bookkeeping of experiment runs and results across frameworks, quickly reproducing runs on any platform (cloud or local execution), and productionizing models on diverse deployment tools.</p>\n\n<p>\nAt the end of this workshop, you will be familiar with '“ \n<ul>\n    <li>Key concepts, abstractions, and components of open-source MLflow</li>\n    <li>How each component of MLflow addresses challenges of ML lifecycle</li>\n    <li>How to use MLflow Tracking during model training to record experimental runs</li>\n    <li>How to use MLflow Tracking User Interface to visualize experimental runs with different tuning parameters and evaluation metrics</li>\n    <li>How to use MLflow Projects for packaging reusable and reproducible models</li>\n    <li>How to use MLflow Models general format to serve models using MLflow REST API</li>\n</ul></p>\n\n<p>The purpose of the session is to introduce the audience to MLflow and give a taste of the ML development lifecycle. It is intended at providing a breadth than depth survey of MLflow platform, and we leave the audience to experiment with it further through takeaway exercises.<p>\n\n<p>PRE-REQUISITES '“ \n<ul>\n    <li>Basic knowledge of Python programming language</li>\n    <li>Basic understanding of machine learning concepts</li>\n</ul></p>\n\n<p>TRACK - \nData Science in Production, Machine Learning, Data Engineering or MLOps\n</p>",
-    "notes": "In this session, we shall be sharing valuable lessons we learned from working in the industry about MLOps (Data Science in Production) that is crucial for operationalizing and scaling machine learning to drive business value. This shall prove beneficial to all participants interested in developing and deploying machine learning in production.",
-    "audience_level": "All",
-    "tags": [
-      "Machine Learing",
-      "MLOps",
-      "Data Science in Production",
-      "Python"
-    ],
-    "rating": 74,
-    "state": "accepted",
-    "confirmed": "TRUE",
-    "created_at": "August 15, 2021 09:14 UTC",
-    "date": "2021-11-02",
-    "start_time": "9:00",
-    "end_time": "9:30"
-  },
-  {
-    "name": "Cheuk Ting Ho",
-    "email": "cheukting.ho@gmail.com",
-    "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/26654/IMG_1037.JPG",
-    "location": "London",
-    "bio": "After spending 5 years doing computational research in Physics, Cheuk has transferred her analytical and logical skills in natural science and built a career in data science. Cheuk has been a Data Scientist in various companies which demands high numerical and programmatical skills, especially in Python. To follow her passion for the tech community, now Cheuk is the Developer Relations Lead at TerminusDB - an open-source graph database. Cheuk maintains its Python client and engages with its user community daily.\n\nBesides her work, Cheuk enjoys talking about Python in personal streaming platform and MidMeetPy podcast. Cheuk has also been a guest speaker at Universities and various conferences. On top of speaking at conferences, Cheuk also participates as organizers. Conferences that Cheuk has organized include EuroPython(which she is a board member of), PyData Global and Pyjamas Conf. Believing in gender equality, Cheuk constantly organizes workshops and mentored sprints to support Tech Diversity and Inclusion. In 2021, Cheuk has become a Python Software Foundation fellow.",
-    "twitter": "cheukting_ho",
-    "url": "https://cheuk.dev",
-    "organization": "TerminusDB",
-    "shirt_size": "Women's S",
-    "talk_format": "Talk (~30-45 minutes)",
-    "title": "Developing a tap and target for Singer.io - Open Source ETL",
-    "abstract": "With lot's of databases and data products out there, pulling data from one and piping it into another is a common task. With Singer.io taps and targets you can create your own pipeline easily. I will show you how to develop them in Python to work with a graph database.",
-    "description": "To efficient transporting data from one data source to another with ease seems like a dream. To avoid cleaning data and make sure the data is in good format makes the ETL process very important. Recently I discovered Singer.io, an open-source ETL tool that I can easily mix and match different taps and targets to build a specific data pipeline to put data from one and pipe to another. However, since I am working with a graph database, none of the existing taps and targets works for me so I have to develop my own.\n\n In this talk, Cheuk will first explain the concept of taps and targets in Singer.io and how they can be mix and match and will work as one pipeline. There are a few protocols that when developing taps and targets need to be aware of. Then Cheuk will show the most basic form of tap and target as an example to demonstrate this idea.\n\nIn the second part, Cheuk will show you the tap and target that she developed. When working with a graph database where the nested structure is common, flattening and conversion of the data type becomes important and complicated. Cheuk will show you how to overcome it.\n\nThrough this talk, audiences will get familiar with an open-source tool that may be useful for their projects and understand how it works. Audiences also learn how to flatten complex structures in the ETL process.",
-    "notes": "",
-    "audience_level": "All",
-    "tags": [
-      "Python",
-      "ELT",
-      "Data pipeline"
-    ],
-    "rating": 60,
-    "state": "accepted",
-    "confirmed": "TRUE",
-    "created_at": "August 15, 2021 19:16 UTC",
-    "date": "2021-11-02",
-    "start_time": "9:30",
-    "end_time": "10:30"
-  },
-  {
-    "name": "Yothin Muangsommuk",
-    "email": "m@yothinix.com",
-    "avatar": "https://secure.gravatar.com/avatar/0c501f2da7d6df295b7da22c8c4f2c11?s=500",
-    "location": "Bangkok",
-    "bio": "I'm a Python enthusiasm, emacs lover, and a Trekkie passionate about Technical excellence and Software craftmanship.",
-    "twitter": "yothinix",
-    "url": "https://blog.yothinix.com/",
-    "organization": "ODDS",
-    "shirt_size": "Men's XL",
-    "talk_format": "Talk (~30-45 minutes)",
-    "title": "Relearning Python the right way",
-    "abstract": "What do you think if I tell you that the way most of us learning programming language is in the wrong way. If the answer is no, My talk will change your mind.",
-    "description": "Learning the new programming language is hard and it can be harder when it is your first language you learn to program. When it comes to approach and look at the answer in the forum it often is one of watching the video tutorial, working on a pet project, or even taking a course. I believe that all of these methods are missing at least one point that you should know when learning a new language and in this talk, I will present to you a framework for picking up a new language that focusing on each piece of the language itself and help you to become a better programmer later on.",
-    "notes": "I have train Python to so many people and take so many courses with years of experience in using Python in production software and I have seen many pitfalls people get when picking up a new language including myself. This is why I come up with this talk to help people get over this pitfall and be better programmers with a solid foundation in the language.",
-    "audience_level": "Beginner",
-    "tags": [
-      "Python",
-      "Education"
-    ],
-    "rating": 52,
-    "state": "accepted",
-    "confirmed": "TRUE",
-    "created_at": "August 10, 2021 13:32 UTC",
-    "date": "2021-11-02",
-    "start_time": "9:30",
-    "end_time": "10:30"
-  },
-  {
-    "name": "Yevonnael Andrew",
-    "email": "yevonnael.andrew@gmail.com",
-    "avatar": "https://secure.gravatar.com/avatar/9475b1797be7252a6a0a79ac018bce51?s=500",
-    "location": "Unknown",
-    "bio": "Hi everyone! My name is Yevonnael Andrew, from Indonesia!  I currently finishing my study at Master's in ML & AI at Liverpool JMU, UK. Currently, I am doing my internship at UNDP in Indonesia as Data Analyst, I am also a Digital and Data bureau at one of the Indonesian political parties. I have multiple teaching experiences, for example, DTS Kominfo (training on Ministry of ICT Indonesia), Bootcamp by DQLab, teaching on local universities, etc. I also delivered a talk at Pycon Indonesia last year on a similar topic.",
-    "twitter": "",
-    "url": "https://www.linkedin.com/in/yevonnael-andrew-3351b9a7/",
-    "organization": "UNDP",
-    "shirt_size": "Men's XL",
-    "talk_format": "Workshop (> 60 minutes)",
-    "title": "Stock Portfolio Optimization for Beginner Investors using Python",
-    "abstract": "Are you an investor? If yes, then this talk is for you! Here I will demonstrate the basic theory and Python skills you need to design and evaluate the most optimal investment portfolio, which has low risk and maximum return according to your investment objectives.",
-    "description": "All investors, from large investors to the smallest individual investors, have a common problem with investing: how to decide where to invest, how much amount to invest, and how much risk to take? There are so many early investors when investing, do not use the required analytical techniques, this is due to the lack of sufficient fundamentals. In this tutorial, I'll cover the minimum theory you'll need as well as the Python skills you'll need to do portfolio analysis. So that after this session, you can immediately start your own portfolio analysis so that your investment level will be more optimal.\n\nI won't go into much of the math formulas, as Python will do it, but I'll give a conceptual one with relevant examples. I will give a stock optimization method, namely the Markowitz model, where this model is essentially looking for a combination of stocks that has the highest ratio of returns and the lowest volatility.\n\nIn this demonstration, I will conduct an investment simulation of stocks in a portfolio. The results of this simulation will be compared to an unoptimized portfolio (distribute the funds equal to 1/n to n types of shares). From the simulation results, we can see that with just a simple optimization using Python, we can produce a more optimal portfolio.",
-    "notes": "I'm going to do a demonstration using Jupyter Notebook. There are no special requirements. I have arranged the material so that it is general and can be understood by the wider community. The presentation material is in the form of ppt and I will provide a notebook so that participants can follow along while I do the presentation. I currently finishing my study at Master's in ML & AI at Liverpool JMU, UK. Currently, I am doing my internship at UNDP in Indonesia as Data Analyst, I am also a Digital and Data bureau at one of the Indonesian political parties. I have multiple teaching experiences, for example, DTS Kominfo (training on Ministry of ICT Indonesia), Bootcamp by DQLab, teaching on local universities, etc. I also delivered a talk at Pycon Indonesia last year on a similar topic.",
-    "audience_level": "Intermediate",
-    "tags": [
-      "data science",
-      "finance",
-      "investing",
-      "Python",
-      "Fintech",
-      "Machine Learing"
-    ],
-    "rating": 56,
-    "state": "accepted",
-    "confirmed": "TRUE",
-    "created_at": "July 31, 2021 09:56 UTC",
-    "date": "2021-11-02",
-    "start_time": "11:00",
-    "end_time": "11:30"
-  }
+    {
+        "title":"Jintao Zhang (He\/Him) - Using eBPF with Python",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"09:00",
+        "end_time":"10:00",
+        "description":"<p>eBPF is a powerful technology. We can use eBPF with Python to do more things such as debugging or improving the performance.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Jintao? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the<a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\"> Development Room<\/a> on Sat, Nov 20th at 4:15pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Matt Lebrun (He\/Him) - How Python Supercharged my Maker's Journey",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"09:00",
+        "end_time":"10:00",
+        "description":"<p>I love creating tools for productivity or just for fun and Python has been my favorite language to do just that. When consumer 3D printing finally became more accessible for me, I thought I could finally extend my love for making things but as physical objects. My head was instantly filled with even more possibilities!&nbsp;<\/p>\n<p>This talk explores how my passion for programming took what I can do with my 3D printer to the next level.<\/p>\n<p><strong>Questions for Matt? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Data &amp; IoT Room<\/a> on Sun, Nov 21st at 11:45am(GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Ming-Yang Ho (He\/Him) - Get 3D models out of nothing: Python implementation of deep learning-based 3D models reconstruction from 2D images.",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"09:00",
+        "end_time":"10:00",
+        "description":"<p>Many people learn Python for deep learning (DL). However, people might usually associate DL with dog\/cat classification, object detection (YOLO), or GAN, etc. However, DL can do more than you can imagine! Here, we introduce a fantastic task of 3D model reconstruction with Python implementation.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Kaminyo? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Machine Learning Room<\/a> on Sat, Nov 20th at 6:15pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Cheuk Ting Ho (She\/Her) - Developing a tap and target for Singer.io - Open Source ETL",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"09:30",
+        "end_time":"10:30",
+        "description":"<p>With lots of databases and data products out there, pulling data from one and piping it into another is a common task. With Singer.io taps and targets you can create your own pipeline easily. I will show you how to develop them in Python to work with a graph database.<\/p>\n<p><strong>Questions for Cherrie? Ask them in the Q&amp;A forum on your right hand panel and she'll answer your questions &nbsp;live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Data &amp; IoT Room<\/a> on Sun, Nov 21st at 4:30pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Katie McLaughlin (She\/Her)  - Turning 'wat' into 'why'",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"09:30",
+        "end_time":"10:30",
+        "description":"<p>When using a programming language for the first time, a new developer coming across a bugbear may state: \"Oh, this language is TERRIBLE. I HATE IT\"&nbsp;<\/p>\n<p>Or: \"Huh.. I wonder why that is...\"&nbsp;<\/p>\n<p>Take a trip along the latter path through a dozen different languages and understand why things the way they are.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Katie? Ask them in the Q&amp;A forum on your right hand panel and she'll answer your questions &nbsp;live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Programming Language Chat Room<\/a> on Sun, Nov 21st at 2:25pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Workshop session 2 led by Yevonnael Andrew: Stock Portfolio Optimization for Beginner Investors using Python",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"10:00",
+        "end_time":"12:00",
+        "description":"<p>All investors, from large investors to the smallest individual investors, have a common problem with investing: how to decide where to invest, how much amount to invest, and how much risk to take? There are so many early investors when investing, do not use the required analytical techniques, this is due to the lack of sufficient fundamentals.&nbsp;<\/p>\n<p>In this tutorial, I&rsquo;ll cover the minimum theory you&rsquo;ll need as well as the Python skills you&rsquo;ll need to do portfolio analysis. So that after this session, you can immediately start your own portfolio analysis so that your investment level will be more optimal.&nbsp;<\/p>\n<p>I won&rsquo;t go into much of the math formulas, as Python will do it, but I&rsquo;ll give a conceptual one with relevant examples. I will give a stock optimization method, namely the Markowitz model, where this model is essentially looking for a combination of stocks that has the highest ratio of returns and the lowest volatility.&nbsp;<\/p>\n<p>In this demonstration, I will conduct an investment simulation of stocks in a portfolio. The results of this simulation will be compared to an unoptimized portfolio (distribute the funds equal to 1\/n to n types of shares). From the simulation results, we can see that with just a simple optimization using Python, we can produce a more optimal portfolio.<\/p>"
+    },
+    {
+        "title":"Workshop Session 1 led by Joshua Arvin Lat : Training and Deploying your custom Machine Learning Models in Amazon SageMaker using Docker containers",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"10:00",
+        "end_time":"12:00",
+        "description":"<p>Three parts:<\/p>\n<p>- Getting started with using custom machine learning models in SageMaker (basic)&nbsp;<\/p>\n<p>- Building your own custom ML container image (intermediate)&nbsp;<\/p>\n<p>- MLOps \/ ML Pipelines (intermediate)<\/p>\n<p><strong>All <\/strong><strong>participants will receive a copy of Joshua Arvin Lat's new book: Machine Learning with Amazon SageMaker cookbook<\/strong><\/p>"
+    },
+    {
+        "title":"Novia Listiyani Wirhaspati (She\/Her) - Handling uncertainty: Introduction to Robust Optimization",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"10:15",
+        "end_time":"10:50",
+        "description":"<p>Prescriptive analytics allows us to know decisions to take in order to optimize our objective function. But, what to do when your optimization model crumbles easily due to the uncertain events that stop your previous solution from working? Let&rsquo;s see how robust optimization can help you.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Novia? Ask them in the Q&amp;A forum on your right hand panel and she'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Machine Learning Room<\/a> on Sun, Nov 21st at 11:30am (GMT+7)!&nbsp;<\/strong><\/p>\n<p>&nbsp;<\/p>"
+    },
+    {
+        "title":"Dr. Drew B Mallory (He\/Him) - Worker Well-being During COVID: From Fatigue to Flourishing",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"10:20",
+        "end_time":"11:00",
+        "description":"<p>Join Dr. Drew to kickstart your recovery.&nbsp;<\/p>\n<p>Health experts have succeeded in teaching people how to avoid catching COVID. But the virus isn't the only problem the pandemic has introduced. Mental health for workers has suffered around the world, and self-care is too often overlooked.&nbsp;<\/p>\n<p>Dr. Drew invites you to join him on a guided journey away from the COVID chaos and on your first steps toward flourishing. Dr. Drew will discuss why COVID has brought such unique challenges to workers, and invite participants to complete a coaching exercise that brings attention back to the things that matter most.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Dr.Drew? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions &nbsp;live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Community &amp; Health Room<\/a> on Sun, Nov 20th at 5 - 5:30pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Anthony Shaw (He\/Him) - Visual Studio Code for Python Developers",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"10:30",
+        "end_time":"11:30",
+        "description":"<p>In this talk you will learn how VS Code can be configured, extended, and optimized for a more effective and productive Python development environment. Once finishing this talk, you will be more productive using VS Code.<\/p>"
+    },
+    {
+        "title":"Diogenes Armando Pascua (He\/Him) - Development of A Chlorophyl Meter for Plant Nitrogen Estimation in Agriculture Using Micropython ",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"10:30",
+        "end_time":"11:30",
+        "description":"<p>Existing Chlorophyll meters in the market today are so expensive that most farmers can't afford to buy them .These meters are important in nitrogen fertilizer crop management. A low cost chlorophyll meter was developed using a hardware programmed in Micropython where the design will be tackled.<\/p>\n<p><strong>Questions for Diog? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Data &amp; IoT Chat Room<\/a> on Sat, Nov 20th at 5:15pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Andy Goldberg (He\/Him) - 100 Million Blackjack Hands, and I Only Lost $1! Thanks to Python, joblib, and AWS.",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"11:00",
+        "end_time":"11:40",
+        "description":"<p>Placing a new casino game requires simulating the game for regulators and casino owners to understand the odds. We'll model a new Blackjack variant in Jupyter, then speed up the simulations with \"joblib\" parallelism, then turbocharge via AWS servers, allowing us to run 100 million+ hands per hour.<\/p>\n<p><strong>Questions for Andy? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions &nbsp;live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Data &amp; IoT Chat Room<\/a> on Sun, Nov 21st at 11:15am (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Kanisorn Sutham (He\/Him) - Clean up Django tests with pytest, factory_boy, and Faker",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"11:00",
+        "end_time":"12:00",
+        "description":"<p>Pythonistas who enjoy writing good, clean tests! This talk will go over how I clean up my Django tests using pytest, factory boy, and faker, which is a new and simple way to write tests. Rather than simply introducing tools, this will demonstrate how I structure entire tests using these tools.<\/p>\n<p><strong>&nbsp;<\/strong><\/p>\n<p><strong>Questions for First? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Web Development Room <\/a>on Sat, Nov 20th at 2:30pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Kir Chou (He\/Him) - Learn from LL(1) to PEG parser the hard way",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"11:00",
+        "end_time":"12:00",
+        "description":"<p>In late 2019, Guido van Rossum wrote a series of articles about PEG parser and gave the talk \"Writing a PEG parser for fun and profit\" in a couple of conferences, such as North Bay Python, mentioned the motivation of his research and prototype of PEG parser. In late 2020, other authors of PEP 617, Pablo Galindo and Lysandros Nikolaou, (created around mid of 2020) were interviewed on Podcast.init to talk about the result of the new PEG parser in CPython.&nbsp;<\/p>\n<p>Above contents assume the audience with solid compiler fundamental knowledge, but the fact is most People, including this talk's speaker, are not specialized in compiler. And another fact is most of the compiler class in school around the world only covers traditional top-down and bottom-up parsing techniques, not to mention PEG parser that appeared in the early 2000s.&nbsp;<\/p>\n<p>For the above reasons, the speaker will stand on the shoulders of giants and share his hard way after a few months of study. He will talk about the fundamentals of Parser (part of compiler frontend), including CFG, traditional parsing techniques, PEG, Packrat parser, and PEG parser in CPython.<\/p>\n<p><strong>Questions for Kir? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions &nbsp;live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Programming Language Chat Room<\/a> on Sat, Nov 20th at 2:00pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Anj Lapastora (She\/Her) - How being part of the Python community allowed me to extend my passion (and strengthened my will to persevere)",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"11:30",
+        "end_time":"12:30",
+        "description":"<p>Being part of the Python community is fun because you get to extend your passion and it teaches you perseverance and endurance.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Anj? Ask them in the Q&amp;A forum on your right hand panel and she'll answer your questions &nbsp;live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Community &amp; Health Room<\/a> on Sat, Nov 20th at 5:30pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Dr. Lau Cher Han (He\/Him) - Unleashing potential in text data using NLP",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"11:30",
+        "end_time":"12:30",
+        "description":"<p>Unstructured text is the largest manual data source that grows exponentially every second. We communicate our thoughts and document our lives using unstructured data. However, many companies neglect their unstructured text data be it email, product reviews, service logs or case files. Decision makers are also not informed of emerging issues that help to increase revenue, or reduce cost. This talk covers the current state of development and application using Natural Language Processing (NLP) in businesses. Participants will learn NLP techniques practical use cases on applying these techniques in their industries.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Dr. Lau? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Machine Learning Room<\/a> on Sun, Nov 21st at 2:45pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Iv\u00e1n Torroledo (He\/Him) - Taking your data science code to production level using Kedro",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"12:00",
+        "end_time":"13:00",
+        "description":"<p>Have you had problems taking your machine learning model to production level? or has collaborative work been a nightmare in your data science projects? Let&rsquo;s take a look at Kedro, the first open-source tool from QuantumBlack labs, and take your data science code to production level code.<\/p>\n<p><strong>Questions for Iv&aacute;n? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions &nbsp;live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Data &amp; IoT Chat Room<\/a> on Sun, Nov 21st at 11:30am (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Neeraj Pandey (He\/Him) - Computational Creativity: Could AI be the next DADA movement?",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"12:00",
+        "end_time":"13:00",
+        "description":"<p>Learn how the computational, psychological, and economic aspects of AI-generated art, music, and generative design along with automated computational tasks using Machine Learning and Artificial Intelligence.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Neeraj? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Machine Learning Room <\/a>on Sat, Nov 20th at 3:00pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Why Digital Marketers Should Learn Python",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"12:15",
+        "end_time":"12:30",
+        "description":null
+    },
+    {
+        "title":"Composing Music With Python",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"12:15",
+        "end_time":"13:00",
+        "description":"<p>Music is all around us, all of the time. We can produce music with using almost anything so why not do it with Python? This talk will show you how we can produce music or should I say create an art with programming instructions.<\/p>"
+    },
+    {
+        "title":"Harsh Bardhan Mishra (He\/Him) - Building Polyglot Python applications using MetaCall Core",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"12:30",
+        "end_time":"13:30",
+        "description":"<p>With MetaCall Core, you can implement Polyglot applications that make it possible to mix different programming languages. In this talk, we will be discussing how MetaCall Core works internally. We will also walk through a Polyglot Machine Learning application to demonstrate how MetaCall Core works.<\/p>\n<p><strong>Questions for Harsh? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the<a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\"> Programming Language Chat Room<\/a> on Sun, Nov 21st at 11:45am (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"My Journey to Become an Airflow Contributor",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"12:30",
+        "end_time":"13:30",
+        "description":"<p>With a large number of contributors, contributing to Airflow can be scary. However, there is always room for everyone. This talk discusses my journey from Airflow newbie to an Airflow contributor. More importantly, I explain how you can also start your journey in this amazing and friendly community.<\/p>"
+    },
+    {
+        "title":"Kinfey Lo ( He\/Him) - Azure Machine Learning with Python",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"13:00",
+        "end_time":"14:00",
+        "description":"<p>Azure Machine Learning is a public cloud-based artificial intelligence solution provided by Microsoft. This course will introduce how to combine Python to complete Python applications in different scenarios<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Kinfey? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Machine Learning Room<\/a> on Sun, Nov 21st at 11:00am (GMT+7)!<\/strong>&nbsp;<\/p>"
+    },
+    {
+        "title":"Workshop Session 3 - Pipelines 4 All: From Data Engineering to Machine Learning",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"13:00",
+        "end_time":"17:00",
+        "description":"<p><strong>Description<\/strong><br \/>Pipelines are useful tools for data professionals at all levels and within different industries. From analysts who want to build processes to automate their analyses, to data engineers building extract, transform, and load pipelines, or even data scientists building models that require that a series of steps occur on the data needed before making a prediction (e.g. tokenization, scaling, or one of the many feature engineering techniques available). With this in mind, the goal of this tutorial is to help data professionals from diverse fields and at diverse levels build pipelines that can move and transform data as well as make useful predictions given different sets of inputs.<\/p>\n<p>The tutorial will emphasise both methodology and frameworks through a top-down approach. Several of the open source libraries included are Prefect, MLFlow, Scikit-Learn, XGBoost, FastAPI, pandas, and the HoloViz suite of libraries. In addition, the tutorial covers important concepts regarding data engineering, data analytics, and machine learning. Participants will learn concepts from the fields where the datasets came from as well, and build a foundation on how to reverse engineer data pipelines and other processes they find in the wild.<\/p>\n<p><strong>Audience<\/strong><br \/>The target audience for this session includes analysts of all level, developers, data scientists and engineers wanting to learn how to create data pipelines for their work.<\/p>\n<p><strong>Format<\/strong><br \/>The tutorial has a setup section, three major lessons of 50 minutes each, and 2 breaks of 10 minutes after each at the end of lesson 1 and 2. In addition, each of the major three sections contain exercises designed to help solidify the content taught to participants.<\/p>\n<p><span style=\"text-decoration: underline;\">Outline<\/span> <br \/>Total time budgeted including breaks - 3.5 hours <br \/><br \/><span style=\"text-decoration: underline;\">Introduction and Setup (~10 minutes)<\/span><\/p>\n<ul>\n<li>Getting the environment set up. We will be using Jupyter Lab throughout but participants experiencing difficulties throughout the session will also have the option to walk through the tutorial using Binder <\/li>\n<li>Quick breakdown of the session <\/li>\n<li>Flash instructor intro &nbsp;<br \/><br \/><\/li>\n<\/ul>\n<p><span style=\"text-decoration: underline;\">Data Engineering Pipelines (~40 minutes)<\/span><\/p>\n<ul>\n<li>Intro to the datasets <\/li>\n<li>ETL Pipeline Breakdown <\/li>\n<li>Exercise (7-min) <br \/><br \/>10-minute break &nbsp;<br \/><br \/><\/li>\n<\/ul>\n<p><span style=\"text-decoration: underline;\">Data Analytic Pipelines (~50 minutes)<\/span><\/p>\n<ul>\n<li>Intro to the dataset <\/li>\n<li>Interactive dashboard creation and customisation <\/li>\n<li>Dashboard, main functions breakdown, and pipeline creation <\/li>\n<li>Exercise (7-min) <br \/><br \/>10-minute break &nbsp;<br \/><br \/><\/li>\n<\/ul>\n<p><span style=\"text-decoration: underline;\">Machine Learning Pipelines (~50 minutes)<\/span><\/p>\n<ul>\n<li>Intro to the dataset <\/li>\n<li>ML Pipelines breakdown <\/li>\n<li>Model development <\/li>\n<li>Exercise (7-min)<\/li>\n<\/ul>"
+    },
+    {
+        "title":"Yothin Muangsommuk (He\/Him) - Relearning Python the right way",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"13:30",
+        "end_time":"14:30",
+        "description":"<p>What do you think if I tell you that the way most of us learning programming language is in the wrong way. If the answer is no, My talk will change your mind.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Man? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Programming Language Chat Room <\/a>on Sun, Nov 21st at 1:15pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Tonya Sims (She\/Her) - Faceoff Fun with Python Frameworks: FastAPI vs Flask",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"13:30",
+        "end_time":"14:30",
+        "description":"<p>When you need to choose between web frameworks, our faceoff between FastAPI and Flask helps lead you to victory. To avoid wasting time, we help you discover the pros and cons of each. You&rsquo;ll see a side by side comparison of features that will empower you to feel productive in your development quest.&nbsp;<\/p>\n<p>&ldquo;All the cool kids are using FastAPI for API development.&rdquo; Imagine hearing this just as you start getting more comfortable using other frameworks, like Python&rsquo;s Django or Flask, to build out your APIs. Folks, there&rsquo;s a new kid on the block! In this talk, there&rsquo;s going to be an epic face-off between FastAPI and Flask.&nbsp;<\/p>\n<p><strong>What is Flask?<\/strong> <br \/>Flask is a micro web framework built for Python designed to get your application up and running quickly. It&rsquo;s lightweight and used by many different well-known projects.&nbsp;<\/p>\n<p><strong>What is FastAPI?<\/strong> <br \/>FastAPI (aka the new kid) is a modern Python web framework that takes all your favorite features from other tools and combines them into one. It was built for speed, rapid development, and enhanced developer experience.&nbsp;<\/p>\n<p>We&rsquo;ll do a side-by-side comparison of the two frameworks, including features and code structure, using a REST API.&nbsp;<\/p>\n<p>By the end of the face-off, you&rsquo;ll have a much better understanding of which one you&rsquo;ll use in your next project.&nbsp;<\/p>\n<p>Let&rsquo;s analyze the pros and cons of each and why you&rsquo;d use one over the other. You may even find a lot of similarities between the two and some contrast as well. You&rsquo;ll see different categories of features for the frameworks, and a winner will be chosen for each.&nbsp;<\/p>\n<p>Finally, no matter which you prefer, FastAPI and Flask are both great choices for API development, so let&rsquo;s have fun and let the face-off begin.&nbsp;&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Tonya? Ask them in the Q&amp;A forum on your right hand panel and she'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Web Development Room<\/a> on Sun, Nov 21st at 10:45am (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Bring your Gym Trainer at home with Artificial Intelligence.",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"13:45",
+        "end_time":"14:20",
+        "description":"<p>Working from home has never felt as good as before. But it also adds on Kilos. With AI, we can now have effective workout sessions in our homes. You&rsquo;ll learn to build a Virtual Trainer app that detects your exercise pose and provides personalized recommendations, meanwhile tracking your reps count.<\/p>"
+    },
+    {
+        "title":"Chin Hwee Ong (She\/Her) - Designing Functional Data Pipelines for Reproducibility and Maintainability",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"14:00",
+        "end_time":"15:00",
+        "description":"<p>Designing data pipelines at scale is often a challenge, as testing and debugging across compute units are often complex due to dependencies at runtime. In this talk, I explore the use of functional programming in Python to design data pipelines that are reproducible and maintainable at scale.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for ChinHwee? Ask them in the Q&amp;A forum on your right hand panel and she'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Data &amp; IoT Chat Room<\/a> on Nov 21st at 2:25pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Florian Hoenicke (He\/Him) - AI-powered search in Production?",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"14:00",
+        "end_time":"15:00",
+        "description":"<p>Build a production-ready search application using Neural Search. This presentation inspires you on how to phrase real-world problems as search problems and solve them using Jina. Most people think of search as text-to-text search, but Jina allows basically any x-to-y search where x and y can be of any type like image, text, 3d model, video, audio, or even amino acid sequence.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Florian? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the<a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\"> Machine Learning Room<\/a> on Sun, Nov 21st at 3:45pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Gajendra Deshpande (He\/Him) - Build Your First Cyber Forensic Application using Python",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"14:15",
+        "end_time":"15:00",
+        "description":"<p>In this talk, one can learn how to develop their own cyber forensic tool using standard Python library functions and modules.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Gajendra? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the<a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\"> Develpment Room<\/a> on Sat, Nov 20th at 2:00pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Takanori Suzuki (He\/Him) - Introduction to Structural Pattern Matching",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"14:15",
+        "end_time":"15:00",
+        "description":"<p>Structural Pattern Matching will be a new feature in Python 3.10. I think it's a big feature added to Python after a long time. In this talk, I will show you the basic usage of the feature with some sample code. Let's try to understand how to use Pattern Matching and start using it in 3.10.<\/p>\n<p>Questions for Takanori? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Programming Language Chat Room<\/a> on Nov 20th at 4:45pm (GMT+7)!&nbsp;<\/p>"
+    },
+    {
+        "title":"Workshop Session 4: Machine Learning Lifecycle Made Easy with MLflow",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"14:30",
+        "end_time":"16:00",
+        "description":"<p>Machine learning development poses various challenges - trying multiple algorithms and parameters to get the best results, tracking these runs, and deploying the model on diverse tools. This workshop provides a hands-on experience of managing the complete machine learning lifecycle using MLflow.<\/p>"
+    },
+    {
+        "title":"Dr. Nuno Muralha (He\/Him) - From Ideation to Entrepreneurship - The Surgeon's Perspective",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"14:30",
+        "end_time":"15:30",
+        "description":"<p>Nuno Muralha is a successful surgeon and in 2014, when he started SurgeonMate project, he got the vision, and sense of mission, to help surgeons to improve their learning experience.<br \/>During the talk, Nuno will share how a surgeon can become an entrepreneur and some of the feelings experienced along the roller coaster of innovation.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Dr. Nuno? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Community &amp; Health Room<\/a> on Sun, Nov 21st at 3:00pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Scotty Kwok (He\/Him) - Python and Computer Vision from cancer classification to industrial applications",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"15:00",
+        "end_time":"16:00",
+        "description":"<p>In part one of this talk, Scotty will rerun part of his talk delivered in 2018 PyCon HK keynote. He will again explain how deep learning &amp; Python could help pathologists to classify breast cancer microscopic images, which include the concepts of digital pathology, whole-slide image analysis, model validation, AI software stacks &amp; hardware considerations. In part two, he will talk about some of the computer vision applications that his team has been developing in Sebit, and share both the fun and the challenge of computer vision projects. This part will include video analytics, edge AI and cameras.&nbsp;<\/p>\n<p>Level: Basic or Intermediate Target audiences: with basic\/intermediate machine learning and\/or Python programming knowledge&nbsp;<\/p>\n<p><strong>&nbsp;<\/strong><\/p>\n<p><strong>Questions for Scotty? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the<a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\"> Machine Learning Room<\/a> on Sat, Nov 20th at 4:00pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Grimmer Kang (He\/Him) - Use Pyodide to run Python in browsers - rendering medical DICOM files as an example",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"15:00",
+        "end_time":"16:00",
+        "description":"<p>Pyodide allows people to run pure Python code, native Python package, and some built-in scientific stack in browsers. NumPy, Pandas, Matplotlib, SciPy, and scikit-learn are included. It was started by Mozilla developer, Michael Droettboom and becomes a popular open-source project in communities. Recently, Project Jupyter release JupyterLite as its next-generation interface and which is based on Pyodide. The magic under the hood is WebAssembly.&nbsp;<\/p>\n<p>This talk will use a real-world example, rendering medical DICOM files in browsers to introduce, covering&nbsp;<\/p>\n<ul>\n<li>why and when to use Pyodide&nbsp;<\/li>\n<li>how Pyoide works<\/li>\n<li>how to use Pyodide&nbsp;<\/li>\n<li>how to render DICOM by Python and go through the code&nbsp;<\/li>\n<li>overcome the bottlenecks<\/li>\n<\/ul>\n<p><br \/>After the talk, you should be able to learn Pyodie quickly. If you are interested in extending Python power to another world and are willing to use some JavaScript to interact with Python, or want to use Python on medical files, you can consider listening to this talk !!<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Grimmer? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the<a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\"> Web Development Room<\/a> on Sat, Nov 20th at 3:45pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Peacock (He\/Him) - Getting Started with Statically Typed Programming in Python 3.10",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"15:00",
+        "end_time":"16:00",
+        "description":"<p>Now, Python is possible to write like the \"typing\" module statically typed. By that, you can significantly enhance the development experience. I'll start the talk with the basics of static-typing programming. It's included updates up to just released 3.10, writing knowledge, and best practices.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Peacock? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions &nbsp;live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Programming Language Chat Room<\/a> on Nov 20th at 11:30am (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Dr. Praewpan Poriswanish (Pui) (She\/Her) - Computer-related injuries: From Office Syndrome to Work From Home Syndrome, How to Survive the Pandemic Era?",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"15:30",
+        "end_time":"16:30",
+        "description":"<p>How working from home hurts you<br \/>Common problems (symptoms &amp; diseases) after long hours working on a computer<br \/>Preventions of those problems<br \/>Ergonomic workstation setup<br \/>Easy at-home exercises<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Dr. Pui? Ask them in the Q&amp;A forum on your right hand panel and she'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Community &amp; Health Room<\/a> on Sun, Nov 21st at 1:40pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Dima Maharika Dinama (He\/Him) - Reading Indonesia General Election Result using Python",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"16:00",
+        "end_time":"17:00",
+        "description":"<p>Python is a powerful language especially in computer vision field. This talk will explain about how I use CNN to read and analyse Indonesia election form, used by General Elections Commission (KPU in Indonesia). This talk will cover how to prepare and design CNN model, gathering training data, how it connect with other language API, and deploy the model in production.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Dima? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions &nbsp;live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Machine Learning Room <\/a>on Sat, Nov 20th at 3:15pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Kim Jaeyoon (He\/Him) - Automating reports in the civil service environment",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"16:00",
+        "end_time":"17:00",
+        "description":"<p>Talk in Korean with English sub-titles<\/p>\n<p><strong>&nbsp;<\/strong><\/p>\n<p><strong>Questions for Jaeyoon? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions &nbsp;live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Data &amp; IoT Room<\/a> on Sun, Nov 21st at 2:30pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Narrative-focused video games development with Ren'Py, an open source engine",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"16:00",
+        "end_time":"17:00",
+        "description":"<p>The game engine, Ren'Py, is an open source engine used to make countless interactive fiction games, also known as visual novels (VNs). These include commercial hits with VN elements such as Persona 5, to viral works such as Doki Doki Literature Club (2mil+ downloads as of Jan 2018).&nbsp;<\/p>\n<p>I learned to program in Python using this engine, and have released my commercial game with it after working for a few years on it during weekends, selling 10K+ copies in 8 months. In the daytime, I work as a principal data scientist in fintech.&nbsp;<\/p>\n<p>Outcome: The audience will understand the independent gaming industry and how they can use Python to break into the industry, as I share my journey. There will also be components of source code walkthrough, but will be more of an overview than a step by step tutorial due to the scope of the talk.<\/p>"
+    },
+    {
+        "title":"Albert '$bash' Yumol - Python as a Tool for Social Activism",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"16:30",
+        "end_time":"17:30",
+        "description":"<p>In this talk, I will share my experiences as tech activist in the Philippines on how I use Python and data to promote social good and impact.&nbsp;<\/p>\n<p>From using open data to quantify government corruption to chatbots that aid students in online learning, we will be inspired in making tech serve the people.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Bash? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Community &amp; Health Room<\/a> on Sun, Nov 21st at 11:20am (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"How I Build an End-to-End IoT System with Python",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"16:30",
+        "end_time":"17:30",
+        "description":"<p>In IoT application, to create firmwares, designing a data flow architecture, data visualization, and also ETL Process. Even though there are bundles of work to be accomplished, I figure out Jupyter Notebook and Flask come in handy to create Notebooks view, a rest-api and visualization tool.<\/p>"
+    },
+    {
+        "title":"Kalyan Prasad (He\/Him) - Decision Tree Visualization",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"16:45",
+        "end_time":"17:15",
+        "description":"<p># Abstract The best way to visualize decision trees is with dtreeviz. It is an awesome python library for decision tree visualization and model interpretation.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Kalyan? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Machine Learning Room<\/a> on Sun, Nov 21st at 4:00pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Aravind Putrevu (He\/Him) - Collecting Logs, Metrics, Traces from Python Flask App using Elastic Stack",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"17:00",
+        "end_time":"18:00",
+        "description":"<p>Every team aspires to discover the issues that are hurting the application's performance and scale. But, more so, it directly affects the developer productivity of the team. And hence the collection of logs, metrics, and traces are so crucial for any team!<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Aravind? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions &nbsp;live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Data &amp; IoT Chat Room<\/a> on Sat, Nov 20th at 3:20pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Workshop Session 5: Knowledge graph data modelling with TerminusDB",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"17:00",
+        "end_time":"19:00",
+        "description":"<p>Storing data in a tabular format is not always ideal. Taking advantage of strong data in knowledge graphs can make handling complex data structure possible and data visualization easier. In this workshop, you will get all the basics to start modelling data in the terms of triples and building schemas of a knowledge graph.&nbsp;<\/p>\n<p><strong>For whom is this Workshop ? <br \/><\/strong>Data scientist, engineers and researchers who have no prior experience in knowledge graph data modelling. In this workshop, we will start from the fundamentals - learning how to think in terms of triples to describe relations of different data objects. If your work involves data analysis, data management, data collaboration or anything data-related, this is a workshop for you to have a brand new insight into how data should be represented and stored. <br \/><br \/><\/p>\n<p><strong>Short Format of your Workshop<\/strong><\/p>\n<ul>\n<li>Overview-5 min,&nbsp;<\/li>\n<li>Lecture - 30 mins,&nbsp;<\/li>\n<li>Breaks- 10 minutes,&nbsp;<\/li>\n<li>Hands-on training - 40 mins,&nbsp;<\/li>\n<li>Closing - 5 mins&nbsp;<\/li>\n<\/ul>\n<p><strong>Workshop Agenda <br \/><\/strong><span style=\"text-decoration: underline;\">Overview-5 min <\/span>&nbsp;<br \/>In this session, we will go through the workshop structure, introduce TemrinusDB - the open-source tool that we use and pre-flight check to make sure everyone's set up is ready. <br \/><span style=\"text-decoration: underline;\">Lecture - 30 mins <\/span>&nbsp;<br \/>In this session, through slides and presentation, we will go through the fundamental construct of a knowledge graph:<\/p>\n<ul>\n<li>What is triple <\/li>\n<li>What are objects, documents, and other elements in a knowledge graph <\/li>\n<li>Different types of properties <br \/>Then we will show an example of how data that was represented in a relational database (tables joined with keys) can be reconstructed as a knowledge graph and the elegance of doing so. <br \/><br \/>Breaks- 10 minutes<br \/>A short break, overrun buffer and answering questions. <br \/><br \/><span style=\"text-decoration: underline;\">Hands-on training - 40 mins <\/span>&nbsp;<br \/>At the start of this session, there will be a short tour and demo of how they can build a knowledge graph schema with the schema builder in TerminusDB.(10 mins) <br \/><br \/>Then attendees will be given a dataset that is represented in tables and they will need to apply what they learnt in the lecture and construct a schema that works the best for it. They are encouraged to ask questions during this session. (20 mins) <br \/><br \/>Finally we will be building the same schema with the Python client. (10mins) <br \/><br \/><span style=\"text-decoration: underline;\">Closing - 5 mins &nbsp;<\/span><br \/>In this session, we will conclude what the attendee has achieved. We will also provide suggestions if they would like to continue learning how to work with knowledge graphs and acquire related skills - for example, using Python client to manage data in TerminusDB programmatically. <br \/><br \/>What is required from attendees * <br \/><br \/><\/li>\n<li>A computer with stable internet connection;&nbsp;<\/li>\n<li>TerminusDB Desktop App or Docker image (a.k.a TerminusDB Bootstrap) which you can download from https:\/\/terminusdb.com\/hub\/download (FREE);&nbsp;<\/li>\n<li>Python client for TerminusDB (require Python &gt;=3.7);&nbsp;<\/li>\n<li>An open mind and be ready to learn something new<\/li>\n<\/ul>\n<p><br \/>What Attendees will Learn * <br \/>By the end of the workshop, you will be able to think like a knowledge graph expert and construct a proper schema to store your data in a knowledge graph format. You will acquire the skills that you need to build knowledge graphs in TerminusDB - an open-source graph database that enables revisional control and collaborations.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Course Benefits * <br \/>You will have learnt a new skill set that may assist you in your project in data science or research. You will have a new tool that you can better model your data and collaborate with others. Also, you gain all the prerequisites to use WOQL - a query language for knowledge graph and the TerminusDB Python client to manage, manipulate and visualize data in your knowledge graph.<\/p>"
+    },
+    {
+        "title":"Workshop Session 6: 50 Powerful Tasks to Learn PyCharm Pro ( THAI )",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"17:00",
+        "end_time":"19:00",
+        "description":null
+    },
+    {
+        "title":"MLOps case studies: Building fast, scalable, and high-accuracy ML systems",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"17:15",
+        "end_time":"18:30",
+        "description":"<p>As is generally well known, there are challenges to build production-class machine learning systems in terms of team skills, performance, etc. Our company published some products that use machine learning technologies. In this talk, I will share three MLOps case studies in our company. The first case study is building memory-efficient Python binding for LIBFFM by using NumPy C-API. The second case study is accelerating a gRPC-based ML prediction server by Cython. And the last case study is implementing Warm Starting CMA-ES, the transfer learning for hyperparameter optimization using Optuna and MLflow to make the hyperparameter optimization more efficient.<\/p>"
+    },
+    {
+        "title":"Steven Kolawole (He\/Him) - Streamlit: The Fastest Way to build Data Apps",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"17:30",
+        "end_time":"18:30",
+        "description":"<p>Streamlit is a fantastic new tool that lets you create powerful &amp; highly-interactive web apps for your machine learning projects with deceptively simple Python scripts.&nbsp;<\/p>\n<p>The best thing about Streamlit is that it doesn&rsquo;t require any knowledge of web dev. If you know Python, you&rsquo;re good to go!<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Steven? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Data &amp;IoT Room<\/a> on Sat, Nov 20th at 5:15am (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Tetsuya Jesse Hirata (He\/Him) - Flask 2.0 vs Fast API in REST API developments",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"17:30",
+        "end_time":"18:30",
+        "description":"<p>This talk compares the features of Flask 2.0 with that of Fast API for REST API development by using the four comparison indicators. By explaining the variety, performance, flexibility, learning cost of both frameworks, it could help Python engineers to choose one in their daily developments.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Jesse? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Web Development Room<\/a> on Sat, Nov 20th at 4:15pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"The past, the present and the future",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"18:00",
+        "end_time":"19:00",
+        "description":"<p>We are here because of what we went through; our future will be what we are doing today. The challenges, the struggles and the happy moments of PyCon Malaysia might be similar to yours and resonate with you; they might be different from yours, and we hope you know us better after this.<\/p>"
+    },
+    {
+        "title":"Joshua Arvin Lat (He\/Him) - Machine Learning Engineering Done Right: Designing and Building Complex Intelligent Systems and Workflows with Python",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"18:00",
+        "end_time":"19:00",
+        "description":"<p>It is not an easy task to build systems and workflows that involve Machine Learning and ML Engineering requirements. In this talk, I will share the different solutions on how to design and build complex intelligent systems with Python while making sure that the best model is deployed in production.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Arvs? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Machine Learning Room<\/a> on Sun, Nov 21st at 4:15pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Pratibha Jagnere (She\/Her) - Metaclasses : The Realm of Metaprogramming",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"18:00",
+        "end_time":"19:00",
+        "description":"<p>In this talk, we will explore the concepts of Metaprogramming using Metaclasses in Python. It is one of the most complex yet interesting topics in Python that makes Python an extremely powerful programming language. We are going to discuss why and when we should use Metaclasses and the alternatives.<\/p>\n<p>&nbsp;<\/p>\n<p>Questions for Pratibha? Ask them in the Q&amp;A forum on your right hand panel and she'll answer your questions live in the Programming Language Room on Sun, Nov 21st at 2:30pm (GMT+7)!&nbsp;<\/p>"
+    },
+    {
+        "title":"\u5434\u4eac\u4eac (Wu Jing Jing) (He\/Him) - Python-Wechaty: Conversational RPA SDK for Chatbot",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"18:00",
+        "end_time":"19:00",
+        "description":"<p>Wechaty is a modern Conversational RPA SDK for Chatbot Makers which can create a bot in a few lines of code. Python-Wechaty offers out-of-the box support for the common features you'd expect from turning your IM account into chatbot, and can be easily customised and extended by developers to create a chatbot that is tailored to their precise needs.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Jing Jing? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Development Room<\/a> on Sun, Nov 20th at 3:00pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Abdur-Rahmaan Janhangeer (He\/Him) - Shopyo: Your Mega Flask Machine",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"19:00",
+        "end_time":"20:00",
+        "description":"<p>Django and Flask regularly come out as the most preferred tools of Python developers. Django is the heavy tool while Flask is the flexible, tedious solution if not careful. This talk unveils Shopyo which leverages Flask loaded with Django advantages. Presenting a monster of a new kind.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Abdur-Rahmaan? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the Web <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Development Room<\/a> on Sat, Nov 20th at 3:15pm (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"The next generation SQLAlchemy with asyncio",
+        "date":"2021-11-19T00:00:00.000Z",
+        "start_time":"19:00",
+        "end_time":"20:00",
+        "description":null
+    },
+    {
+        "title":"Workshop session 7 led by Naomi Ceder - Exploring Python Fundamentals Hands On",
+        "date":"2021-11-20T00:00:00.000Z",
+        "start_time":"07:00",
+        "end_time":"09:00",
+        "description":"<p>Have you sometimes wondered how something really works in Python? For example, how do slices work? Or how are list comprehensions and generator expressions different? In this workshop we'll create experimental classes, use the Python disassembler, and the timeit module to explore your questions about Python, and get you comfortable doing your explorations in the future. No advanced knowledge of Python is required - if you can write Python functions and have a very basic knowledge of classes, you can take this workshop and learn how to make your own Python experiments.<\/p>"
+    },
+    {
+        "title":"Opening Keynote - Lorena Mesa - What comes next? The future of the PSF & the Python Open Source Community",
+        "date":"2021-11-20T00:00:00.000Z",
+        "start_time":"09:00",
+        "end_time":"10:00",
+        "description":"<p>The PSF oversees not only the trademark for Python, but cultivates the overall wellbeing of the Python open source community. Our unique governance model has helped catapult Python to becoming the number one most popular programming language in the world!&nbsp;<\/p>\n<p>But why? As a Director and now Chairperson of the PSF for the last 6 years, let&rsquo;s reflect on lessons learned for how the role of the PSF has continued to evolve and adopt to meet the needs of Python&rsquo;s growing global user population.&nbsp;<\/p>\n<p>Together we can help build a roadmap for how the PSF is working to continue to support the needs of our community for not only today, but tomorrow. Python and the PSF are people powered, lest we never forget.<\/p>"
+    },
+    {
+        "title":"Python's Place in the World",
+        "date":"2021-11-20T00:00:00.000Z",
+        "start_time":"10:00",
+        "end_time":"11:00",
+        "description":"<p>Python has become a significant programming language over the last 30 years, with a community to match.&nbsp;<\/p>\n<p>So let's look at it closely:&nbsp;<\/p>\n<ul>\n<li>What makes Python great? <\/li>\n<li>What are the foundations of the Python community? <\/li>\n<li>What is a Python core developer? <\/li>\n<li>How is Python developed? <\/li>\n<li>What does all this mean for you?&nbsp;<\/li>\n<\/ul>\n<p>We'll cover a lot of material but always tie it back to what makes Python Python.<\/p>"
+    },
+    {
+        "title":"Panel Discussion: How can Pythonistas Engage Better for Social Good?",
+        "date":"2021-11-20T00:00:00.000Z",
+        "start_time":"11:00",
+        "end_time":"12:00",
+        "description":"<p>Panel Discussion with&nbsp;<\/p>\n<p>Albert \"Bash, Anj Lapastora,&nbsp;<\/p>\n<p>Dima M Dinama &amp; Dr Lau Cher Han.<\/p>\n<p>Led by Iqbal<\/p>"
+    },
+    {
+        "title":"Anatomy of Keyboards",
+        "date":"2021-11-20T00:00:00.000Z",
+        "start_time":"12:00",
+        "end_time":"13:00",
+        "description":"<p>New to the mechanical keyboard world? Interested in building your own keyboard? This beginner-friendly talk will go over the anatomy of a mechanical keyboard, from the low-level hardware to customizing the perfect board for you.<\/p>"
+    },
+    {
+        "title":"Ben Thompson (He\/Him) - Posture and Pain",
+        "date":"2021-11-20T00:00:00.000Z",
+        "start_time":"13:30",
+        "end_time":"14:30",
+        "description":"<p>Posture is not something we care too much about until we get hit with back-pain. Back pain can be seen as a rite of passage of getting old, welcome to the club, etc. It would surprise many to find that posture and back pain are not directly in causation. <br \/><br \/>When we think about posture, we often think about the negative aspects of it and how it relates to our lives (i.e. poor posture leading to a forward head, round shoulders, sway back). Posture plays an important role in our day-to-day activities, but it is not the main problem we face when we are sitting all day in front of the computer. <br \/><br \/>The main problem is that we do not have time to exercise, to move about, or to treat movement as vital to our well-being. Work takes precedence and for some people, exercise and movement are just not part of the daily routine. Habits are hard to change, and routine hard to establish if it is not necessary or fun. <br \/>The first step is therefore to understand the obstacles to change. Why do we not move more? What or who is stopping you from taking a physically active break while at work (is it really just the boss)? <br \/>The second step is to then figure out your back pain. Understanding back pain can be a minefield. Pain is probably not what you think is going on. That MRI scan that you have just been ordered to get by your physician may tell you that your back is broken: e.g. disc bulge at L5\/S1. There are a lot of people that will tell you what is wrong from a scan, but the truth is they cannot (taken from The New Scientist 31\/08\/2019). Besides being incredibly expensive and a waste of time, getting an MRI scan may actually worsen your back pain, as once you start looking for abnormalities, you will find them. <br \/>Finally, you are left with either making a lifestyle change or going in for back surgery (or both). Seek an expert to give you guidance, support, and accountability to making the lifestyle changes. Always remember that pain is not what you think is going on.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Questions for Ben? Ask them in the Q&amp;A forum on your right hand panel and he'll answer your questions live in the <a href=\"https:\/\/events.hubilo.com\/pycon-apac-2021\/rooms\">Community &amp; Health Room<\/a> on Sun, Nov 21st at 11:15am (GMT+7)!&nbsp;<\/strong><\/p>"
+    },
+    {
+        "title":"Panel Discussion - What are the Cornerstones Every Big Data Environment Should have to be Successful? ",
+        "date":"2021-11-20T00:00:00.000Z",
+        "start_time":"14:00",
+        "end_time":"14:45",
+        "description":"<p>Penal Discussion led by Thohirah Husaini (Rose) along with Aravind Putrevu, Chin Hwee Ong and Andy Goldberg.<\/p>"
+    },
+    {
+        "title":"Little American Kitchen: Regional American Cookery Classes for Passionate Home Cooks",
+        "date":"2021-11-20T00:00:00.000Z",
+        "start_time":"15:00",
+        "end_time":"16:00",
+        "description":"<p>For this special edition of Little American Kitchen for Pycon APAC 2021, we'll be 'travelling' through food to the historical New England region&nbsp;<\/p>\n<ul>\n<li>known for its great cities New York and Boston <\/li>\n<li>but, also, &nbsp;its pastoral landscapes, abundant agricultural produce and incredible seafood.<\/li>\n<\/ul>\n<p><br \/>During this session, your hosts Rosalind Yunibandhu, Founder and Managing Director of Arcadia Fine Foods (Thailand), and Chef Steve Doucakis, former Top Chef Thailand contestant and Executive Chef Asia's Top 100 Restaurant, Quince, will be exploring with you the food traditions and culture of New England, and teaching you how to make a regionally-inspired recipe - and a cocktail!<\/p>\n<ul>\n<li>New England Clam Chowder<\/li>\n<li>Spiked Apple Cider Cocktail with Warming Spices<\/li>\n<\/ul>\n<p><br \/>Stay tuned also for our Little American Kitchen Online Cookery Class Series launching in November 2021, where we'll be exploring the food and food culture of the other regions of the USA, too!&nbsp;<\/p>\n<ul>\n<li>Northeast<\/li>\n<li>Mid-Atlantic<\/li>\n<li>South<\/li>\n<li>Gulf States<\/li>\n<li>Pacific Northwest<\/li>\n<li>Southwest<\/li>\n<li>Great Lakes<\/li>\n<\/ul>\n<p>We are happy to share that Pycon APAC 2021 participants will receive a special programme price. &nbsp;<\/p>\n<p>Please contact us for more details.<\/p>\n<p><br \/>Benefits of joining the Little American Kitchen Online Cookery Class Series:<\/p>\n<ol>\n<li>Personal instruction from a certified and experienced chef in an intimate, small-group setting<\/li>\n<li>Learn both regional food culture and culinary technique through an interactive, learner-centred approach<\/li>\n<li>Opportunity to meet and engage with fellow like-minded, curious people passionate about food and cooking!<br \/><br \/>Contact us at info@arcadia-fine-foods.com for more information.&nbsp;<\/li>\n<\/ol>\n<p>Private individual and group sessions can also be arranged to suit your timing and preferences.<\/p>\n<p>&nbsp;<\/p>"
+    },
+    {
+        "title":"PyCon APAC Open Mic Party!!!",
+        "date":"2021-11-20T00:00:00.000Z",
+        "start_time":"19:00",
+        "end_time":"20:00",
+        "description":"<p>We know you're more than just a programmer! Sign up for the open mic party and we get you up on stage to perform and have fun.<\/p>\n<p>Some performance we have so far are:<\/p>\n<p>- Carl Heaton performing his Dad jokes<\/p>\n<p>&nbsp;<\/p>"
+    },
+    {
+        "title":"Panel Discussion from PSF Diversity & Inclusion Workgroup ",
+        "date":"2021-11-20T00:00:00.000Z",
+        "start_time":"20:00",
+        "end_time":"21:00",
+        "description":null
+    },
+    {
+        "title":"PyCon APAC Online Mafia",
+        "date":"2021-11-20T00:00:00.000Z",
+        "start_time":"20:15",
+        "end_time":"21:15",
+        "description":"<p>With the world as it is now during this pandemic, we couldn't meet and socialize. So we're doing the next best thing: an online game session. This is a beginner and casual game where we try to at least have fun with our fellow PyCon participants.<\/p>\n<p>With Sony Valdez, as your host, he'll take you to a world of ....murder! *dun dun dun*<\/p>\n<p>We will be playing a game of Mafia (also known as Werewolf) in which players try to survive a series of rounds where one of them is a killer. Can you survive the game?<\/p>\n<p>There is a sign-up form for this session if you want to play. Slots are limited. Or you can spectate and watch the players as they try to survive.<\/p>"
+    },
+    {
+        "title":"PyCon APAC Party Night - DJ NESS AFRO Live!!",
+        "date":"2021-11-20T00:00:00.000Z",
+        "start_time":"21:00",
+        "end_time":"23:00",
+        "description":"<p>Parisian with African blood after years living in countries as Senegal, Mauritania and Mali, Ness is GetUpand Think seal member, the Star Wax magazine and super active in the French collective night Afro Beat No Limit.<\/p>\n<p>Son of a member of Unesco and always living from music, he has opened shows for all the big names of African music that played in Paris, including Tony Allen, Seun Kuti, dele sosimi and more recently Ebo Taylor, and has partnerships with bands tip as Souljazz Orchestra, and Kutiman Lack of Afro. &raquo;<\/p>"
+    },
+    {
+        "title":"Keynote Mariatta Wijaya: Building a Culture of Documentation by Learning from Open Source Community",
+        "date":"2021-11-21T00:00:00.000Z",
+        "start_time":"09:00",
+        "end_time":"10:00",
+        "description":"<p>LIVE ! Q&amp;A session right after the talk led by Rose and Niharika<br \/>Open source and documentation go hand in hand. In fact, the wide adoption of open source libraries depend on the availability of good documentation. As users, we demand documentation from open source libraries we use. As contributors, we rely on contributing guides in order to get onboarded and start contributing to the project.&nbsp;<\/p>\n<p>Whereas, in my 15+ years of working in the tech industry, I&rsquo;ve seen teams and private organizations do poorly at technical documentation. The teams either did not have technical documentation at all, or they did not know how to do it well. If there&rsquo;s any documentation, it would be unmaintained and out of date. Open source collaboration is fascinating. As a professional software engineer and volunteer open source contributor, I get to learn the best from both worlds. In the past year, my team has been working towards building a culture of documentation by learning from best practises in the open source community. Learn how we&rsquo;re doing it in this talk. &nbsp;<\/p>"
+    },
+    {
+        "title":"30mins WFH Break Yoga with Bookee Suksa",
+        "date":"2021-11-21T00:00:00.000Z",
+        "start_time":"16:00",
+        "end_time":"16:30",
+        "description":"<p>Feeling stiff and sore from sitting in front of your computer all day?&nbsp;<\/p>\n<p>Come join this simple refreshing and energizing 30 minute WFH Break Yoga!&nbsp;<\/p>\n<p>This class is designed to stretch out your whole body, connect with your breath, focus your mind and replenish your body. No need for yoga mat, stretchy pants, or any other equipments.&nbsp;<\/p>\n<p>Perfect for all bodies and suitable for every yoga levels!<\/p>\n<p>&nbsp;<\/p>"
+    },
+    {
+        "title":"Keynote Audrey Tang : Assistive Intelligence: Alignment and Accountability",
+        "date":"2021-11-21T00:00:00.000Z",
+        "start_time":"17:00",
+        "end_time":"18:00",
+        "description":"<p>When we see \"internet of things\", let's make it an internet of beings.&nbsp;<\/p>\n<p>When we see \"virtual reality\", let's make it a shared reality.&nbsp;<\/p>\n<p>When we see \"machine learning\", let's make it collaborative learning.&nbsp;<\/p>\n<p>When we see \"user experience\", let's make it about human experience.&nbsp;<\/p>\n<p>When we hear \"the singularity is near\", let us remember: the Plurality is here.<\/p>"
+    },
+    {
+        "title":"Live Q&A  with Isabela Moreira on Anatomy of Keyboards ",
+        "date":"2021-11-21T00:00:00.000Z",
+        "start_time":"20:00",
+        "end_time":"20:30",
+        "description":"<p>Have you watch Isabela's talk yet?&nbsp;<\/p>\n<p>Questions for Isabela regarding her talk? Ask her in the Q&amp;A forum on your right hand panel and she'll try to answer your questions live!<\/p>"
+    }
 ]
