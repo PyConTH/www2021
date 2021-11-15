@@ -3,3 +3,5 @@ git+https://github.com/jean/notion-py#egg=notion
 Markdown
 pelican
 requests
+pandas
+openpyxl
