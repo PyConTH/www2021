@@ -83,4 +83,5 @@ strapi/download:
 .PHONY: html help clean regenerate serve serve-global devserver publish
 
 schedule:
-    python3 hubilo_schedule_convert.py
+	python3 hubilo_schedule_convert.py
+
