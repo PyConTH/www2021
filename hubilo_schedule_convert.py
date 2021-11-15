@@ -50,5 +50,7 @@ talks = talks.rename(columns={'Title (Req.)': "title",
                               'Track Name': 'location'})
 talks = talks.drop(columns=["Speakers", "Track", 'Session ID (Read only)'])
 
-talks = talks.sort(["date", "start_time"])
+talks['date'] = pd.to_datetime(talks["date"])
+talks = talks[talks['date'] > "2021-11-18"]
+talks = talks.sort_values(["date", "start_time"])
 talks.to_json("theme/static/schedule.json", orient='records', indent=4)
