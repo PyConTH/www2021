@@ -37,9 +37,9 @@ import pandas as pd
 """
 
 
-talks = pd.read_excel("Session export from Hubilo.xlsx", skiprows=3, sheet_name="Session Data").iloc[1:]
-tracks = pd.read_excel("Session export from Hubilo.xlsx", header=0, sheet_name="Track(Read Only)")
-speakers = pd.read_excel("Session export from Hubilo.xlsx", header=0, sheet_name="Speaker(Read Only)")
+talks = pd.read_excel("PyCon Schedule Full.xlsx", skiprows=3, sheet_name="Session Data").iloc[1:]
+tracks = pd.read_excel("PyCon Schedule Full.xlsx", header=0, sheet_name="Track(Read Only)")
+speakers = pd.read_excel("PyCon Schedule Full.xlsx", header=0, sheet_name="Speaker(Read Only)")
 
 talks = talks.rename(columns={'Title (Req.)': "title",
                               'Date (Req.)': 'date', 
