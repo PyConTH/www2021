@@ -1,4 +1,6 @@
 import pandas as pd
+import difflib
+import numpy as np
 
 
 """
@@ -37,20 +39,89 @@ import pandas as pd
 """
 
 
-talks = pd.read_excel("PyCon Schedule Full.xlsx", skiprows=3, sheet_name="Session Data").iloc[1:]
-tracks = pd.read_excel("PyCon Schedule Full.xlsx", header=0, sheet_name="Track(Read Only)")
-speakers = pd.read_excel("PyCon Schedule Full.xlsx", header=0, sheet_name="Speaker(Read Only)")
+def import_data():
+    # Import live schedule
+    live = pd.read_excel("Live Sessions - Speakers and emcees.xlsx", skiprows=1, sheet_name=0)
+    live[["start_time", "end_time"]] = live['Date and Time (ICT)'].str.split("-", expand=True)
+    live[["date", "start_time"]] = live['start_time'].str.split("2021", expand=True)
+    live['date'] = live['date'] + "2021"
+    live['start_time'] = pd.to_datetime(live["date"] + " " + live['start_time'])
+    live['end_time'] = pd.to_datetime(live["date"] + " " + live['end_time'])
+    live['date'] = pd.to_datetime(live['date'])
 
-talks = talks.rename(columns={'Title (Req.)': "title",
-                              'Date (Req.)': 'date', 
-                              'Start Time (Req.)': 'start_time', 
-                              'End Time (Req.)': 'end_time', 
-                              'Description': 'description', 
-                              'Speaker Name': 'name', 
-                              'Track Name': 'location'})
-talks = talks.drop(columns=["Speakers", "Track", 'Session ID (Read only)'])
+    # Import habilo export
+    talks = pd.read_excel("Session export from Hubilo.xlsx", skiprows=3, sheet_name="Session Data").iloc[1:]
+    tracks = pd.read_excel("Session export from Hubilo.xlsx", header=0, sheet_name="Track(Read Only)")
+    speakers = pd.read_excel("Session export from Hubilo.xlsx", header=0, sheet_name="Speaker(Read Only)")
 
-talks['date'] = pd.to_datetime(talks["date"])
-talks = talks[talks['date'] > "2021-11-18"]
-talks = talks.sort_values(["date", "start_time"])
-talks.to_json("theme/static/schedule.json", orient='records', indent=4, date_format="iso")
+
+    talks['date'] = pd.to_datetime(talks["Date (Req.)"])
+    talks = talks.merge(tracks, left_on="Track", right_on="Track ID", suffixes=('_x', ''))
+
+    # TODO. need to expand out the speakers and then join and then groupby talk again.
+
+    talks = talks.rename(columns={'Title (Req.)': "title",
+                                'Start Time (Req.)': 'start_time', 
+                                'End Time (Req.)': 'end_time', 
+                                'Description': 'description', 
+                                'Speaker Name': 'name', 
+                                'Track Name': 'location'})
+    talks['start_date'] = pd.to_datetime(talks['Date (Req.)'] + " " + talks['start_time'])
+    talks['end_date'] = pd.to_datetime(talks['Date (Req.)'] + " " + talks['end_time'])
+
+    talks = talks.drop(columns=["Speakers", "Track", 'Session ID (Read only)'])
+
+    # get rid of test data
+    talks = talks[talks['date'] > "2021-11-18"]
+
+    return (talks, live)
+
+
+
+def merge_qa(talks, live):
+
+    # Match up Q&A with 
+    talks[["speaker_pronoun", "short_title"]] = talks['title'].str.split("\) - ", 1, expand=True)
+    # Try a fuzzy match
+    talks['matched_title'] = talks["title"].map(lambda x: next(iter(difflib.get_close_matches(x, live['Topic'].dropna(), 1,)), None), na_action="ignore")
+    matched = talks[talks['matched_title'].notna()].merge(live, left_on="matched_title", right_on="Topic", suffixes=("", "_qa"), how="left")
+    qa = matched[matched["Type of Live Session"] == 'Q&A']
+    others = matched[matched["Type of Live Session"] != 'Q&A']
+
+    # Now get mew start time. assume hubilo duration includes question time already
+    dur = (qa['end_date'] - qa['start_date'])
+    qa_dur = (qa['end_time_qa'] - qa['start_time_qa'])
+    dur_min = dur / np.timedelta64(1,'m')
+    qa['sess_start'] = qa['start_time_qa'] - dur + qa_dur
+
+    qa['date'] = qa['sess_start'].dt.date
+    qa['start_time'] = qa['sess_start'].dt.time
+    qa['end_time'] = qa['end_time_qa'].dt.time
+
+    # Ensure all formatted the same so they sort properly
+    others['start_time'] = pd.to_datetime(others['start_time']).dt.time
+    others['end_time'] = pd.to_datetime(others['end_time']).dt.time
+
+    merged = pd.concat([qa, others])
+
+    exportweb = merged[["title", "description", 'date', 'start_time', 'end_time']]
+    exportweb['name'] = merged['Speaker/s']
+    exportweb['location'] = merged['Topic']
+
+
+    return exportweb
+
+
+talks, live = import_data()
+
+
+merged = merge_qa(talks, live)
+
+# Convert to json web format
+
+def export_web(talks):
+    # TODO: maybe sort by track so teh same tracks end up the in same location?
+    talks = talks.sort_values(["date", "start_time", "location"])
+    talks.to_json("theme/static/schedule.json", orient='records', indent=4, date_format="iso")
+
+export_web(merged)
