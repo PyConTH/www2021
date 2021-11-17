@@ -98,11 +98,16 @@ def merge_qa(talks, live):
     qa['start_time'] = qa['sess_start'].dt.time
     qa['end_time'] = qa['end_time_qa'].dt.time
 
+    # Ensure all formatted the same so they sort properly
+    others['start_time'] = pd.to_datetime(others['start_time']).dt.time
+    others['end_time'] = pd.to_datetime(others['end_time']).dt.time
+
     merged = pd.concat([qa, others])
 
     exportweb = merged[["title", "description", 'date', 'start_time', 'end_time']]
     exportweb['name'] = merged['Speaker/s']
     exportweb['location'] = merged['Topic']
+
 
     return exportweb
 
