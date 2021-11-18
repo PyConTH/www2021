@@ -279,15 +279,7 @@ JINJA_GLOBALS = {
             "linkedin": "https://www.linkedin.com/in/gajendradeshpande/",
             "link": "/pages/speakers#Gajendra-Deshpande",
         },
-        {
-            "img": "/theme/img/speakers/wujingjing.jpg",
-            "name": "Wu Jing Jing",
-            "name2": "吴京京",
-            "pronoun": "He/Him",
-            "country": "China",
-            "github": "https://github.com/wj-Mcat",
-            "link": "/pages/speakers#Wu-Jing-Jing",
-        },
+      
         {
             "img": "/theme/img/speakers/KanisornSutham.jpg",
             "name": "Kanisorn Sutham",
@@ -529,23 +521,7 @@ JINJA_GLOBALS = {
             "linkedin": "https://www.linkedin.com/in/steven-kolawole-80/",
             "link": "/pages/speakers#Steven-Kolawole",
         },
-        {
-            "img": "/theme/img/speakers/lokinfey.jpg",
-            "name": "Kinfey Lo",
-            "pronoun": "He/Him",
-            "country": "China",
-            "github": "https://github.com/kinfey",
-            "link": "/pages/speakers#Kinfey-Lo",
-        },
-        {
-            "img": "/theme/img/speakers/JintaoZhang.jpg",
-            "name": "Jintao Zhang",
-            "pronoun": "He/Him",
-            "country": "China",
-            "github": "https://github.com/tao12345666333",
-            "twitter": "https://twitter.com/zhangjintao9020",
-            "link": "/pages/speakers#Jintao-Zhang",
-        },
+        
         {
             "img": "/theme/img/speakers/bookee.jpg",
             "name": "Bookee Suksa",
