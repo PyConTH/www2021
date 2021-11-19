@@ -19,7 +19,7 @@
   
         <div class="schedule-grid">
           {{#each talks}}
-          <div class="schedule-card">
+          <div class="schedule-card {{isQAClass this}}">
             <div class="v-sign">v</div>
   
             <div><b>{{this.name}}</b></div>
@@ -84,6 +84,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 12px;
+        row-gap: 12px;
         width: 100%;
       }
 
@@ -113,6 +114,10 @@
         color: white;
 
         transition: opacity 0.2s;
+      }
+      
+      .qa {
+        background-color: #09155a;
       }
 
       .schedule-card:hover {
@@ -164,6 +169,10 @@
     <script>
       let schedules = [];
       let schedulesFormatted = [];
+      
+      Handlebars.registerHelper('isQAClass', (data) => {
+        return data.title.startsWith('Q&A') ? 'qa' : '';
+      });
 
       function initCardHidden() {
         document.querySelectorAll('.schedule-card').forEach(element => {
